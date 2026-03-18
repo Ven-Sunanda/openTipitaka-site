@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>OpenTipitaka</title>
+    <meta
+      name="description"
+      content="OpenTipitaka — A cross-platform Pali Tipitaka reading and proofreading app with multi-translation parallel reading, search, dictionary, bookmarks, TTS, and split-screen."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="OpenTipitaka" />
+    <meta
+      property="og:description"
+      content="A cross-platform Pali Tipitaka reading and proofreading app."
+    />
+    <meta property="og:image" content="./assets/icon-512.png" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="icon" href="./assets/icon-192.png" />
+    <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="./" aria-label="OpenTipitaka home">
+          <img class="brand-mark" src="./assets/icon-192.png" width="36" height="36" alt="" />
+          <span class="brand-name">OpenTipitaka</span>
+        </a>
+
+        <nav class="nav">
+          <a class="nav-link" href="#features" data-i18n="nav.features">Features</a>
+          <a class="nav-link" href="#screens" data-i18n="nav.screens">Screens</a>
+          <a class="nav-link" href="#download" data-i18n="nav.download">Download</a>
+          <a class="nav-link" href="#faq" data-i18n="nav.faq">FAQ</a>
+        </nav>
+
+        <div class="header-actions">
+          <label class="lang" aria-label="Language">
+            <span class="sr-only" data-i18n="a11y.language">Language</span>
+            <select id="langSelect" class="lang-select"></select>
+          </label>
+          <a id="githubLink" class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">
+            <span data-i18n="actions.github">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-left">
+            <div class="kicker" data-i18n="hero.kicker">Pali Tipitaka · Multi-translation · Proofreading</div>
+            <h1 class="hero-title" data-i18n="hero.title">
+              Read, compare, search, and proofread the Pali Tipitaka—comfortably on any device.
+            </h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+              OpenTipitaka is a cross-platform Flutter app for parallel reading of the Pali original and multiple
+              translations, with dictionary, full-text search, bookmarks, split-screen, auto-scroll, and translation
+              read-aloud.
+            </p>
+
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#download">
+                <span data-i18n="actions.getStarted">Get started</span>
+              </a>
+              <a class="btn btn-secondary" href="#features">
+                <span data-i18n="actions.exploreFeatures">Explore features</span>
+              </a>
+            </div>
+
+            <div class="hero-badges">
+              <div class="badge" data-i18n="badges.crossPlatform">Cross-platform</div>
+              <div class="badge" data-i18n="badges.offlineFirst">Offline-first data</div>
+              <div class="badge" data-i18n="badges.multiLang">12 UI languages</div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="device-card">
+              <div class="device-top">
+                <div class="dots" aria-hidden="true">
+                  <span class="dot dot-r"></span><span class="dot dot-y"></span><span class="dot dot-g"></span>
+                </div>
+                <div class="device-title" data-i18n="mock.title">Reader</div>
+              </div>
+              <div class="device-body">
+                <div class="mock-grid">
+                  <div class="mock-panel">
+                    <div class="mock-section" data-i18n="mock.leftPanel">Tipitaka · Contents · Dictionary</div>
+                    <div class="mock-tree">
+                      <div class="mock-line w-70"></div>
+                      <div class="mock-line w-55"></div>
+                      <div class="mock-line w-62"></div>
+                      <div class="mock-line w-48"></div>
+                      <div class="mock-line w-58"></div>
+                      <div class="mock-line w-44"></div>
+                    </div>
+                  </div>
+                  <div class="mock-reader">
+                    <div class="mock-tabs">
+                      <span class="pill" data-i18n="mock.tab1">Dīgha Nikāya</span>
+                      <span class="pill pill-muted" data-i18n="mock.tab2">Majjhima Nikāya</span>
+                    </div>
+                    <div class="mock-paragraphs">
+                      <div class="para">
+                        <div class="para-title" data-i18n="mock.paliLabel">Pali (Roman / Devanagari / Thai …)</div>
+                        <div class="mock-line w-92"></div>
+                        <div class="mock-line w-88"></div>
+                      </div>
+                      <div class="para">
+                        <div class="para-title" data-i18n="mock.translationLabel">Translation (Chinese / English …)</div>
+                        <div class="mock-line w-95"></div>
+                        <div class="mock-line w-84"></div>
+                      </div>
+                      <div class="mock-toolbar">
+                        <span class="chip" data-i18n="mock.tools.search">Search</span>
+                        <span class="chip" data-i18n="mock.tools.bookmark">Bookmark</span>
+                        <span class="chip" data-i18n="mock.tools.tts">Read aloud</span>
+                        <span class="chip" data-i18n="mock.tools.split">Split-screen</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="trust-strip">
+              <div class="trust-item">
+                <div class="trust-k" data-i18n="trust.stackTitle">Built with Flutter</div>
+                <div class="trust-v" data-i18n="trust.stackValue">macOS · Windows · Linux · iOS · Android</div>
+              </div>
+              <div class="trust-item">
+                <div class="trust-k" data-i18n="trust.dataTitle">Data</div>
+                <div class="trust-v" data-i18n="trust.dataValue">SQLite databases, import & updates</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" data-i18n="features.title">What you can do</h2>
+            <p class="section-subtitle" data-i18n="features.subtitle">
+              A reading workspace designed for deep study: fast navigation, parallel translations, and smooth
+              proofreading.
+            </p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">⟡</div>
+              <h3 class="card-title" data-i18n="features.parallel.title">Parallel reading</h3>
+              <p class="card-text" data-i18n="features.parallel.body">
+                Read Pali original and multiple translations by paragraph. Choose which languages to display.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">⌕</div>
+              <h3 class="card-title" data-i18n="features.search.title">Full-text search</h3>
+              <p class="card-text" data-i18n="features.search.body">
+                Search Pali or translations across the current book or all books, with phrase search support.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">✎</div>
+              <h3 class="card-title" data-i18n="features.proofread.title">Proofreading & editing</h3>
+              <p class="card-text" data-i18n="features.proofread.body">
+                Double-click to edit translation paragraphs. Log in to submit proofreading contributions.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">☰</div>
+              <h3 class="card-title" data-i18n="features.nav.title">Fast navigation</h3>
+              <p class="card-text" data-i18n="features.nav.body">
+                Tipitaka tree + in-book contents. Jump by paragraph or multiple page numbering systems.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">𐃌</div>
+              <h3 class="card-title" data-i18n="features.dict.title">Dictionary workflow</h3>
+              <p class="card-text" data-i18n="features.dict.body">
+                Tap a Pali word to look up definitions. Manage dictionary order, enable/disable, and user entries.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">▦</div>
+              <h3 class="card-title" data-i18n="features.split.title">Split-screen & tabs</h3>
+              <p class="card-text" data-i18n="features.split.body">
+                Open multiple books in tabs and show them side-by-side on wide screens. Your layout is remembered.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">▸</div>
+              <h3 class="card-title" data-i18n="features.tts.title">Auto-scroll & read-aloud</h3>
+              <p class="card-text" data-i18n="features.tts.body">
+                Auto-scroll for long reading sessions and optional translation read-aloud with media controls.
+              </p>
+            </article>
+
+            <article class="card">
+              <div class="card-icon" aria-hidden="true">⟠</div>
+              <h3 class="card-title" data-i18n="features.script.title">Pali scripts</h3>
+              <p class="card-text" data-i18n="features.script.body">
+                Display Pali in multiple scripts (Roman, Devanagari, Thai, Myanmar, Tibetan, and more).
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="screens" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" data-i18n="screens.title">Designed for every screen</h2>
+            <p class="section-subtitle" data-i18n="screens.subtitle">
+              Desktop productivity with panels and shortcuts, and a comfortable reading experience on mobile and
+              tablets.
+            </p>
+          </div>
+
+          <div class="screens-grid">
+            <div class="screen-card">
+              <div class="screen-top">
+                <span class="screen-label" data-i18n="screens.desktop">Desktop</span>
+                <span class="screen-meta" data-i18n="screens.desktopMeta">Side panels · tabs · multi-pane</span>
+              </div>
+              <div class="screen-body">
+                <div class="screen-illus illus-desktop" aria-hidden="true">
+                  <div class="illus-panel"></div>
+                  <div class="illus-main"></div>
+                  <div class="illus-cols">
+                    <span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen-card">
+              <div class="screen-top">
+                <span class="screen-label" data-i18n="screens.tablet">Tablet</span>
+                <span class="screen-meta" data-i18n="screens.tabletMeta">Comfortable reading · quick jump</span>
+              </div>
+              <div class="screen-body">
+                <div class="screen-illus illus-tablet" aria-hidden="true">
+                  <div class="illus-main"></div>
+                  <div class="illus-lines">
+                    <span></span><span></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="screen-card">
+              <div class="screen-top">
+                <span class="screen-label" data-i18n="screens.mobile">Mobile</span>
+                <span class="screen-meta" data-i18n="screens.mobileMeta">Offline · search · dictionary</span>
+              </div>
+              <div class="screen-body">
+                <div class="screen-illus illus-mobile" aria-hidden="true">
+                  <div class="illus-main"></div>
+                  <div class="illus-lines">
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p class="note" data-i18n="screens.note">
+            Tip: For the most accurate feature list, see the in-app “User guide” and the project documentation.
+          </p>
+        </div>
+      </section>
+
+      <section id="download" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" data-i18n="download.title">Download & data</h2>
+            <p class="section-subtitle" data-i18n="download.subtitle">
+              The app uses SQLite databases for Tipitaka content, translations, and dictionaries. You can download and
+              import language packages, and update them later.
+            </p>
+          </div>
+
+          <div class="download-grid">
+            <div class="download-card">
+              <h3 class="download-title" data-i18n="download.quickStart.title">Quick start</h3>
+              <ol class="steps">
+                <li data-i18n="download.quickStart.s1">Install the app from the Releases page.</li>
+                <li data-i18n="download.quickStart.s2">On first launch, choose the app language.</li>
+                <li data-i18n="download.quickStart.s3">Download and install translation databases as needed.</li>
+              </ol>
+              <div class="download-actions">
+                <a id="releasesLink" class="btn btn-primary" href="#" target="_blank" rel="noreferrer">
+                  <span data-i18n="actions.openReleases">Open Releases</span>
+                </a>
+                <a id="docsLink" class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">
+                  <span data-i18n="actions.openDocs">Open project docs</span>
+                </a>
+              </div>
+              <p class="muted" data-i18n="download.quickStart.hint">
+                If you build from source, please read `PROJECT.md` for packaging notes.
+              </p>
+            </div>
+
+            <div class="download-card">
+              <h3 class="download-title" data-i18n="download.platforms.title">Platforms</h3>
+              <ul class="platforms">
+                <li><span class="k">macOS</span><span class="v">.dmg / .zip</span></li>
+                <li><span class="k">Windows</span><span class="v">.zip</span></li>
+                <li><span class="k">Linux</span><span class="v">bundle</span></li>
+                <li><span class="k">iOS / iPadOS</span><span class="v">Xcode / TestFlight</span></li>
+                <li><span class="k">Android</span><span class="v">APK / AAB</span></li>
+              </ul>
+              <p class="muted" data-i18n="download.platforms.note">
+                Exact distribution formats depend on your release workflow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" data-i18n="faq.title">FAQ</h2>
+          </div>
+
+          <div class="faq">
+            <details class="qa" open>
+              <summary data-i18n="faq.q1.q">Are translations fully proofread?</summary>
+              <p data-i18n="faq.q1.a">
+                Not yet. Many translations are AI-generated and still improving. The app invites everyone to help
+                proofread and refine terminology consistency over time.
+              </p>
+            </details>
+            <details class="qa">
+              <summary data-i18n="faq.q2.q">Can I contribute corrections?</summary>
+              <p data-i18n="faq.q2.a">
+                Yes. Register and log in, then double-click a paragraph translation to edit and submit it for review.
+              </p>
+            </details>
+            <details class="qa">
+              <summary data-i18n="faq.q3.q">Does it work offline?</summary>
+              <p data-i18n="faq.q3.a">
+                Yes. Content is stored in local SQLite databases. You can import databases and update them when online.
+              </p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="footer-brand">
+            <img class="brand-mark" src="./assets/icon-192.png" width="28" height="28" alt="" />
+            <div>
+              <div class="footer-title">OpenTipitaka</div>
+              <div class="footer-sub" data-i18n="footer.tagline">
+                Multi-translation Pali Tipitaka reading & proofreading.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-right">
+          <a class="footer-link" id="footerGithubLink" href="#" target="_blank" rel="noreferrer">
+            <span data-i18n="actions.github">GitHub</span>
+          </a>
+          <a class="footer-link" id="footerReleasesLink" href="#" target="_blank" rel="noreferrer">
+            <span data-i18n="actions.openReleases">Open Releases</span>
+          </a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span data-i18n="footer.copyright">© 2026 Sunanda. This app may be freely shared and distributed.</span>
+      </div>
+    </footer>
+
+    <script src="./translations.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
