@@ -38,7 +38,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Pali Tipitaka · Multi-translation · Proofreading",
       "hero.title": "Read, compare, search, and proofread the Pali Tipitaka—comfortably on any device.",
       "hero.mission":
-        "Under the guidance of Sayadaw Kumārābhivaṃsa, this project is committed to using modern technology to give learners worldwide a reliable multi-language comparative reading experience of the Pali Tipitaka. Through AI-assisted translation and the cross-platform app OpenTipitaka, it supports parallel reading of the Pali original and multiple translations by paragraph, with dictionary, full-text search, bookmarks, split-screen, multiple tabs, auto-scroll, translation read-aloud, and related features—everyone is welcome to help proofread and refine.",
+        "Under the guidance of Venerable Kumārābhivaṃsa Sayadaw, this project is dedicated to carrying ancient wisdom through modern technology. By bridging the gap between Pali scriptures and contemporary multilingual needs, we leverage AI-assisted translation and the cross-platform application OpenTipitaka to build a trustworthy platform for multilingual translation and parallel reading. Our mission is to make the profound wisdom of the Theravāda Tipiṭaka, Aṭṭhakathā, and Ṭīkā accessible to every practitioner and scholar at their fingertips.\n\nOpenTipitaka supports paragraph-by-paragraph parallel reading of Pali texts and multilingual translations. It features built-in dictionaries, full-text search, bookmarks, split-screen mode, multi-tab support, auto-scroll, and text-to-speech (TTS) for translations. We warmly welcome community contributions for proofreading and refinement.",
       "hero.translationLangs":
         "Translation languages currently supported include Chinese, English, Vietnamese, Thai, Hindi, Indonesian, Japanese, Korean, and French. More languages will be added over time.",
 
@@ -162,7 +162,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "巴利三藏 · 多译文对照 · 校对共建",
       "hero.title": "在任意设备上舒适阅读、对照、搜索，并参与校对巴利三藏多语言译本。",
       "hero.mission":
-        "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于通过现代技术手段为全球学习者提供可靠的巴利三藏多语言对比阅读体验，通过 AI 翻译和跨平台应用 OpenTipitaka 支持巴利原文与多语言译文按段对照阅读，内置词典与全文搜索，支持书签、分屏、多标签、自动滚动与译文朗读等功能，并欢迎大家参与校对完善。",
+        "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于以现代科技承载古老智慧，在巴利圣典与现代多语言需求间架起桥梁，通过 AI 翻译与跨平台应用 OpenTipitaka，为全球学习者构建可信赖的多语言翻译与对照阅读平台。旨在让每一位研习者都能触手可及地探索上座部佛教三藏、义注及复注的深邃智慧。OpenTipitaka 支持巴利原文与多语言译文按段对照阅读，内置词典与全文搜索，支持书签、分屏、多标签、自动滚动与译文朗读等功能，并欢迎大家参与校对完善。",
       "hero.translationLangs":
         "目前支持的译文语言有：中文、英语、越南语、泰语、印地语、印度尼西亚语、日语、韩语、法语。未来还会进一步扩展其他语言。",
 
@@ -207,7 +207,7 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "online.title": "Tipiṭaka Translation（在线阅读）",
       "online.subtitle": "在浏览器中阅读本项目内容的主要方式，可与 OpenTipitaka 应用配合使用。",
-      "online.maintainer": "由圣种长老（Ariyavaṃsa，帕奥体系）维护。",
+      "online.maintainer": "由圣种长老（Ariyavaṃsa，帕奥禅林）维护。",
       "online.cta": "打开网站",
 
       "download.title": "下载与数据库",
@@ -250,7 +250,7 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "faq.title": "常见问题",
       "faq.q1.q": "译文是否已经完全校对？",
-      "faq.q1.a": "尚未。当前译文中有相当部分由 AI 生成，仍在持续改进；应用也邀请大家共同参与校对与术语统一。",
+      "faq.q1.a": "尚未。当前译文中绝大部分由 AI 生成，仍在持续改进；应用也邀请大家共同参与校对与术语统一。",
       "faq.q2.q": "我可以贡献修订吗？",
       "faq.q2.a": "可以。注册并登录后，双击段落译文即可编辑并提交校对建议（经后台审核后将发布到后续数据库版本）。",
       "faq.q3.q": "是否支持离线使用？",
