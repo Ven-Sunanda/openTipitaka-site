@@ -25,6 +25,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "Features",
       "nav.online": "Online reading",
       "nav.download": "Download",
+      "nav.contributors": "Contributors",
+      "nav.support": "Support",
       "nav.faq": "FAQ",
       "actions.github": "GitHub",
       "actions.getStarted": "Get started",
@@ -36,11 +38,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Pali Tipitaka · Multi-translation · Proofreading",
       "hero.title": "Read, compare, search, and proofread the Pali Tipitaka—comfortably on any device.",
       "hero.mission":
-        "Under the guidance of Sayadaw Kumārābhivaṃsa, this project is committed to using modern technology to give learners worldwide a reliable multi-language comparative reading experience of the Pali Tipitaka.",
+        "Under the guidance of Sayadaw Kumārābhivaṃsa, this project is committed to using modern technology to give learners worldwide a reliable multi-language comparative reading experience of the Pali Tipitaka. Through AI-assisted translation and the cross-platform app OpenTipitaka, it supports parallel reading of the Pali original and multiple translations by paragraph, with dictionary, full-text search, bookmarks, split-screen, multiple tabs, auto-scroll, translation read-aloud, and related features—everyone is welcome to help proofread and refine.",
       "hero.translationLangs":
         "Translation languages currently supported include Chinese, English, Vietnamese, Thai, Hindi, Indonesian, Japanese, Korean, and French. More languages will be added over time.",
-      "hero.subtitle":
-        "OpenTipitaka is a cross-platform Flutter app for parallel reading of the Pali original and multiple translations, with dictionary, full-text search, bookmarks, split-screen, auto-scroll, and translation read-aloud.",
 
       "badges.crossPlatform": "Cross-platform",
       "badges.offlineFirst": "Offline-first data",
@@ -112,6 +112,20 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.note":
         "Store availability may vary by region. Windows and Linux installers are distributed via the Pa-Auk Tipitaka folder; developers may also build from source.",
 
+      "contributors.title": "Main contributors",
+      "contributors.ariyavamsa.name": "Ven. Ariyavaṃsa",
+      "contributors.ariyavamsa.role":
+        "Website design and maintenance for Pa-Auk Meditation Society",
+      "contributors.sunanda.name": "Ven. Sunanda Bhikkhu",
+      "contributors.sunanda.role": "AI translation; design of the OpenTipitaka reading app",
+      "contributors.liuyujun.name": "Upāsaka Liu Yujun",
+      "contributors.liuyujun.role": "Project support",
+
+      "support.title": "Support & cooperation",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
+
       "faq.title": "FAQ",
       "faq.q1.q": "Are translations fully proofread?",
       "faq.q1.a":
@@ -133,6 +147,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "功能",
       "nav.online": "在线阅读",
       "nav.download": "下载",
+      "nav.contributors": "主要参与人员",
+      "nav.support": "支持与合作",
       "nav.faq": "常见问题",
       "actions.github": "GitHub",
       "actions.getStarted": "开始使用",
@@ -144,11 +160,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "巴利三藏 · 多译文对照 · 校对共建",
       "hero.title": "在任意设备上舒适阅读、对照、搜索，并参与校对巴利三藏多语言译本。",
       "hero.mission":
-        "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于通过现代技术手段为全球学习者提供可靠的巴利三藏多语言对比阅读体验。",
+        "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于通过现代技术手段为全球学习者提供可靠的巴利三藏多语言对比阅读体验，通过 AI 翻译和跨平台应用 OpenTipitaka 支持巴利原文与多语言译文按段对照阅读，内置词典与全文搜索，支持书签、分屏、多标签、自动滚动与译文朗读等功能，并欢迎大家参与校对完善。",
       "hero.translationLangs":
         "目前支持的译文语言有：中文、英语、越南语、泰语、印地语、印度尼西亚语、日语、韩语、法语。未来还会进一步扩展其他语言。",
-      "hero.subtitle":
-        "OpenTipitaka 是一款跨平台 Flutter 应用，支持巴利原文与多语言译文按段对照阅读，内置词典与全文搜索，支持书签、分屏、多标签、自动滚动与译文朗读，并欢迎大家参与校对完善。",
 
       "badges.crossPlatform": "跨平台",
       "badges.offlineFirst": "离线数据库",
@@ -218,6 +232,19 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.note":
         "商店上架情况可能因地区而异；Windows 与 Linux 安装包通过帕奥 Tipitaka 目录分发，亦可自行从源码构建。",
 
+      "contributors.title": "项目主要参与人员",
+      "contributors.ariyavamsa.name": "圣种长老（Ariyavaṃsa）",
+      "contributors.ariyavamsa.role": "帕奥学会网站设计及维护",
+      "contributors.sunanda.name": "文喜比库（Sunanda Bhikkhu）",
+      "contributors.sunanda.role": "AI 翻译、OpenTipitaka 阅读软件设计",
+      "contributors.liuyujun.name": "柳昱君居士",
+      "contributors.liuyujun.role": "协助完成",
+
+      "support.title": "支持与合作",
+      "support.linkPaAuk": "彬悟岭（眉缪）帕奥禅林",
+      "support.linkRoyal": "玛哈·哇集拉隆功皇家上座部巴利学院",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
+
       "faq.title": "常见问题",
       "faq.q1.q": "译文是否已经完全校对？",
       "faq.q1.a": "尚未。当前译文中有相当部分由 AI 生成，仍在持续改进；应用也邀请大家共同参与校对与术语统一。",
@@ -240,6 +267,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "Tính năng",
       "nav.online": "Đọc trực tuyến",
       "nav.download": "Tải về",
+      "nav.contributors": "Cộng sự",
+      "nav.support": "Hỗ trợ & hợp tác",
       "nav.faq": "Hỏi đáp",
       "actions.github": "GitHub",
       "actions.getStarted": "Bắt đầu",
@@ -250,11 +279,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tam tạng Pāli · Đa bản dịch · Hiệu đính",
       "hero.title": "Đọc, đối chiếu, tìm kiếm và tham gia hiệu đính Tam tạng Pāli trên mọi thiết bị.",
       "hero.mission":
-        "Dưới sự hướng dẫn của Sayadaw Kumārābhivaṃsa, dự án cam kết dùng công nghệ hiện đại để mang đến trải nghiệm đọc đối chiếu đa ngôn ngữ đáng tin cậy về Tam tạng Pāli cho người học trên toàn thế giới.",
+        "Dưới sự hướng dẫn của Sayadaw Kumārābhivaṃsa, dự án cam kết dùng công nghệ hiện đại để mang đến trải nghiệm đọc đối chiếu đa ngôn ngữ đáng tin cậy về Tam tạng Pāli cho người học trên toàn thế giới. Thông qua dịch thuật hỗ trợ AI và ứng dụng đa nền tảng OpenTipitaka, dự án hỗ trợ đọc song song nguyên văn Pāli và nhiều bản dịch theo đoạn, có từ điển, tìm kiếm toàn văn, đánh dấu, chia màn hình, nhiều thẻ, tự cuộn, đọc to bản dịch và các tính năng liên quan—mời mọi người cùng hiệu đính và hoàn thiện.",
       "hero.translationLangs":
         "Hiện tại các ngôn ngữ bản dịch được hỗ trợ gồm: tiếng Trung, tiếng Anh, tiếng Việt, tiếng Thái, tiếng Hindi, tiếng Indonesia, tiếng Nhật, tiếng Hàn và tiếng Pháp. Các ngôn ngữ khác sẽ được bổ sung sau này.",
-      "hero.subtitle":
-        "OpenTipitaka là ứng dụng Flutter đa nền tảng cho đọc song song nguyên văn Pāli và nhiều bản dịch, có từ điển, tìm kiếm toàn văn, đánh dấu, chia màn hình, tự cuộn và đọc to bản dịch.",
       "badges.crossPlatform": "Đa nền tảng",
       "badges.offlineFirst": "CSDL offline",
       "badges.multiLang": "12 ngôn ngữ giao diện",
@@ -289,6 +316,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "Thư mục Tipitaka · build từ mã nguồn",
       "download.platforms.note":
         "Khả dụng trên cửa hàng có thể khác theo khu vực. Bộ cài Windows và Linux phân phối qua thư mục Tipitaka Pa-Auk; có thể tự build từ mã nguồn.",
+      "contributors.title": "Các cộng sự chính của dự án",
+      "contributors.ariyavamsa.name": "Tôn giả Ariyavaṃsa",
+      "contributors.ariyavamsa.role": "Thiết kế và bảo trì website Hội Thiền Pa-Auk",
+      "contributors.sunanda.name": "Tỳ-kheo Sunanda (Sunanda Bhikkhu)",
+      "contributors.sunanda.role": "Dịch thuật AI, thiết kế phần mềm đọc OpenTipitaka",
+      "contributors.liuyujun.name": "Cư sĩ Liễu Dục Quân (Liu Yujun)",
+      "contributors.liuyujun.role": "Hỗ trợ hoàn thành",
+      "support.title": "Hỗ trợ & hợp tác",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "Hỏi đáp",
       "faq.q4.q": "Tải cơ sở dữ liệu trong ứng dụng bị lỗi thì sao?",
       "faq.q4.a":
@@ -302,6 +340,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "ཁྱད་ཆོས",
       "nav.online": "དྲ་ཐོག་ཀློག་པ",
       "nav.download": "ཕབ་ལེན",
+      "nav.contributors": "ཞུགས་མཁན",
+      "nav.support": "རྒྱབ་སྐྱོར་དང་མཐུན་སྒྲིག",
       "nav.faq": "དྲི་བ-ལན",
       "actions.github": "GitHub",
       "actions.getStarted": "འགོ་འཛུགས",
@@ -312,11 +352,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "པ་ལིའི་ཏི་པི་ཊ་ཀ · ཐབས་སྒྱུར་མང་པོ · ཞིབ་བཤེར",
       "hero.title": "སྐད་སྤྱོད་གང་རུང་ནས་ཏི་པི་ཊ་ཀ་ཀློག་པ་དང་ བསྡུར་བ་ འཚོལ་བ་ ཞིབ་བཤེར་གྱི་ལས་ཀ་བྱེད།",
       "hero.mission":
-        "Sayadaw Kumārābhivaṃsa གྱིས་མཛད་པའི་མཛུབ་སྟོན་འོག ལས་གཞིས་དེང་རབས་ལག་རྩལ་སྤྱད་དེ་འཛམ་གླིང་སྤྱིའི་སློབ་གྲྭ་བརྒྱུད་པ་ལ་པ་ལི་ཏི་པི་ཊ་ཀའི་སྐད་རིགས་མང་པོའི་བསྡུར་ཀློག་ཉམས་མྱོང་ཡིད་རྟོན་རུང་བ་ཞིག་མཁོ་འདོན་བྱེད།",
+        "Sayadaw Kumārābhivaṃsa གྱིས་མཛད་པའི་མཛུབ་སྟོན་འོག ལས་གཞིས་དེང་རབས་ལག་རྩལ་སྤྱད་དེ་འཛམ་གླིང་སྤྱིའི་སློབ་གྲྭ་བརྒྱུད་པ་ལ་པ་ལི་ཏི་པི་ཊ་ཀའི་སྐད་རིགས་མང་པོའི་བསྡུར་ཀློག་ཉམས་མྱོང་ཡིད་རྟོན་རུང་བ་ཞིག་མཁོ་འདོན་བྱེད། AI ཡིས་རོགས་པའི་ཡིག་སྒྱུར་དང་ OpenTipitaka སྣ་མང་སྟེགས་བུའི་མཉེན་ཆས་བརྒྱུད་དེ་པ་ལིའི་གཞུང་དང་ཐབས་སྒྱུར་མང་པོ་ཚན་པ་བགོས་ནས་མཉམ་དུ་ཀློག་པ། ཚིག་མཛོད། འཚོལ་བ། དཔེ་ཐོའི་རྟགས། བརྙན་བཤེར་བགོ་བ། རྟགས་མང་པོ། རང་འགྲིལ། ཐབས་སྒྱུར་ཀློག་སྒྲ་སོགས་ཀྱི་ནུས་པ་དང་ལྡན་ཞིང་། ཚང་མས་ཞིབ་བཤེར་དང་ལེགས་སྒྲིག་ལ་ཞུགས་རྒྱུར་དགའ་བསུ་ཞུ།",
       "hero.translationLangs":
         "ད་ལྟ་རྒྱབ་སྐྱོར་བྱེད་པའི་ཡིག་སྒྱུར་སྐད་ཡིག་ནི། རྒྱ་སྐད། དབྱིན་སྐད། ཡུ་ནམ་སྐད། འཐག་སྐད། ཧིན་སྐད། ཨིན་ཏུ་ནི་ཞི་ཡ་སྐད། ཉི་ཧོང་སྐད། ཀོ་རི་ཡའི་སྐད། ཧྥ་རན་སིའི་སྐད་བཅས་ཡིན། མ་འོངས་པར་སྐད་ཡིག་གཞན་དག་ཀྱང་འཕེལ་རྒྱས་གཏོང་རྒྱུ་ཡིན།",
-      "hero.subtitle":
-        "OpenTipitaka ནི Flutter ལས་བཟོས་པའི་སྣ་མང་སྟེགས་བུའི་མཉེན་ཆས་ཞིག་ཡིན། པ་ལིའི་གཞུང་དང་ཐབས་སྒྱུར་མང་པོ་མཉམ་དུ་ཀློག་པ། ཚིག་མཛོད། འཚོལ་བ། དཔེ་ཐོའི་རྟགས། བརྙན་བཤེར་བགོ་བ། རང་འགྲིལ། ཐབས་སྒྱུར་ཀློག་སྒྲ་སོགས་ལྡན།",
       "badges.crossPlatform": "སྣ་མང་སྟེགས་བུ",
       "badges.offlineFirst": "དྲ་མེད་ཀྱི་གཞི་གྲངས",
       "badges.multiLang": "སྐད་ཡིག 12",
@@ -349,6 +387,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "Tipitaka ཡིག་ཁུག · ཁུངས་ནས་སྒྲིག",
       "download.platforms.note":
         "ཚོང་ཁང་གནས་ཚུལ་ས་ཁུལ་ལ་བལྟོས། Windows/Linux སྒྲིག་ཆས་ Pa-Auk Tipitaka ཡིག་ཁུག་བརྒྱུད་དུ་བགོ་བཤམས། ཁུངས་ནས་སྒྲིག་ཆོག",
+      "contributors.title": "ལས་གཞིའི་ཞུགས་མཁན་གཙོ་བོ།",
+      "contributors.ariyavamsa.name": "དགེ་སློང་ Ariyavaṃsa",
+      "contributors.ariyavamsa.role": "Pa-Auk ཚོགས་པའི་དྲ་ངོས་ཇུས་འགོད་དང་སྐྱོང་བ།",
+      "contributors.sunanda.name": "དགེ་སློང་ Sunanda Bhikkhu",
+      "contributors.sunanda.role": "AI ཡིག་སྒྱུར་དང་ OpenTipitaka ཀློག་མཉེན་ཆས་ཀྱི་ཇུས་འགོད།",
+      "contributors.liuyujun.name": "དགེ་བསྐྱེད་ Liu Yujun",
+      "contributors.liuyujun.role": "རོགས་རམ་བྱས་ནས་མཇུག་སྒྲིལ།",
+      "support.title": "རྒྱབ་སྐྱོར་དང་མཐུན་སྒྲིག",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "དྲི་བ-ལན",
       "faq.q4.q": "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ན་གང་བྱེད།",
       "faq.q4.a":
@@ -362,6 +411,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "လုပ်ဆောင်ချက်များ",
       "nav.online": "အွန်လိုင်းဖတ်ရှု",
       "nav.download": "ဒေါင်းလုဒ်",
+      "nav.contributors": "ပါဝင်သူများ",
+      "nav.support": "ပံ့ပိုးမှုနှင့် ပူးပေါင်းဆောင်ရွက်မှု",
       "nav.faq": "မေးလေ့ရှိသောမေးခွန်းများ",
       "actions.github": "GitHub",
       "actions.getStarted": "စတင်ရန်",
@@ -372,11 +423,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Pāli Tipitaka · ဘာသာပြန်များ · စိစစ်ပြင်ဆင်မှု",
       "hero.title": "မည်သည့်ကိရိယာပေါ်မဆို Pāli Tipitaka ကိုဖတ်ရှု၊ နှိုင်းယှဉ်၊ ရှာဖွေပြီး စိစစ်ပြင်ဆင်နိုင်သည်။",
       "hero.mission":
-        "Sayadaw Kumārābhivaṃsa ၏ လမ်းညွှန်ချက်အောက်တွင် ပရောဂျက်သည် ခေတ်မီနည်းပညာဖြင့် ကမ္ဘာတဝှမ်းရှိ သင်ယူသူများအတွက် ယုံကြည်စိတ်ချရသော ပါဠိတိပိဋက ဘာသာစကားများစွာ နှိုင်းယှဉ်ဖတ်ရှုနိုင်မှု ပေးရန် ကြိုးပမ်းသည်။",
+        "Sayadaw Kumārābhivaṃsa ၏ လမ်းညွှန်ချက်အောက်တွင် ပရောဂျက်သည် ခေတ်မီနည်းပညာဖြင့် ကမ္ဘာတဝှမ်းရှိ သင်ယူသူများအတွက် ယုံကြည်စိတ်ချရသော ပါဠိတိပိဋက ဘာသာစကားများစွာ နှိုင်းယှဉ်ဖတ်ရှုနိုင်မှု ပေးရန် ကြိုးပမ်းသည်။ AI အကူအညီပေးသော ဘာသြန်ခြင်းနှင့် ပလက်ဖောင်းစုံ OpenTipitaka အက်ပ်မှတဆင့် ပါဠိမူရင်းနှင့် ဘာသာပြန်များကို စာပိုဒ်အလိုက် ပေါင်းပြိုင်ဖတ်ရှုနိုင်စေပြီး အဘိဓာန်၊ စာသားအပြည့်ရှာဖွေမှု၊ စာမှတ်များ၊ မျက်နှာပြင်ခွဲခြင်း၊ တဘ်များစွာ၊ အလိုအလျောက်လှိမ့်ခြင်း၊ ဘာသာပြန်ဖတ်ကြားခြင်းစသည့် လုပ်ဆောင်ချက်များပါဝင်ကာ လူတိုင်းကို စိစစ်ပြင်ဆင်ရန် ဖိတ်ခေါ်ပါသည်။",
       "hero.translationLangs":
         "လက်ရှိပံ့ပိုးထားသော ဘာသာပြန်ဘာသာစကားများမှာ တရုတ်၊ အင်္ဂလိပ်၊ ဗီယက်နမ်၊ ထိုင်း၊ ဟိန္ဒီ၊ အင်ဒိုနီးရှား၊ ဂျပန်၊ ကိုရီးယား၊ ပြင်သစ် တို့ ဖြစ်သည်။ နောက်ပိုင်းတွင် အခြားဘာသာစကားများကို ထပ်မံ ထည့်သွင်းမည်။",
-      "hero.subtitle":
-        "OpenTipitaka သည် Flutter အခြေပြု ပလက်ဖောင်းစုံအက်ပ်ဖြစ်ပြီး Pāli မူရင်းနှင့် ဘာသာပြန်များကို ပေါင်းပြိုင်ဖတ်ရှုနိုင်ခြင်း၊ အဘိဓာန်၊ စာသားအပြည့်ရှာဖွေမှု၊ စာမှတ်များ၊ ခွဲမျက်နှာပြင်၊ အလိုအလျောက်လှိမ့်ခြင်းနှင့် ဘာသာပြန်ဖတ်ကြားမှုတို့ပါဝင်သည်။",
       "badges.crossPlatform": "ပလက်ဖောင်းစုံ",
       "badges.offlineFirst": "အော့ဖ်လိုင်းဒေတာ",
       "badges.multiLang": "UI ဘာသာ 12 မျိုး",
@@ -409,6 +458,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "Tipitaka ဖိုလ်ဒါ · ရင်းမြစ်မှ တည်ဆောက်",
       "download.platforms.note":
         "စတိုးရရှိမှုသည် ဒေသအလိုက် ကွာခြားနိုင်သည်။ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk Tipitaka ဖိုလ်ဒါမှ ဖြန့်ချိသည်။ ရင်းမြစ်မှလည်း တည်ဆောက်နိုင်သည်။",
+      "contributors.title": "ပရောဂျက်တွင် ပါဝင်သူ အဓိကပုဂ္ဂိုလ်များ",
+      "contributors.ariyavamsa.name": "ဘိက္ခု Ariyavaṃsa",
+      "contributors.ariyavamsa.role": "Pa-Auk လူ့အဖွဲ့၏ ဝက်ဘ်ဆိုဒ် ဒီဇိုင်နှင့် ထိန်းသိမ်းမှု",
+      "contributors.sunanda.name": "ဘိက္ခု Sunanda Bhikkhu",
+      "contributors.sunanda.role": "AI ဘာသာပြန်၊ OpenTipitaka ဖတ်ရှုဆော့ဖ်ဝဲ ဒီဇိုင်း",
+      "contributors.liuyujun.name": "ဥပါသကာ Liu Yujun",
+      "contributors.liuyujun.role": "ကူညီပြီးမြောက်စေခြင်း",
+      "support.title": "ပံ့ပိုးမှုနှင့်ပူးပေါင်းဆောင်ရွက်မှု",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "မေးလေ့ရှိသောမေးခွန်းများ",
       "faq.q4.q": "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက?",
       "faq.q4.a":
@@ -422,6 +482,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "ฟีเจอร์",
       "nav.online": "อ่านออนไลน์",
       "nav.download": "ดาวน์โหลด",
+      "nav.contributors": "ผู้มีส่วนร่วม",
+      "nav.support": "การสนับสนุนและความร่วมมือ",
       "nav.faq": "คำถามที่พบบ่อย",
       "actions.github": "GitHub",
       "actions.getStarted": "เริ่มต้น",
@@ -432,11 +494,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "พระไตรปิฎกภาษาบาลี · หลายคำแปล · ตรวจทาน",
       "hero.title": "อ่าน เปรียบเทียบ ค้นหา และร่วมตรวจทานพระไตรปิฎกบาลีได้อย่างสบายบนทุกอุปกรณ์",
       "hero.mission":
-        "ภายใต้การแนะนำของพระอาจารย์ Kumārābhivaṃsa (Sayadaw Kumārābhivaṃsa) โครงการนี้มุ่งใช้เทคโนโลยีสมัยใหม่เพื่อมอบประสบการณ์อ่านเปรียบเทียบหลายภาษาที่เชื่อถือได้แก่ผู้ศึกษาพระไตรปิฎกบาลีทั่วโลก",
+        "ภายใต้การแนะนำของพระอาจารย์ Kumārābhivaṃsa (Sayadaw Kumārābhivaṃsa) โครงการนี้มุ่งใช้เทคโนโลยีสมัยใหม่เพื่อมอบประสบการณ์อ่านเปรียบเทียบหลายภาษาที่เชื่อถือได้แก่ผู้ศึกษาพระไตรปิฎกบาลีทั่วโลก ผ่านการแปลด้วย AI และแอปข้ามแพลตฟอร์ม OpenTipitaka รองรับการอ่านบาลีต้นฉบับและคำแปลหลายภาษาแบบทีละย่อหน้า พร้อมพจนานุกรม ค้นหาทั้งหมด บุ๊กมาร์ก แบ่งหน้าจอ แท็บหลายแท็บ เลื่อนอัตโนมัติ อ่านคำแปลออกเสียง และคุณสมบัติที่เกี่ยวข้อง—เชิญทุกท่านร่วมตรวจทานและพัฒนาต่อไป",
       "hero.translationLangs":
         "ภาษาคำแปลที่รองรับในปัจจุบัน ได้แก่ ภาษาจีน อังกฤษ เวียดนาม ไทย ฮินดี อินโดนีเซีย ญี่ปุ่น เกาหลี และฝรั่งเศส ในอนาคตจะขยายเพิ่มภาษาอื่นต่อไป",
-      "hero.subtitle":
-        "OpenTipitaka เป็นแอป Flutter ข้ามแพลตฟอร์มสำหรับอ่านบาลีและคำแปลหลายภาษาแบบขนาน มีพจนานุกรม ค้นหาทั้งหมด บุ๊กมาร์ก แบ่งหน้าจอ เลื่อนอัตโนมัติ และอ่านคำแปลออกเสียง",
       "badges.crossPlatform": "ข้ามแพลตฟอร์ม",
       "badges.offlineFirst": "ข้อมูลออฟไลน์",
       "badges.multiLang": "ภาษา UI 12 ภาษา",
@@ -469,6 +529,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "โฟลเดอร์ Tipitaka · สร้างจากซอร์ส",
       "download.platforms.note":
         "การมีแอปใน Store อาจต่างกันตามภูมิภาค ตัวติดตั้ง Windows และ Linux แจกผ่านโฟลเดอร์ Tipitaka ของ Pa-Auk หรือสร้างจากซอร์สเอง",
+      "contributors.title": "ผู้มีส่วนร่วมหลักของโครงการ",
+      "contributors.ariyavamsa.name": "พระอริยวัฒน์ (Ariyavaṃsa)",
+      "contributors.ariyavamsa.role": "ออกแบบและดูแลเว็บไซต์ของคณะป่าเอ๋ก (Pa-Auk)",
+      "contributors.sunanda.name": "พระสุนันทภิกขุ (Sunanda Bhikkhu)",
+      "contributors.sunanda.role": "การแปลด้วย AI การออกแบบแอปอ่าน OpenTipitaka",
+      "contributors.liuyujun.name": "อุบาสกหลิว ยฺวี่จฺวิน (Liu Yujun)",
+      "contributors.liuyujun.role": "สนับสนุนและช่วยดำเนินการให้สำเร็จ",
+      "support.title": "การสนับสนุนและความร่วมมือ",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "คำถามที่พบบ่อย",
       "faq.q4.q": "ดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จทำอย่างไร",
       "faq.q4.a":
@@ -482,6 +553,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "機能",
       "nav.online": "オンライン閲覧",
       "nav.download": "ダウンロード",
+      "nav.contributors": "参加メンバー",
+      "nav.support": "支援と協力",
       "nav.faq": "FAQ",
       "actions.github": "GitHub",
       "actions.getStarted": "はじめる",
@@ -492,11 +565,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "パーリ三蔵 · 複数訳 · 校正",
       "hero.title": "どのデバイスでも快適に、パーリ三蔵を読む・比較する・検索する・校正に参加する。",
       "hero.mission":
-        "クマーラビヴァンマ尊者（Sayadaw Kumārābhivaṃsa）のご指導のもと、現代の技術で世界中の学習者に信頼できるパーリ三蔵の多言語対照読書体験を届けることを目指しています。",
+        "クマーラビヴァンマ尊者（Sayadaw Kumārābhivaṃsa）のご指導のもと、現代の技術で世界中の学習者に信頼できるパーリ三蔵の多言語対照読書体験を届けることを目指しています。AI を補助した翻訳とクロスプラットフォームアプリ OpenTipitaka により、パーリ原文と複数言語の訳を段落単位で並読でき、辞書・全文検索・ブックマーク・分割表示・複数タブ・自動スクロール・訳文の読み上げなどの機能を備え、校正・改善への参加を歓迎します。",
       "hero.translationLangs":
         "現在対応している訳文の言語は、中国語、英語、ベトナム語、タイ語、ヒンディー語、インドネシア語、日本語、韓国語、フランス語です。今後、さらに他言語へ拡張していく予定です。",
-      "hero.subtitle":
-        "OpenTipitaka は Flutter 製のクロスプラットフォームアプリです。パーリ原文と複数訳の対照読書、辞書、全文検索、ブックマーク、分割表示、自動スクロール、訳文読み上げに対応します。",
       "badges.crossPlatform": "クロスプラットフォーム",
       "badges.offlineFirst": "オフラインDB",
       "badges.multiLang": "UI 12言語",
@@ -529,6 +600,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "Tipitaka フォルダ · ソースからビルド",
       "download.platforms.note":
         "ストアの提供状況は地域により異なります。Windows と Linux のインストーラーは Pa-Auk の Tipitaka フォルダから入手するか、ソースからビルドしてください。",
+      "contributors.title": "プロジェクトの主な関係者",
+      "contributors.ariyavamsa.name": "聖種長老（Ariyavaṃsa）",
+      "contributors.ariyavamsa.role": "パオ系学会ウェブサイトの設計と保守",
+      "contributors.sunanda.name": "文喜比丘（Sunanda Bhikkhu）",
+      "contributors.sunanda.role": "AI 翻訳、OpenTipitaka 閲読アプリの設計",
+      "contributors.liuyujun.name": "柳昱君居士（Liu Yujun）",
+      "contributors.liuyujun.role": "協力・サポート",
+      "support.title": "支援と協力",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "FAQ",
       "faq.q4.q": "アプリ内のデータベースのダウンロードに失敗したら？",
       "faq.q4.a":
@@ -542,6 +624,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "기능",
       "nav.online": "온라인 읽기",
       "nav.download": "다운로드",
+      "nav.contributors": "참여자",
+      "nav.support": "지원 및 협력",
       "nav.faq": "FAQ",
       "actions.github": "GitHub",
       "actions.getStarted": "시작하기",
@@ -552,11 +636,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "팔리 삼장 · 다중 번역 · 교정",
       "hero.title": "어떤 기기에서도 편하게 팔리 삼장을 읽고, 비교하고, 검색하고, 교정에 참여하세요.",
       "hero.mission":
-        "쿠마라비왐사 스야도(Sayadaw Kumārābhivaṃsa)의 지도 아래, 현대 기술로 전 세계 학습자에게 신뢰할 수 있는 팔리 삼장 다국어 대조 독서 경험을 제공하고자 합니다.",
+        "쿠마라비왐사 스야도(Sayadaw Kumārābhivaṃsa)의 지도 아래, 현대 기술로 전 세계 학습자에게 신뢰할 수 있는 팔리 삼장 다국어 대조 독서 경험을 제공하고자 합니다. AI 보조 번역과 크로스플랫폼 앱 OpenTipitaka를 통해 팔리 원문과 여러 번역을 문단 단위로 병행 읽을 수 있으며, 사전·전체 검색·북마크·분할 화면·다중 탭·자동 스크롤·번역 음성 읽기 등의 기능을 지원하고, 교정과 개선에 모두의 참여를 환영합니다.",
       "hero.translationLangs":
         "현재 지원되는 번역 언어는 중국어, 영어, 베트남어, 태국어, 힌디어, 인도네시아어, 일본어, 한국어, 프랑스어입니다. 앞으로 다른 언어로도 점차 확대할 예정입니다.",
-      "hero.subtitle":
-        "OpenTipitaka 는 Flutter 기반 크로스플랫폼 앱으로, 팔리 원문과 여러 번역의 병렬 읽기, 사전, 전체 검색, 북마크, 분할 화면, 자동 스크롤, 번역 음성 읽기를 제공합니다.",
       "badges.crossPlatform": "크로스플랫폼",
       "badges.offlineFirst": "오프라인 DB",
       "badges.multiLang": "UI 12개 언어",
@@ -589,6 +671,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "Tipitaka 폴더 · 소스 빌드",
       "download.platforms.note":
         "스토어 제공 여부는 지역마다 다를 수 있습니다. Windows와 Linux 설치 파일은 Pa-Auk Tipitaka 폴더에서 받거나 소스에서 빌드하세요.",
+      "contributors.title": "프로젝트 주요 참여자",
+      "contributors.ariyavamsa.name": "성종장로 Ariyavaṃsa",
+      "contributors.ariyavamsa.role": "파오 계열 학회 웹사이트 설계 및 유지보수",
+      "contributors.sunanda.name": "문희 비구 Sunanda Bhikkhu",
+      "contributors.sunanda.role": "AI 번역, OpenTipitaka 독서 앱 설계",
+      "contributors.liuyujun.name": "유욱군 우바사카(Liu Yujun)",
+      "contributors.liuyujun.role": "협력 및 지원",
+      "support.title": "지원 및 협력",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "FAQ",
       "faq.q4.q": "앱에서 데이터베이스 다운로드가 실패하면요?",
       "faq.q4.a":
@@ -602,6 +695,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "विशेषताएँ",
       "nav.online": "ऑनलाइन पढ़ना",
       "nav.download": "डाउनलोड",
+      "nav.contributors": "योगदानकर्ता",
+      "nav.support": "समर्थन और सहयोग",
       "nav.faq": "FAQ",
       "actions.github": "GitHub",
       "actions.getStarted": "शुरू करें",
@@ -612,11 +707,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "पाली त्रिपिटक · बहु-अनुवाद · प्रूफरीडिंग",
       "hero.title": "किसी भी डिवाइस पर आराम से पाली त्रिपिटक पढ़ें, तुलना करें, खोजें और प्रूफरीडिंग में योगदान दें।",
       "hero.mission":
-        "सयादाव कुमाराभिवंस (Sayadaw Kumārābhivaṃsa) के मार्गदर्शन में यह परियोजना आधुनिक तकनीक से विश्वभर के अध्ययनकर्ताओं को विश्वसनीय पाली त्रिपिटक बहुभाषी तुलनात्मक पठन अनुभव देने हेतु समर्पित है।",
+        "सयादाव कुमाराभिवंस (Sayadaw Kumārābhivaṃsa) के मार्गदर्शन में यह परियोजना आधुनिक तकनीक से विश्वभर के अध्ययनकर्ताओं को विश्वसनीय पाली त्रिपिटक बहुभाषी तुलनात्मक पठन अनुभव देने हेतु समर्पित है। AI-सहायित अनुवाद और क्रॉस-प्लैटफ़ॉर्म ऐप OpenTipitaka के माध्यम से पाली मूल पाठ और कई भाषाओं के अनुवादों का अनुच्छेद-दर-अनुच्छेद समानांतर पठन संभव है; शब्दकोश, फुल-टेक्स्ट खोज, बुकमार्क, स्प्लिट-स्क्रीन, कई टैब, ऑटो-स्क्रॉल और अनुवाद का पाठ-से-वाक् जैसी सुविधाएँ हैं—सभी से प्रूफरीडिंग और सुधार में योगदान का आमंत्रण है।",
       "hero.translationLangs":
         "वर्तमान में समर्थित अनुवाद भाषाएँ हैं: चीनी, अंग्रेज़ी, वियतनामी, थाई, हिंदी, इंडोनेशियाई, जापानी, कोरियाई और फ़्रेंच। भविष्य में और भाषाओं का विस्तार किया जाएगा।",
-      "hero.subtitle":
-        "OpenTipitaka एक क्रॉस-प्लैटफ़ॉर्म Flutter ऐप है: पाली मूल पाठ और कई अनुवादों का समानांतर पठन, शब्दकोश, फुल-टेक्स्ट सर्च, बुकमार्क, स्प्लिट-स्क्रीन, ऑटो-स्क्रॉल और अनुवाद का पाठ-से-वाक्।",
       "badges.crossPlatform": "क्रॉस-प्लैटफ़ॉर्म",
       "badges.offlineFirst": "ऑफ़लाइन डेटा",
       "badges.multiLang": "UI 12 भाषाएँ",
@@ -649,6 +742,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "Tipitaka फ़ोल्डर · स्रोत से बिल्ड",
       "download.platforms.note":
         "स्टोर उपलब्धता क्षेत्र के अनुसार भिन्न हो सकती है। Windows और Linux इंस्टॉलर Pa-Auk Tipitaka फ़ोल्डर से लें या स्रोत से बिल्ड करें।",
+      "contributors.title": "परियोजना के मुख्य योगदानकर्ता",
+      "contributors.ariyavamsa.name": "वेन. अरियवंस (Ariyavaṃsa)",
+      "contributors.ariyavamsa.role": "पा-ऑक संघ की वेबसाइट का डिज़ाइन और रखरखाव",
+      "contributors.sunanda.name": "वेन. सुनंदा भिक्खु (Sunanda Bhikkhu)",
+      "contributors.sunanda.role": "AI अनुवाद; OpenTipitaka पठन ऐप का डिज़ाइन",
+      "contributors.liuyujun.name": "उपासक लियू युजुन (Liu Yujun)",
+      "contributors.liuyujun.role": "सहायता और सम्पादन में सहयोग",
+      "support.title": "समर्थन और सहयोग",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "FAQ",
       "faq.q4.q": "ऐप में डेटाबेस डाउनलोड विफल हो तो?",
       "faq.q4.a":
@@ -662,6 +766,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "Funciones",
       "nav.online": "Lectura en línea",
       "nav.download": "Descargar",
+      "nav.contributors": "Equipo",
+      "nav.support": "Apoyo y cooperación",
       "nav.faq": "FAQ",
       "actions.github": "GitHub",
       "actions.getStarted": "Empezar",
@@ -672,11 +778,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tipitaka Pali · Multitraducción · Revisión",
       "hero.title": "Lee, compara, busca y participa en la revisión del Tipitaka Pali en cualquier dispositivo.",
       "hero.mission":
-        "Bajo la guía del Sayadaw Kumārābhivaṃsa, este proyecto se dedica a ofrecer, con medios modernos, una lectura comparada multilingüe fiable del Tipitaka Pali para estudiantes de todo el mundo.",
+        "Bajo la guía del Sayadaw Kumārābhivaṃsa, este proyecto se dedica a ofrecer, con medios modernos, una lectura comparada multilingüe fiable del Tipitaka Pali para estudiantes de todo el mundo. Mediante traducción asistida por IA y la aplicación multiplataforma OpenTipitaka, admite lectura paralela del pali original y de varias traducciones por párrafos, con diccionario, búsqueda de texto completo, marcadores, pantalla dividida, varias pestañas, desplazamiento automático y lectura en voz alta de traducciones, entre otras funciones; se invita a todos a colaborar en la corrección y el perfeccionamiento.",
       "hero.translationLangs":
         "Los idiomas de traducción admitidos actualmente son chino, inglés, vietnamita, tailandés, hindi, indonesio, japonés, coreano y francés. Se ampliarán más idiomas en el futuro.",
-      "hero.subtitle":
-        "OpenTipitaka es una app Flutter multiplataforma para lectura paralela del Pali original y varias traducciones, con diccionario, búsqueda de texto completo, marcadores, pantalla dividida, auto-desplazamiento y lectura en voz alta de traducciones.",
       "badges.crossPlatform": "Multiplataforma",
       "badges.offlineFirst": "Datos sin conexión",
       "badges.multiLang": "12 idiomas de UI",
@@ -709,6 +813,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "carpeta Tipitaka · compilar desde fuente",
       "download.platforms.note":
         "La disponibilidad en tiendas puede variar según la región. Los instaladores de Windows y Linux se obtienen en la carpeta Tipitaka de Pa-Auk o compilando desde el código.",
+      "contributors.title": "Principales colaboradores del proyecto",
+      "contributors.ariyavamsa.name": "Venerable Ariyavaṃsa",
+      "contributors.ariyavamsa.role": "Diseño y mantenimiento del sitio web de la sociedad Pa-Auk",
+      "contributors.sunanda.name": "Venerable Sunanda Bhikkhu",
+      "contributors.sunanda.role": "Traducción con IA; diseño de la app de lectura OpenTipitaka",
+      "contributors.liuyujun.name": "Upāsaka Liu Yujun",
+      "contributors.liuyujun.role": "Colaboración y apoyo al proyecto",
+      "support.title": "Apoyo y cooperación",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "FAQ",
       "faq.q4.q": "¿Qué hago si falla la descarga de la base de datos en la app?",
       "faq.q4.a":
@@ -722,6 +837,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "Fitur",
       "nav.online": "Baca daring",
       "nav.download": "Unduh",
+      "nav.contributors": "Kontributor",
+      "nav.support": "Dukungan & kerja sama",
       "nav.faq": "FAQ",
       "actions.github": "GitHub",
       "actions.getStarted": "Mulai",
@@ -732,11 +849,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tipitaka Pali · Multi-terjemahan · Koreksi",
       "hero.title": "Baca, bandingkan, cari, dan ikut mengoreksi Tipitaka Pali di perangkat apa pun.",
       "hero.mission":
-        "Di bawah bimbingan Sayadaw Kumārābhivaṃsa, proyek ini berkomitmen memanfaatkan teknologi modern untuk memberi pelajar di seluruh dunia pengalaman membaca Tipitaka Pali multibahasa yang andal dan dapat dibandingkan.",
+        "Di bawah bimbingan Sayadaw Kumārābhivaṃsa, proyek ini berkomitmen memanfaatkan teknologi modern untuk memberi pelajar di seluruh dunia pengalaman membaca Tipitaka Pali multibahasa yang andal dan dapat dibandingkan. Melalui terjemahan berbantuan AI dan aplikasi lintas platform OpenTipitaka, proyek mendukung bacaan paralel teks Pali asli dan berbagai terjemahan per paragraf, dengan kamus, pencarian teks penuh, bookmark, layar terbagi, banyak tab, gulir otomatis, pembacaan suara terjemahan, dan fitur terkait lainnya—semua orang dipersilakan ikut memeriksa dan menyempurnakan.",
       "hero.translationLangs":
         "Bahasa terjemahan yang saat ini didukung: Mandarin, Inggris, Vietnam, Thai, Hindi, Indonesia, Jepang, Korea, dan Prancis. Bahasa lain akan ditambahkan secara bertahap ke depannya.",
-      "hero.subtitle":
-        "OpenTipitaka adalah aplikasi Flutter lintas platform untuk membaca paralel Pali asli dan beberapa terjemahan, dengan kamus, pencarian teks penuh, bookmark, layar terbagi, gulir otomatis, dan pembacaan terjemahan.",
       "badges.crossPlatform": "Lintas platform",
       "badges.offlineFirst": "Data offline",
       "badges.multiLang": "12 bahasa UI",
@@ -769,6 +884,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "folder Tipitaka · bangun dari sumber",
       "download.platforms.note":
         "Ketersediaan toko dapat berbeda menurut wilayah. Pemasang Windows dan Linux di folder Tipitaka Pa-Auk atau bangun dari sumber.",
+      "contributors.title": "Kontributor utama proyek",
+      "contributors.ariyavamsa.name": "Bhante Ariyavaṃsa",
+      "contributors.ariyavamsa.role": "Desain dan pemeliharaan situs web masyarakat Pa-Auk",
+      "contributors.sunanda.name": "Bhikkhu Sunanda (Sunanda Bhikkhu)",
+      "contributors.sunanda.role": "Terjemahan AI; desain aplikasi baca OpenTipitaka",
+      "contributors.liuyujun.name": "Upāsaka Liu Yujun",
+      "contributors.liuyujun.role": "Dukungan dan bantuan penyelesaian",
+      "support.title": "Dukungan & kerja sama",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "FAQ",
       "faq.q4.q": "Bagaimana jika unduhan basis data di aplikasi gagal?",
       "faq.q4.a":
@@ -782,6 +908,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.features": "Fonctionnalités",
       "nav.online": "Lecture en ligne",
       "nav.download": "Télécharger",
+      "nav.contributors": "Contributeurs",
+      "nav.support": "Soutien et coopération",
       "nav.faq": "FAQ",
       "actions.github": "GitHub",
       "actions.getStarted": "Commencer",
@@ -792,11 +920,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tipitaka pali · Multi-traductions · Relecture",
       "hero.title": "Lisez, comparez, cherchez et contribuez à la relecture du Tipitaka pali sur n’importe quel appareil.",
       "hero.mission":
-        "Sous la direction du Sayadaw Kumārābhivaṃsa, ce projet s’engage à offrir, grâce aux moyens modernes, une expérience de lecture comparée multilingue fiable du Tipitaka pali aux apprenants du monde entier.",
+        "Sous la direction du Sayadaw Kumārābhivaṃsa, ce projet s’engage à offrir, grâce aux moyens modernes, une expérience de lecture comparée multilingue fiable du Tipitaka pali aux apprenants du monde entier. Grâce à la traduction assistée par IA et à l’application multiplateforme OpenTipitaka, il permet une lecture parallèle du pali original et de plusieurs traductions par paragraphe, avec dictionnaire, recherche plein texte, signets, écran partagé, onglets multiples, défilement automatique, lecture à voix haute des traductions et autres fonctions associées—toutes les contributions pour la relecture et l’amélioration sont les bienvenues.",
       "hero.translationLangs":
         "Les langues de traduction actuellement prises en charge sont le chinois, l’anglais, le vietnamien, le thaï, l’hindi, l’indonésien, le japonais, le coréen et le français. D’autres langues seront ajoutées progressivement.",
-      "hero.subtitle":
-        "OpenTipitaka est une application Flutter multiplateforme pour la lecture parallèle du pali original et de plusieurs traductions, avec dictionnaire, recherche plein texte, signets, écran partagé, défilement automatique et lecture à voix haute des traductions.",
       "badges.crossPlatform": "Multiplateforme",
       "badges.offlineFirst": "Données hors ligne",
       "badges.multiLang": "12 langues d’UI",
@@ -829,6 +955,17 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowLinux.v": "dossier Tipitaka · compilation des sources",
       "download.platforms.note":
         "La disponibilité sur les stores peut varier selon la région. Les installateurs Windows et Linux sont dans le dossier Tipitaka Pa-Auk ou par compilation des sources.",
+      "contributors.title": "Principaux contributeurs du projet",
+      "contributors.ariyavamsa.name": "Vénérable Ariyavaṃsa",
+      "contributors.ariyavamsa.role": "Conception et maintenance du site web de la société Pa-Auk",
+      "contributors.sunanda.name": "Vénérable Sunanda Bhikkhu",
+      "contributors.sunanda.role": "Traduction assistée par IA ; conception de l’app de lecture OpenTipitaka",
+      "contributors.liuyujun.name": "Upāsaka Liu Yujun",
+      "contributors.liuyujun.role": "Soutien et collaboration au projet",
+      "support.title": "Soutien et coopération",
+      "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
+      "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
+      "support.linkDhammasarana": "https://www.dhammasarana.org",
       "faq.title": "FAQ",
       "faq.q4.q": "Que faire si le téléchargement de la base de données échoue dans l’app ?",
       "faq.q4.a":
