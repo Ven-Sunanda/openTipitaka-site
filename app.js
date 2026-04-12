@@ -129,7 +129,6 @@ function wireGithubLinks() {
   const links = [
     { id: "githubLink", href: repoUrl },
     { id: "footerGithubLink", href: repoUrl },
-    { id: "docsLink", href: `${repoUrl}/blob/main/PROJECT.md` },
   ];
 
   for (const { id, href } of links) {
