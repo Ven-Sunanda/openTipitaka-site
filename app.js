@@ -1,5 +1,41 @@
 /* global OPENTIPITAKA_SITE_I18N */
 
+/** Fixed outbound links (custom domains do not affect these). */
+const SITE_EXTERNAL_LINKS = {
+  onlineReading: "https://tipitaka.paauksociety.org",
+  appleAppStore: "https://apps.apple.com/mm/app/opentipitaka/id6760888347",
+  googlePlay: "https://play.google.com/store/apps/details?id=org.opentipitaka.app&pcampaignid=web_share",
+  /** Leave empty until the Microsoft Store listing URL is ready. */
+  microsoftStore: "",
+  apkMirror: "https://dhamma.paauksociety.org/index.php?dir=Root%2FTipitaka",
+  manualDatabases: "https://dhamma.paauksociety.org/index.php?dir=Root%2FTipitaka%2FSqlLite%20Database",
+};
+
+function wireExternalSiteLinks() {
+  const map = {
+    onlineReadingLink: SITE_EXTERNAL_LINKS.onlineReading,
+    appleAppStoreLink: SITE_EXTERNAL_LINKS.appleAppStore,
+    googlePlayLink: SITE_EXTERNAL_LINKS.googlePlay,
+    apkMirrorLink: SITE_EXTERNAL_LINKS.apkMirror,
+    manualDatabasesLink: SITE_EXTERNAL_LINKS.manualDatabases,
+  };
+  for (const [id, url] of Object.entries(map)) {
+    if (!url) continue;
+    const el = document.getElementById(id);
+    if (el) el.setAttribute("href", url);
+  }
+
+  const msUrl = (SITE_EXTERNAL_LINKS.microsoftStore || "").trim();
+  const msEl = document.getElementById("microsoftStoreLink");
+  const wrap = document.getElementById("msStoreWrap");
+  if (msUrl && msEl && wrap) {
+    msEl.setAttribute("href", msUrl);
+    wrap.removeAttribute("hidden");
+  } else if (wrap) {
+    wrap.setAttribute("hidden", "");
+  }
+}
+
 function getRepoFromLocation() {
   // If deployed at https://<user>.github.io/<repo>/, repo is the first path segment.
   // If deployed at a custom domain root, this returns null and links remain as '#'.
@@ -117,6 +153,7 @@ function wireSmoothScroll() {
 
 function main() {
   wireGithubLinks();
+  wireExternalSiteLinks();
 
   const lang = readPreferredLanguage();
   buildLanguageSelector(lang);

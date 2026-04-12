@@ -37,6 +37,7 @@
         <nav class="nav">
           <a class="nav-link" href="#features" data-i18n="nav.features">Features</a>
           <a class="nav-link" href="#screens" data-i18n="nav.screens">Screens</a>
+          <a class="nav-link" href="#online" data-i18n="nav.online">Online reading</a>
           <a class="nav-link" href="#download" data-i18n="nav.download">Download</a>
           <a class="nav-link" href="#faq" data-i18n="nav.faq">FAQ</a>
         </nav>
@@ -288,6 +289,25 @@
         </div>
       </section>
 
+      <section id="online" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" data-i18n="online.title">Tipiṭaka Translation (online)</h2>
+            <p class="section-subtitle" data-i18n="online.subtitle">
+              The main way to read this project’s content in a web browser, alongside the OpenTipitaka app.
+            </p>
+            <p class="online-maintainer muted" data-i18n="online.maintainer">
+              Maintained by Ven. Ariyavaṃsa (Pa-Auk).
+            </p>
+          </div>
+          <div class="online-cta">
+            <a id="onlineReadingLink" class="btn btn-primary" href="#" target="_blank" rel="noreferrer">
+              <span data-i18n="online.cta">Open the website</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section id="download" class="section">
         <div class="container">
           <div class="section-head">
@@ -298,39 +318,95 @@
             </p>
           </div>
 
-          <div class="download-grid">
-            <div class="download-card">
-              <h3 class="download-title" data-i18n="download.quickStart.title">Quick start</h3>
-              <ol class="steps">
-                <li data-i18n="download.quickStart.s1">Install the app from the Releases page.</li>
-                <li data-i18n="download.quickStart.s2">On first launch, choose the app language.</li>
-                <li data-i18n="download.quickStart.s3">Download and install translation databases as needed.</li>
-              </ol>
-              <div class="download-actions">
-                <a id="releasesLink" class="btn btn-primary" href="#" target="_blank" rel="noreferrer">
-                  <span data-i18n="actions.openReleases">Open Releases</span>
-                </a>
-                <a id="docsLink" class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">
-                  <span data-i18n="actions.openDocs">Open project docs</span>
-                </a>
+          <div class="download-layout">
+            <div class="download-col">
+              <div class="download-card">
+                <h3 class="download-title" data-i18n="download.quickStart.title">Quick start</h3>
+                <ol class="steps">
+                  <li data-i18n="download.quickStart.s1">
+                    Install OpenTipitaka from the App Store (iPhone, iPad, Mac), Google Play (Android), or GitHub
+                    Releases (Windows and Linux).
+                  </li>
+                  <li data-i18n="download.quickStart.s2">On first launch, choose the app interface language.</li>
+                  <li data-i18n="download.quickStart.s3">
+                    While online, download translation and dictionary databases from inside the app.
+                  </li>
+                </ol>
+                <div class="store-buttons" role="group" aria-labelledby="storeGroupLabel">
+                  <span id="storeGroupLabel" class="sr-only" data-i18n="a11y.storeGroup">Get the app</span>
+                  <a id="appleAppStoreLink" class="btn btn-primary" href="#" target="_blank" rel="noreferrer">
+                    <span data-i18n="actions.openAppStore">App Store</span>
+                  </a>
+                  <a id="googlePlayLink" class="btn btn-primary" href="#" target="_blank" rel="noreferrer">
+                    <span data-i18n="actions.openGooglePlay">Google Play</span>
+                  </a>
+                  <span id="msStoreWrap" class="ms-store-wrap" hidden>
+                    <a id="microsoftStoreLink" class="btn btn-primary" href="#" target="_blank" rel="noreferrer">
+                      <span data-i18n="actions.openMicrosoftStore">Microsoft Store</span>
+                    </a>
+                  </span>
+                </div>
+                <div class="download-actions">
+                  <a id="releasesLink" class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">
+                    <span data-i18n="actions.openReleases">Open Releases</span>
+                  </a>
+                  <a id="docsLink" class="btn btn-ghost" href="#" target="_blank" rel="noreferrer">
+                    <span data-i18n="actions.openDocs">Open project docs</span>
+                  </a>
+                </div>
+                <p class="muted" data-i18n="download.quickStart.hint">
+                  If you build from source, please read `PROJECT.md` for packaging notes.
+                </p>
               </div>
-              <p class="muted" data-i18n="download.quickStart.hint">
-                If you build from source, please read `PROJECT.md` for packaging notes.
-              </p>
+
+              <div class="download-card">
+                <h3 class="download-title" data-i18n="download.dataHelp.title">APK mirror & manual databases</h3>
+                <p class="data-help-p" data-i18n="download.dataHelp.apkIntro">
+                  If you cannot use Google Play, you can download the Android APK from the Pa-Auk file directory.
+                </p>
+                <p class="data-help-links">
+                  <a id="apkMirrorLink" class="text-link" href="#" target="_blank" rel="noreferrer">
+                    <span data-i18n="download.dataHelp.apkCta">Open APK / app downloads folder</span>
+                  </a>
+                </p>
+                <p class="data-help-p" data-i18n="download.dataHelp.manualIntro">
+                  If downloading a database inside the app fails, download the SQLite package manually, then import it
+                  into the app.
+                </p>
+                <p class="data-help-links">
+                  <a id="manualDatabasesLink" class="text-link" href="#" target="_blank" rel="noreferrer">
+                    <span data-i18n="download.dataHelp.manualCta">Open SQLite databases folder</span>
+                  </a>
+                </p>
+              </div>
             </div>
 
-            <div class="download-card">
-              <h3 class="download-title" data-i18n="download.platforms.title">Platforms</h3>
-              <ul class="platforms">
-                <li><span class="k">macOS</span><span class="v">.dmg / .zip</span></li>
-                <li><span class="k">Windows</span><span class="v">.zip</span></li>
-                <li><span class="k">Linux</span><span class="v">bundle</span></li>
-                <li><span class="k">iOS / iPadOS</span><span class="v">Xcode / TestFlight</span></li>
-                <li><span class="k">Android</span><span class="v">APK / AAB</span></li>
-              </ul>
-              <p class="muted" data-i18n="download.platforms.note">
-                Exact distribution formats depend on your release workflow.
-              </p>
+            <div class="download-col">
+              <div class="download-card">
+                <h3 class="download-title" data-i18n="download.platforms.title">Platforms</h3>
+                <ul class="platforms">
+                  <li>
+                    <span class="k" data-i18n="download.platforms.rowApple.k">iPhone · iPad · Mac</span>
+                    <span class="v" data-i18n="download.platforms.rowApple.v">App Store</span>
+                  </li>
+                  <li>
+                    <span class="k" data-i18n="download.platforms.rowAndroid.k">Android</span>
+                    <span class="v" data-i18n="download.platforms.rowAndroid.v">Google Play · APK mirror</span>
+                  </li>
+                  <li>
+                    <span class="k" data-i18n="download.platforms.rowWindows.k">Windows</span>
+                    <span class="v" data-i18n="download.platforms.rowWindows.v">Microsoft Store (coming) · GitHub Releases</span>
+                  </li>
+                  <li>
+                    <span class="k" data-i18n="download.platforms.rowLinux.k">Linux</span>
+                    <span class="v" data-i18n="download.platforms.rowLinux.v">GitHub Releases · build from source</span>
+                  </li>
+                </ul>
+                <p class="muted" data-i18n="download.platforms.note">
+                  Store availability may vary by region. Linux packages are provided via Releases or by building from
+                  source.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -360,6 +436,13 @@
               <summary data-i18n="faq.q3.q">Does it work offline?</summary>
               <p data-i18n="faq.q3.a">
                 Yes. Content is stored in local SQLite databases. You can import databases and update them when online.
+              </p>
+            </details>
+            <details class="qa">
+              <summary data-i18n="faq.q4.q">What if database download fails in the app?</summary>
+              <p data-i18n="faq.q4.a">
+                Download the SQLite database package from the manual folder linked in the Download section, then import
+                it into the app. If you are on Android without Google Play, use the APK mirror link there as well.
               </p>
             </details>
           </div>
