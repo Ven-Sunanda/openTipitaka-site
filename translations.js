@@ -162,7 +162,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "巴利三藏 · 多译文对照 · 校对共建",
       "hero.title": "在任意设备上舒适阅读、对照、搜索，并参与校对巴利三藏多语言译本。",
       "hero.mission":
-        "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于以现代科技承载古老智慧，在巴利圣典与现代多语言需求间架起桥梁，通过 AI 翻译与跨平台应用 OpenTipitaka，为全球学习者构建可信赖的多语言翻译与对照阅读平台。旨在让每一位研习者都能触手可及地探索上座部佛教三藏、义注及复注的深邃智慧。OpenTipitaka 支持巴利原文与多语言译文按段对照阅读，内置词典与全文搜索，支持书签、分屏、多标签、自动滚动与译文朗读等功能，并欢迎大家参与校对完善。",
+        "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于以现代科技承载古老智慧，在巴利圣典与现代多语言需求间架起桥梁，通过 AI 翻译与跨平台应用 OpenTipitaka，为全球学习者构建可信赖的多语言翻译与对照阅读平台。旨在让每一位研习者都能触手可及地探索上座部佛教三藏、义注及复注的深邃智慧。\n\nOpenTipitaka 支持巴利原文与多语言译文按段对照阅读，内置词典与全文搜索，支持书签、分屏、多标签、自动滚动与译文朗读等功能，并欢迎大家参与校对完善。",
       "hero.translationLangs":
         "目前支持的译文语言有：中文、英语、越南语、泰语、印地语、印度尼西亚语、日语、韩语、法语。未来还会进一步扩展其他语言。",
 
@@ -282,7 +282,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tam tạng Pāli · Đa bản dịch · Hiệu đính",
       "hero.title": "Đọc, đối chiếu, tìm kiếm và tham gia hiệu đính Tam tạng Pāli trên mọi thiết bị.",
       "hero.mission":
-        "Dưới sự hướng dẫn của Sayadaw Kumārābhivaṃsa, dự án cam kết dùng công nghệ hiện đại để mang đến trải nghiệm đọc đối chiếu đa ngôn ngữ đáng tin cậy về Tam tạng Pāli cho người học trên toàn thế giới. Thông qua dịch thuật hỗ trợ AI và ứng dụng đa nền tảng OpenTipitaka, dự án hỗ trợ đọc song song nguyên văn Pāli và nhiều bản dịch theo đoạn, có từ điển, tìm kiếm toàn văn, đánh dấu, chia màn hình, nhiều thẻ, tự cuộn, đọc to bản dịch và các tính năng liên quan—mời mọi người cùng hiệu đính và hoàn thiện.",
+        "Dưới sự hướng dẫn của Ngài Kumārābhivaṃsa Sayadaw, dự án này cống hiến cho việc đưa trí tuệ cổ đại qua công nghệ hiện đại. Bằng cách thu hẹp khoảng cách giữa kinh điển Pāli và nhu cầu đa ngôn ngữ đương đại, chúng tôi khai thác dịch thuật hỗ trợ AI và ứng dụng đa nền tảng OpenTipitaka để xây dựng nền tảng đáng tin cậy cho dịch thuật đa ngôn ngữ và đọc song song. Sứ mệnh của chúng tôi là đưa trí tuệ sâu sắc của Theravāda Tipiṭaka, Aṭṭhakathā và Ṭīkā đến gần mọi học giả và nhà nghiên cứu.\n\nOpenTipitaka hỗ trợ đọc song song nguyên văn Pāli và bản dịch đa ngôn ngữ theo từng đoạn. Ứng dụng có từ điển tích hợp, tìm kiếm toàn văn, đánh dấu, chia màn hình, nhiều thẻ, tự cuộn và đọc bản dịch bằng TTS. Chúng tôi nhiệt liệt chào đón mọi người cùng hiệu đính và hoàn thiện.",
       "hero.translationLangs":
         "Hiện tại các ngôn ngữ bản dịch được hỗ trợ gồm: tiếng Trung, tiếng Anh, tiếng Việt, tiếng Thái, tiếng Hindi, tiếng Indonesia, tiếng Nhật, tiếng Hàn và tiếng Pháp. Các ngôn ngữ khác sẽ được bổ sung sau này.",
       "badges.crossPlatform": "Đa nền tảng",
@@ -357,7 +357,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "པ་ལིའི་ཏི་པི་ཊ་ཀ · ཐབས་སྒྱུར་མང་པོ · ཞིབ་བཤེར",
       "hero.title": "སྐད་སྤྱོད་གང་རུང་ནས་ཏི་པི་ཊ་ཀ་ཀློག་པ་དང་ བསྡུར་བ་ འཚོལ་བ་ ཞིབ་བཤེར་གྱི་ལས་ཀ་བྱེད།",
       "hero.mission":
-        "Sayadaw Kumārābhivaṃsa གྱིས་མཛད་པའི་མཛུབ་སྟོན་འོག ལས་གཞིས་དེང་རབས་ལག་རྩལ་སྤྱད་དེ་འཛམ་གླིང་སྤྱིའི་སློབ་གྲྭ་བརྒྱུད་པ་ལ་པ་ལི་ཏི་པི་ཊ་ཀའི་སྐད་རིགས་མང་པོའི་བསྡུར་ཀློག་ཉམས་མྱོང་ཡིད་རྟོན་རུང་བ་ཞིག་མཁོ་འདོན་བྱེད། AI ཡིས་རོགས་པའི་ཡིག་སྒྱུར་དང་ OpenTipitaka སྣ་མང་སྟེགས་བུའི་མཉེན་ཆས་བརྒྱུད་དེ་པ་ལིའི་གཞུང་དང་ཐབས་སྒྱུར་མང་པོ་ཚན་པ་བགོས་ནས་མཉམ་དུ་ཀློག་པ། ཚིག་མཛོད། འཚོལ་བ། དཔེ་ཐོའི་རྟགས། བརྙན་བཤེར་བགོ་བ། རྟགས་མང་པོ། རང་འགྲིལ། ཐབས་སྒྱུར་ཀློག་སྒྲ་སོགས་ཀྱི་ནུས་པ་དང་ལྡན་ཞིང་། ཚང་མས་ཞིབ་བཤེར་དང་ལེགས་སྒྲིག་ལ་ཞུགས་རྒྱུར་དགའ་བསུ་ཞུ།",
+        "Sayadaw Kumārābhivaṃsa གྱི་མཛུབ་སྟོན་འོག ལས་གཞིས་དེང་རབས་ལག་རྩལ་བརྒྱུད་དེ་རྒྱུན་མཐུད་ཡིད་གཏད་ཀྱི་ཡེ་ཤེས་འཛུགས་པར་བརྩོན། པ་ལིའི་གསུང་རབ་དང་དེང་སྐབས་ཀྱི་སྐད་རིགས་མང་པོའི་དགོས་མཁོའི་བར་སྒྲོལ་ཏེ། AI གིས་རོགས་པའི་ཡིག་སྒྱུར་དང་སྣ་མང་སྟེགས་བུའི་མཉེན་ཆས་OpenTipitaka བརྒྱུད། སྐད་རིགས་མང་པོའི་ཡིག་སྒྱུར་དང་བསྡུར་ཀློག་གི་སྟེགས་བུ་ཡིད་རྟོན་རུང་བ་ཞིག་སྐྲུན་རྒྱུ། དམིགས་ཡུལ་ནི་Theravāda Tipiṭaka་དང་ Aṭṭhakathā Ṭīkā གི་ཡེ་ཤེས་ཟབ་མོ་སློབ་གྲྭ་སོ་སོ་ལ་ལག་ཏུ་འཛོམས་པར་བྱེད་པ་དེ་ཡིན།\n\nOpenTipitaka གིས་པ་ལིའི་ཡི་གེ་དང་སྐད་རིགས་མང་པོའི་ཡིག་སྒྱུར་ཚན་པ་རེ་རེ་བཞིན་བསྡུར་ནས་ཀློག་པར་རྒྱབ་སྐྱོར་བྱེད། ནང་གསོག་ཚིག་མཛོད། ཡོངས་རྫོགས་འཚོལ་བ། དཔེ་ཐོའི་རྟགས། བརྙན་བཤེར་བགོ་བ། རྟགས་མང་པོ། རང་འགྲིལ། ཡིག་སྒྱུར་ཀློག་སྒྲ (TTS) སོགས་ཡོད། ཚང་མས་ཞིབ་བཤེར་དང་ལེགས་སྒྲིག་ལ་ཞུགས་རྒྱུར་དགའ་བསུ་ཞུ།",
       "hero.translationLangs":
         "ད་ལྟ་རྒྱབ་སྐྱོར་བྱེད་པའི་ཡིག་སྒྱུར་སྐད་ཡིག་ནི། རྒྱ་སྐད། དབྱིན་སྐད། ཡུ་ནམ་སྐད། འཐག་སྐད། ཧིན་སྐད། ཨིན་ཏུ་ནི་ཞི་ཡ་སྐད། ཉི་ཧོང་སྐད། ཀོ་རི་ཡའི་སྐད། ཧྥ་རན་སིའི་སྐད་བཅས་ཡིན། མ་འོངས་པར་སྐད་ཡིག་གཞན་དག་ཀྱང་འཕེལ་རྒྱས་གཏོང་རྒྱུ་ཡིན།",
       "badges.crossPlatform": "སྣ་མང་སྟེགས་བུ",
@@ -430,7 +430,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Pāli Tipitaka · ဘာသာပြန်များ · စိစစ်ပြင်ဆင်မှု",
       "hero.title": "မည်သည့်ကိရိယာပေါ်မဆို Pāli Tipitaka ကိုဖတ်ရှု၊ နှိုင်းယှဉ်၊ ရှာဖွေပြီး စိစစ်ပြင်ဆင်နိုင်သည်။",
       "hero.mission":
-        "Sayadaw Kumārābhivaṃsa ၏ လမ်းညွှန်ချက်အောက်တွင် ပရောဂျက်သည် ခေတ်မီနည်းပညာဖြင့် ကမ္ဘာတဝှမ်းရှိ သင်ယူသူများအတွက် ယုံကြည်စိတ်ချရသော ပါဠိတိပိဋက ဘာသာစကားများစွာ နှိုင်းယှဉ်ဖတ်ရှုနိုင်မှု ပေးရန် ကြိုးပမ်းသည်။ AI အကူအညီပေးသော ဘာသြန်ခြင်းနှင့် ပလက်ဖောင်းစုံ OpenTipitaka အက်ပ်မှတဆင့် ပါဠိမူရင်းနှင့် ဘာသာပြန်များကို စာပိုဒ်အလိုက် ပေါင်းပြိုင်ဖတ်ရှုနိုင်စေပြီး အဘိဓာန်၊ စာသားအပြည့်ရှာဖွေမှု၊ စာမှတ်များ၊ မျက်နှာပြင်ခွဲခြင်း၊ တဘ်များစွာ၊ အလိုအလျောက်လှိမ့်ခြင်း၊ ဘာသာပြန်ဖတ်ကြားခြင်းစသည့် လုပ်ဆောင်ချက်များပါဝင်ကာ လူတိုင်းကို စိစစ်ပြင်ဆင်ရန် ဖိတ်ခေါ်ပါသည်။",
+        "Sayadaw Kumārābhivaṃsa ၏ လမ်းညွှန်ချက်အောက်တွင် ဤပရောဂျက်သည် ခေတ်မီနည်းပညာဖြင့် ရှေးရဟန္တာတော်၏ ဉာဏ်ပညာကို ဆောင်ရွက်ရန် ရည်ရွယ်သည်။ ပါဠိစာတမ်းများနှင့် ခေတ်မီ ဘာသာစကား လိုအပ်ချက်များကြား ကွာဟချက်ကို စည်းနှောင်ကာ AI အကူအညီပေးသော ဘာသာပြန်မှုနှင့် ဖြန့်တိုင်ပလက်ဖောင်းအက်ပ် OpenTipitaka အား အသုံးပြု၍ ဘာသာစကားများစွာ၏ ဘာသာပြန်နှင့် နှိုင်းယှဉ်ဖတ်ရှုမှု အတွက် ယုံကြည်စိတ်ချရသော ပလက်ဖောင်းတစ်ခု တည်ဆောက်သည်။ Theravāda Tipiṭaka၊ Aṭṭhakathā နှင့် Ṭīkā တို့၏ နက်နဲသော ဉာဏ်ပညာကို လေ့လာသူနှင့် သုတေသီတိုင်း လက်တွေ့နီးစွာ ရရှိစေရန် ဖြစ်သည်။\n\nOpenTipitaka သည် ပါဠိစာသားများနှင့် ဘာသာစကားများစွာသော ဘာသာပြန်များကို စာပိုဒ်အလိုက် နှိုင်းယှဉ်ဖတ်ရှုနိုင်သည်။ ပါဝင်သည့်အချက်များမှာ အဘိဓာန်၊ စာသားအပြည့်ရှာဖွေမှု၊ စာမှတ်များ၊ မျက်နှာပြင်ခွဲခြင်း၊ တဘ်များစွာ၊ အလိုအလျောက်လှိမ့်ခြင်းနှင့် ဘာသြန်များအတွက် ဖတ်ကြား (TTS) နှင့် အခြားလုပ်ဆောင်ချက်များ ဖြစ်သည်။ လူသားတိုင်းကို စိစစ်ပြင်ဆင်မှုနှင့် တိုးတက်မှုတွင် ပါဝင်ရန် ကြိုဆိုပါသည်။",
       "hero.translationLangs":
         "လက်ရှိပံ့ပိုးထားသော ဘာသာပြန်ဘာသာစကားများမှာ တရုတ်၊ အင်္ဂလိပ်၊ ဗီယက်နမ်၊ ထိုင်း၊ ဟိန္ဒီ၊ အင်ဒိုနီးရှား၊ ဂျပန်၊ ကိုရီးယား၊ ပြင်သစ် တို့ ဖြစ်သည်။ နောက်ပိုင်းတွင် အခြားဘာသာစကားများကို ထပ်မံ ထည့်သွင်းမည်။",
       "badges.crossPlatform": "ပလက်ဖောင်းစုံ",
@@ -503,7 +503,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "พระไตรปิฎกภาษาบาลี · หลายคำแปล · ตรวจทาน",
       "hero.title": "อ่าน เปรียบเทียบ ค้นหา และร่วมตรวจทานพระไตรปิฎกบาลีได้อย่างสบายบนทุกอุปกรณ์",
       "hero.mission":
-        "ภายใต้การแนะนำของพระอาจารย์ Kumārābhivaṃsa (Sayadaw Kumārābhivaṃsa) โครงการนี้มุ่งใช้เทคโนโลยีสมัยใหม่เพื่อมอบประสบการณ์อ่านเปรียบเทียบหลายภาษาที่เชื่อถือได้แก่ผู้ศึกษาพระไตรปิฎกบาลีทั่วโลก ผ่านการแปลด้วย AI และแอปข้ามแพลตฟอร์ม OpenTipitaka รองรับการอ่านบาลีต้นฉบับและคำแปลหลายภาษาแบบทีละย่อหน้า พร้อมพจนานุกรม ค้นหาทั้งหมด บุ๊กมาร์ก แบ่งหน้าจอ แท็บหลายแท็บ เลื่อนอัตโนมัติ อ่านคำแปลออกเสียง และคุณสมบัติที่เกี่ยวข้อง—เชิญทุกท่านร่วมตรวจทานและพัฒนาต่อไป",
+        "ภายใต้การแนะนำของพระอาจารย์ Kumārābhivaṃsa (Sayadaw Kumārābhivaṃsa) โครงการนี้มุ่งมั่นที่จะสืบสานพุทธปัญญาโบราณผ่านเทคโนโลยีสมัยใหม่ โดยเชื่อมช่องว่างระหว่างพระคัมภีร์บาลีกับความต้องการหลายภาษาในยุคปัจจุบัน เราใช้การแปลที่ได้รับความช่วยเหลือจาก AI และแอปพลิเคชันข้ามแพลตฟอร์ม OpenTipitaka เพื่อสร้างแพลตฟอร์มที่เชื่อถือได้สำหรับการแปลหลายภาษาและการอ่านเปรียบเทียบ พันธกิจของเราคือทำให้พุทธปัญญาอันลึกซึ้งของ Theravāda Tipiṭaka, Aṭṭhakathā และ Ṭīkā เข้าถึงได้สำหรับผู้ฝึกปฏิบัติและนักวิชาการทุกท่านอย่างใกล้ชิด\n\nOpenTipitaka รองรับการอ่านแบบเปรียบเทียบทีละย่อหน้าของต้นฉบับบาลีและคำแปลหลายภาษา มีพจนานุกรมในตัว การค้นหาข้อความเต็ม บุ๊กมาร์ก โหมดแบ่งหน้าจอ แท็บหลายแท็บ เลื่อนอัตโนมัติ และการอ่านคำแปลด้วยเสียง (TTS) เรายินดีต้อนรับการมีส่วนร่วมจากชุมชนในการตรวจทานและปรับปรุง",
       "hero.translationLangs":
         "ภาษาคำแปลที่รองรับในปัจจุบัน ได้แก่ ภาษาจีน อังกฤษ เวียดนาม ไทย ฮินดี อินโดนีเซีย ญี่ปุ่น เกาหลี และฝรั่งเศส ในอนาคตจะขยายเพิ่มภาษาอื่นต่อไป",
       "badges.crossPlatform": "ข้ามแพลตฟอร์ม",
@@ -576,7 +576,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "パーリ三蔵 · 複数訳 · 校正",
       "hero.title": "どのデバイスでも快適に、パーリ三蔵を読む・比較する・検索する・校正に参加する。",
       "hero.mission":
-        "クマーラビヴァンマ尊者（Sayadaw Kumārābhivaṃsa）のご指導のもと、現代の技術で世界中の学習者に信頼できるパーリ三蔵の多言語対照読書体験を届けることを目指しています。AI を補助した翻訳とクロスプラットフォームアプリ OpenTipitaka により、パーリ原文と複数言語の訳を段落単位で並読でき、辞書・全文検索・ブックマーク・分割表示・複数タブ・自動スクロール・訳文の読み上げなどの機能を備え、校正・改善への参加を歓迎します。",
+        "クマーラビヴァンマ尊者（Venerable Kumārābhivaṃsa Sayadaw）のご指導のもと、本プロジェクトは現代技術によって古くからの智慧を受け継ぐことに専念します。パーリ聖典と現代の多言語ニーズの隔たりを橋渡しし、AI 支援翻訳とクロスプラットフォームアプリ OpenTipitaka を活用して、多言語翻訳と対照読書のための信頼できるプラットフォームを構築します。上座部の Tipiṭaka、Aṭṭhakathā、Ṭīkā に込められた深い智慧を、すべての修行者と研究者が手の届くところで探れるようにすることが私たちの使命です。\n\nOpenTipitaka は、パーリ原文と多言語訳の段落ごとの対照読書を支えます。組み込み辞書、全文検索、ブックマーク、分割表示、複数タブ、自動スクロール、訳文の読み上げ（TTS）などの機能を備えています。校正と改善へのコミュニティからの貢献を心より歓迎します。",
       "hero.translationLangs":
         "現在対応している訳文の言語は、中国語、英語、ベトナム語、タイ語、ヒンディー語、インドネシア語、日本語、韓国語、フランス語です。今後、さらに他言語へ拡張していく予定です。",
       "badges.crossPlatform": "クロスプラットフォーム",
@@ -649,7 +649,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "팔리 삼장 · 다중 번역 · 교정",
       "hero.title": "어떤 기기에서도 편하게 팔리 삼장을 읽고, 비교하고, 검색하고, 교정에 참여하세요.",
       "hero.mission":
-        "쿠마라비왐사 스야도(Sayadaw Kumārābhivaṃsa)의 지도 아래, 현대 기술로 전 세계 학습자에게 신뢰할 수 있는 팔리 삼장 다국어 대조 독서 경험을 제공하고자 합니다. AI 보조 번역과 크로스플랫폼 앱 OpenTipitaka를 통해 팔리 원문과 여러 번역을 문단 단위로 병행 읽을 수 있으며, 사전·전체 검색·북마크·분할 화면·다중 탭·자동 스크롤·번역 음성 읽기 등의 기능을 지원하고, 교정과 개선에 모두의 참여를 환영합니다.",
+        "쿠마라비왐사 스야도(Venerable Kumārābhivaṃsa Sayadaw)의 지도 아래, 이 프로젝트는 현대 기술로 오래된 지혜를 이어 가는 데 힘씁니다. 팔리 경전과 오늘날의 다국어 수요 사이를 잇고, AI 보조 번역과 크로스플랫폼 앱 OpenTipitaka를 활용해 다국어 번역과 대조 독서를 위한 신뢰할 수 있는 플랫폼을 만듭니다. 상좌부 Tipiṭaka·Aṭṭhakathā·Ṭīkā에 담긴 깊은 지혜를 모든 수행자와 학자가 손쉽게 탐구하도록 하는 것이 우리의 사명입니다.\n\nOpenTipitaka는 팔리 원문과 여러 언어 번역의 문단별 병행 읽기를 지원합니다. 내장 사전, 전체 텍스트 검색, 북마크, 분할 화면, 여러 탭, 자동 스크롤, 번역 음성 읽기(TTS) 등을 갖추고 있습니다. 교정과 다듬기에 대한 공동체 기여를 따뜻하게 환영합니다.",
       "hero.translationLangs":
         "현재 지원되는 번역 언어는 중국어, 영어, 베트남어, 태국어, 힌디어, 인도네시아어, 일본어, 한국어, 프랑스어입니다. 앞으로 다른 언어로도 점차 확대할 예정입니다.",
       "badges.crossPlatform": "크로스플랫폼",
@@ -722,7 +722,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "पाली त्रिपिटक · बहु-अनुवाद · प्रूफरीडिंग",
       "hero.title": "किसी भी डिवाइस पर आराम से पाली त्रिपिटक पढ़ें, तुलना करें, खोजें और प्रूफरीडिंग में योगदान दें।",
       "hero.mission":
-        "सयादाव कुमाराभिवंस (Sayadaw Kumārābhivaṃsa) के मार्गदर्शन में यह परियोजना आधुनिक तकनीक से विश्वभर के अध्ययनकर्ताओं को विश्वसनीय पाली त्रिपिटक बहुभाषी तुलनात्मक पठन अनुभव देने हेतु समर्पित है। AI-सहायित अनुवाद और क्रॉस-प्लैटफ़ॉर्म ऐप OpenTipitaka के माध्यम से पाली मूल पाठ और कई भाषाओं के अनुवादों का अनुच्छेद-दर-अनुच्छेद समानांतर पठन संभव है; शब्दकोश, फुल-टेक्स्ट खोज, बुकमार्क, स्प्लिट-स्क्रीन, कई टैब, ऑटो-स्क्रॉल और अनुवाद का पाठ-से-वाक् जैसी सुविधाएँ हैं—सभी से प्रूफरीडिंग और सुधार में योगदान का आमंत्रण है।",
+        "आदरणीय कुमाराभिवंस सयादाव (Venerable Kumārābhivaṃsa Sayadaw) के मार्गदर्शन में यह परियोजना आधुनिक तकनीक के माध्यम से प्राचीन बुद्धिमत्ता को आगे बढ़ाने के लिए समर्पित है। पालि शास्त्रों और समकालीन बहुभाषी आवश्यकताओं के बीच की खाई को पाटते हुए, हम AI-सहायित अनुवाद और क्रॉस-प्लैटफ़ॉर्म ऐप OpenTipitaka का उपयोग कर बहुभाषी अनुवाद और समानांतर पठन के लिए एक विश्वसनीय मंच बनाते हैं। हमारा उद्देश्य थेरवाद Tipiṭaka, Aṭṭhakathā और Ṭīkā की गहन बुद्धिमत्ता को हर साधक और विद्वान की पहुँच में लाना है।\n\nOpenTipitaka पालि पाठों और बहुभाषी अनुवादों का अनुच्छेद-दर-अनुच्छेद समानांतर पठन समर्थित करता है। इसमें अंतर्निहित शब्दकोश, पूर्ण-पाठ खोज, बुकमार्क, स्प्लिट-स्क्रीन, बहु-टैब, ऑटो-स्क्रॉल और अनुवादों के लिए TTS जैसी सुविधाएँ हैं। प्रूफरीडिंग और संवर्धन हेतु समुदाय के योगदान का हम हार्दिक स्वागत करते हैं।",
       "hero.translationLangs":
         "वर्तमान में समर्थित अनुवाद भाषाएँ हैं: चीनी, अंग्रेज़ी, वियतनामी, थाई, हिंदी, इंडोनेशियाई, जापानी, कोरियाई और फ़्रेंच। भविष्य में और भाषाओं का विस्तार किया जाएगा।",
       "badges.crossPlatform": "क्रॉस-प्लैटफ़ॉर्म",
@@ -795,7 +795,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tipitaka Pali · Multitraducción · Revisión",
       "hero.title": "Lee, compara, busca y participa en la revisión del Tipitaka Pali en cualquier dispositivo.",
       "hero.mission":
-        "Bajo la guía del Sayadaw Kumārābhivaṃsa, este proyecto se dedica a ofrecer, con medios modernos, una lectura comparada multilingüe fiable del Tipitaka Pali para estudiantes de todo el mundo. Mediante traducción asistida por IA y la aplicación multiplataforma OpenTipitaka, admite lectura paralela del pali original y de varias traducciones por párrafos, con diccionario, búsqueda de texto completo, marcadores, pantalla dividida, varias pestañas, desplazamiento automático y lectura en voz alta de traducciones, entre otras funciones; se invita a todos a colaborar en la corrección y el perfeccionamiento.",
+        "Bajo la guía del venerable Kumārābhivaṃsa Sayadaw, este proyecto se dedica a transmitir la sabiduría antigua mediante la tecnología moderna. Al tender un puente entre las escrituras en pali y las necesidades multilingües contemporáneas, aprovechamos la traducción asistida por IA y la aplicación multiplataforma OpenTipitaka para construir una plataforma fiable de traducción multilingüe y lectura en paralelo. Nuestra misión es acercar la profunda sabiduría del Tipiṭaka, del Aṭṭhakathā y del Ṭīkā en la tradición Theravāda a practicantes y estudiosos.\n\nOpenTipitaka admite la lectura en paralelo, párrafo a párrafo, de textos en pali y traducciones multilingües. Incluye diccionarios integrados, búsqueda de texto completo, marcadores, pantalla dividida, varias pestañas, desplazamiento automático y lectura en voz alta (TTS) de las traducciones. Damos una cálida bienvenida a las contribuciones de la comunidad para la revisión y el perfeccionamiento.",
       "hero.translationLangs":
         "Los idiomas de traducción admitidos actualmente son chino, inglés, vietnamita, tailandés, hindi, indonesio, japonés, coreano y francés. Se ampliarán más idiomas en el futuro.",
       "badges.crossPlatform": "Multiplataforma",
@@ -868,7 +868,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tipitaka Pali · Multi-terjemahan · Koreksi",
       "hero.title": "Baca, bandingkan, cari, dan ikut mengoreksi Tipitaka Pali di perangkat apa pun.",
       "hero.mission":
-        "Di bawah bimbingan Sayadaw Kumārābhivaṃsa, proyek ini berkomitmen memanfaatkan teknologi modern untuk memberi pelajar di seluruh dunia pengalaman membaca Tipitaka Pali multibahasa yang andal dan dapat dibandingkan. Melalui terjemahan berbantuan AI dan aplikasi lintas platform OpenTipitaka, proyek mendukung bacaan paralel teks Pali asli dan berbagai terjemahan per paragraf, dengan kamus, pencarian teks penuh, bookmark, layar terbagi, banyak tab, gulir otomatis, pembacaan suara terjemahan, dan fitur terkait lainnya—semua orang dipersilakan ikut memeriksa dan menyempurnakan.",
+        "Di bawah bimbingan Yang Mulia Kumārābhivaṃsa Sayadaw, proyek ini berdedikasi membawa kebijaksanaan kuno melalui teknologi modern. Dengan menjembatani kesenjangan antara kitab-kitab Pali dan kebutuhan multibahasa kontemporer, kami memanfaatkan terjemahan berbantuan AI dan aplikasi lintas platform OpenTipitaka untuk membangun platform tepercaya bagi terjemahan multibahasa dan bacaan paralel. Misi kami adalah menjadikan kebijaksanaan mendalam Tipiṭaka, Aṭṭhakathā, dan Ṭīkā Theravāda dapat diakses oleh setiap praktisi dan sarjana.\n\nOpenTipitaka mendukung bacaan paralel teks Pali dan terjemahan multibahasa per paragraf. Aplikasi ini dilengkapi kamus bawaan, pencarian teks penuh, penanda, layar terbagi, banyak tab, gulir otomatis, dan TTS untuk terjemahan. Kami dengan hangat menyambut kontribusi komunitas untuk koreksi dan penyempurnaan.",
       "hero.translationLangs":
         "Bahasa terjemahan yang saat ini didukung: Mandarin, Inggris, Vietnam, Thai, Hindi, Indonesia, Jepang, Korea, dan Prancis. Bahasa lain akan ditambahkan secara bertahap ke depannya.",
       "badges.crossPlatform": "Lintas platform",
@@ -941,7 +941,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Tipitaka pali · Multi-traductions · Relecture",
       "hero.title": "Lisez, comparez, cherchez et contribuez à la relecture du Tipitaka pali sur n’importe quel appareil.",
       "hero.mission":
-        "Sous la direction du Sayadaw Kumārābhivaṃsa, ce projet s’engage à offrir, grâce aux moyens modernes, une expérience de lecture comparée multilingue fiable du Tipitaka pali aux apprenants du monde entier. Grâce à la traduction assistée par IA et à l’application multiplateforme OpenTipitaka, il permet une lecture parallèle du pali original et de plusieurs traductions par paragraphe, avec dictionnaire, recherche plein texte, signets, écran partagé, onglets multiples, défilement automatique, lecture à voix haute des traductions et autres fonctions associées—toutes les contributions pour la relecture et l’amélioration sont les bienvenues.",
+        "Sous la direction du vénérable Kumārābhivaṃsa Sayadaw, ce projet se consacre à porter la sagesse ancienne grâce à la technologie moderne. En comblant l’écart entre les écritures palies et les besoins multilingues contemporains, nous exploitons la traduction assistée par IA et l’application multiplateforme OpenTipitaka pour bâtir une plateforme fiable de traduction multilingue et de lecture en parallèle. Notre mission est de rendre accessible à chaque pratiquant et chercheur la profonde sagesse du Tipiṭaka, de l’Aṭṭhakathā et du Ṭīkā dans la tradition Theravāda.\n\nOpenTipitaka prend en charge la lecture en parallèle, paragraphe par paragraphe, des textes palis et des traductions multilingues. Il offre des dictionnaires intégrés, une recherche plein texte, des signets, le mode écran partagé, plusieurs onglets, le défilement automatique et la synthèse vocale (TTS) des traductions. Nous accueillons chaleureusement les contributions de la communauté pour la relecture et l’affinage.",
       "hero.translationLangs":
         "Les langues de traduction actuellement prises en charge sont le chinois, l’anglais, le vietnamien, le thaï, l’hindi, l’indonésien, le japonais, le coréen et le français. D’autres langues seront ajoutées progressivement.",
       "badges.crossPlatform": "Multiplateforme",
