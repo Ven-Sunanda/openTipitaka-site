@@ -106,13 +106,13 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s2": "On first launch, choose the app interface language.",
       "download.quickStart.s3": "While online, download translation and dictionary databases from inside the app.",
       "download.quickStart.hint": "If you build from source, please read `PROJECT.md` for packaging notes.",
-      "download.dataHelp.title": "Tipitaka folder & manual databases",
+      "download.dataHelp.title": "Tipitaka directory & manual databases",
       "download.dataHelp.apkIntro":
-        "Android APK, Windows, and Linux installers are provided in the Pa-Auk Tipitaka folder (link below). Use it when you do not install from an app store.",
-      "download.dataHelp.apkCta": "Open Tipitaka folder (APK · Windows · Linux)",
+        "Android APK, Windows, and Linux installers are published in the Pa-Auk society file site’s Tipitaka directory (link below). The link opens that directory directly—you do not need to browse the file site folder by folder. Use it when you do not install from an app store.",
+      "download.dataHelp.apkCta": "Open Tipitaka directory (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "If in-app database download fails, download a SQLite package from the folder below, then import it into the app.",
-      "download.dataHelp.manualCta": "Open SqlLite Database folder",
+        "If in-app database download fails, use the link below to open the SqlLite Database directory directly, download a SQLite package, then import it into the app.",
+      "download.dataHelp.manualCta": "Open SqlLite Database directory",
       "download.platforms.title": "Platforms",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -135,7 +135,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.q3.a": "Yes. Content is stored in local SQLite databases. You can import databases and update them when online.",
       "faq.q4.q": "What if database download fails in the app?",
       "faq.q4.a":
-        "Use the SqlLite Database link to download a database package, then import it into the app. Use the Tipitaka folder link for the Android APK and for Windows/Linux installers when you do not use app stores.",
+        "Use the SqlLite Database link—it opens that directory directly—to download a database package, then import it into the app. Use the Tipitaka directory link (also direct) for the Android APK and for Windows/Linux installers when you do not use app stores.",
 
       "footer.tagline": "Multi-translation Pali Tipitaka reading & proofreading.",
       "footer.copyright": "© 2026 Sunanda. This app may be freely shared and distributed.",
@@ -227,9 +227,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "从源码构建请阅读 `PROJECT.md` 的打包与数据库说明。",
       "download.dataHelp.title": "Tipitaka 目录与手动数据库",
       "download.dataHelp.apkIntro":
-        "Android 安装包（APK）、Windows 与 Linux 安装包均发布在帕奥学会文件站点的 Tipitaka 目录（下方链接）。未通过应用商店安装时请使用该目录。",
+        "Android 安装包（APK）、Windows 与 Linux 安装包均发布在帕奥学会文件站点的 Tipitaka 目录（下方链接）。点击链接将直接进入该目录，无需在文件站中逐层查找。未通过应用商店安装时请使用该链接。",
       "download.dataHelp.apkCta": "打开 Tipitaka 目录（APK · Windows · Linux）",
-      "download.dataHelp.manualIntro": "若应用内数据库下载失败，请在下方 SqlLite Database 目录手动下载 SQLite 数据包，再在应用内导入。",
+      "download.dataHelp.manualIntro":
+        "若应用内数据库下载失败，请点击下方链接直接进入 SqlLite Database 目录，下载 SQLite 数据包后在应用内导入。",
       "download.dataHelp.manualCta": "打开 SqlLite Database 目录",
       "download.platforms.title": "平台",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -252,7 +253,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.q3.a": "支持。内容存储在本地 SQLite 数据库中；可导入数据库，并在联网时更新。",
       "faq.q4.q": "应用内数据库下载失败怎么办？",
       "faq.q4.a":
-        "使用 SqlLite Database 链接下载数据库包并导入应用；未使用应用商店时，可通过 Tipitaka 目录获取 Android APK 以及 Windows/Linux 安装包。",
+        "使用 SqlLite Database 链接（直达该目录）下载数据库包并导入应用；未使用应用商店时，可通过 Tipitaka 目录链接（同样直达）获取 Android APK 以及 Windows/Linux 安装包。",
 
       "footer.tagline": "多译文对照的巴利三藏阅读与校对工具。",
       "footer.copyright": "© 2026 Sunanda。本程序可自由分享和传播。",
@@ -299,10 +300,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "Nếu build từ mã nguồn, hãy đọc `PROJECT.md` về đóng gói.",
       "download.dataHelp.title": "Thư mục Tipitaka & CSDL thủ công",
       "download.dataHelp.apkIntro":
-        "APK Android, bộ cài Windows và Linux được đặt trong thư mục Tipitaka trên máy chủ tệp Pa-Auk (liên kết dưới). Dùng khi không cài qua cửa hàng ứng dụng.",
+        "Gói cài APK Android, Windows và Linux được đăng trên thư mục Tipitaka của trang tệp Hội Pa-Auk (liên kết dưới). Bấm liên kết sẽ vào thẳng thư mục đó, không cần tự duyệt từng cấp trên máy chủ. Dùng khi không cài qua cửa hàng ứng dụng.",
       "download.dataHelp.apkCta": "Mở thư mục Tipitaka (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "Nếu tải CSDL trong ứng dụng thất bại, tải gói SQLite từ thư mục bên dưới rồi nhập vào ứng dụng.",
+        "Nếu tải CSDL trong ứng dụng thất bại, hãy bấm liên kết dưới để vào thẳng thư mục SqlLite Database, tải gói SQLite rồi nhập vào ứng dụng.",
       "download.dataHelp.manualCta": "Mở thư mục SqlLite Database",
       "download.platforms.title": "Nền tảng",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -318,7 +319,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "Hỏi đáp",
       "faq.q4.q": "Tải cơ sở dữ liệu trong ứng dụng bị lỗi thì sao?",
       "faq.q4.a":
-        "Dùng liên kết SqlLite Database để tải gói CSDL rồi nhập vào ứng dụng. Dùng liên kết thư mục Tipitaka cho APK Android và bộ cài Windows/Linux khi không dùng cửa hàng.",
+        "Dùng liên kết SqlLite Database (mở thẳng thư mục đó) để tải gói CSDL rồi nhập vào ứng dụng. Dùng liên kết thư mục Tipitaka (cũng mở thẳng) cho APK Android và bộ cài Windows/Linux khi không dùng cửa hàng.",
       "footer.tagline": "Đọc & hiệu đính Tam tạng Pāli với nhiều bản dịch.",
       "footer.copyright": "© 2026 Sunanda. Ứng dụng có thể được chia sẻ và phân phối tự do.",
     },
@@ -360,10 +361,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "ཁུངས་ཀོད་ནས་སྒྲིག་པར་ `PROJECT.md` ལྟོས།",
       "download.dataHelp.title": "Tipitaka ཡིག་ཁུག་དང་ SQLite ལག་ཐོག",
       "download.dataHelp.apkIntro":
-        "Android APK་དང་ Windows/Linux སྒྲིག་ཆས་ Pa-Auk ཡིག་ཁུག་བཤེར་ཆས་ཀྱི་ Tipitaka ཡིག་ཁུག（འོག་གི་སྦྲེལ་ཐག）ནས་ཡོད། ཚོང་ཁང་མེད་པར་བཙུགས་ན་སྦྲེལ་ཐག་དེ་སྤྱོད།",
+        "Android APK་དང་ Windows/Linux སྒྲིག་ཆས་ Pa-Auk ཡིག་ཁུག་བཤེར་ཆས་ཀྱི་ Tipitaka ཡིག་ཁུག（འོག་གི་སྦྲེལ་ཐག）དུ་ཡོད། སྦྲེལ་ཐག་གིས་ཡིག་ཁུག་དེ་ཐད་ཀར་འབྱེད་པས་ཡིག་ཁུག་བཤེར་ཆས་ནང་རིམ་པ་རེ་རེ་བཞིན་འཚོལ་དགོས་མིན། ཚོང་ཁང་མེད་པར་བཙུགས་ན་སྦྲེལ་ཐག་དེ་སྤྱོད།",
       "download.dataHelp.apkCta": "Tipitaka ཡིག་ཁུག་ཁ་ཕྱེ（APK · Windows · Linux）",
       "download.dataHelp.manualIntro":
-        "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ཚེ་འོག་གི་ SqlLite Database ཡིག་ཁུག་ནས་ SQLite ཕབ་ལེན་ནས་ནང་འཇུག་བྱེད།",
+        "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ཚེ་འོག་གི་སྦྲེལ་ཐག་གིས་ SqlLite Database ཡིག་ཁུག་ཐད་ཀར་ཁ་ཕྱེ་ནས་ SQLite ཕབ་ལེན་བྱས་ཏེ་ནང་འཇུག་བྱེད།",
       "download.dataHelp.manualCta": "SqlLite Database ཡིག་ཁུག་ཁ་ཕྱེ",
       "download.platforms.title": "སྟེགས་བུ",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -379,7 +380,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "དྲི་བ-ལན",
       "faq.q4.q": "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ན་གང་བྱེད།",
       "faq.q4.a":
-        "SqlLite Database སྦྲེལ་ཐག་གིས་གཞི་གྲངས་ཐུམ་སྒྲིལ་ཕབ་ལེན་ནས་མཉེན་ཆས་སུ་ནང་འཇུག་བྱེད། ཚོང་ཁང་མེད་ན་ Tipitaka སྦྲེལ་ཐག་གིས་ APK་དང་ Windows/Linux སྒྲིག་ཆས།",
+        "SqlLite Database སྦྲེལ་ཐག་གིས་ཡིག་ཁུག་དེ་ཐད་ཀར་འབྱེད་ནས་གཞི་གྲངས་ཐུམ་སྒྲིལ་ཕབ་ལེན་བྱས་ཏེ་མཉེན་ཆས་སུ་ནང་འཇུག་བྱེད། ཚོང་ཁང་མེད་ན་ Tipitaka སྦྲེལ་ཐག་གིས་ཐད་ཀར་ APKདང་ Windows/Linux སྒྲིག་ཆས་ཐོབ།",
       "footer.tagline": "པ་ལིའི་ཏི་པི་ཊ་ཀ་ཐབས་སྒྱུར་མང་པོ་དང་མཉམ་དུ་ཀློག་པ/ཞིབ་བཤེར།",
       "footer.copyright": "© 2026 Sunanda. མཉེན་ཆས་འདི་རང་དབང་གིས་བགོ་སྤེལ་བྱས་ཆོག",
     },
@@ -421,10 +422,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "ရင်းမြစ်ကုဒ်မှ တည်ဆောက်ပါက `PROJECT.md` ကို ဖတ်ပါ။",
       "download.dataHelp.title": "Tipitaka ဖိုလ်ဒါနှင့် လက်ဖြင့် ဒေတာဘေ့စ်",
       "download.dataHelp.apkIntro":
-        "Android APK၊ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk ဖိုင်ဆာဗာရှိ Tipitaka ဖိုလ်ဒါ（အောက်လင့်）တွင် ထားသည်။ စတိုးမသုံးပါက ထိုဖိုလ်ဒါကို သုံးပါ။",
+        "Android APK၊ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk ဖိုင်ဆာဗာရှိ Tipitaka ဖိုလ်ဒါ（အောက်လင့်）တွင် ထုတ်ဝေထားသည်။ လင့်ခ်ကို နှိပ်ပါက ထိုဖိုလ်ဒါသို့ တိုက်ရိုက် သွားရောက်နိုင်ပြီး ဖိုင်ဆာဗာတွင် အဆင့်ဆင့် ရှာဖွေစရာ မလိုပါ။ စတိုးမသုံးပါက ဤလင့်ခ်ကို သုံးပါ။",
       "download.dataHelp.apkCta": "Tipitaka ဖိုလ်ဒါဖွင့်ရန် (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက အောက်ပါ SqlLite Database ဖိုလ်ဒါမှ SQLite ပက်ကေ့ချ်ကို ဒေါင်းပြီး အက်ပ်သို့ ထည့်သွင်းပါ။",
+        "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက အောက်ပါ လင့်ခ်ဖြင့် SqlLite Database ဖိုလ်ဒါသို့ တိုက်ရိုက် သွားပြီး SQLite ပက်ကေ့ချ်ကို ဒေါင်းကာ အက်ပ်သို့ ထည့်သွင်းပါ။",
       "download.dataHelp.manualCta": "SqlLite Database ဖိုလ်ဒါဖွင့်ရန်",
       "download.platforms.title": "ပလက်ဖောင်းများ",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -440,7 +441,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "မေးလေ့ရှိသောမေးခွန်းများ",
       "faq.q4.q": "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက?",
       "faq.q4.a":
-        "SqlLite Database လင့်မှ ဒေတာဘေ့စ်ပက်ကေ့ချ်ဒေါင်းပြီး အက်ပ်သို့ ထည့်သွင်းပါ။ စတိုးမသုံးသောအခါ Tipitaka လင့်မှ Android APK နှင့် Windows/Linux အင်စတောလာ ရယူပါ။",
+        "SqlLite Database လင့်သည် ထိုဖိုလ်ဒါသို့ တိုက်ရိုက် ဖွင့်ပေးသည်။ ပက်ကေ့ချ်ဒေါင်းပြီး အက်ပ်သို့ ထည့်သွင်းပါ။ စတိုးမသုံးသောအခါ Tipitaka လင့်မှလည်း တိုက်ရိုက် သွားရောက်၍ Android APK နှင့် Windows/Linux အင်စတောလာ ရယူပါ။",
       "footer.tagline": "ဘာသာပြန်များစွာဖြင့် Pāli Tipitaka ဖတ်ရှု/စိစစ်。",
       "footer.copyright": "© 2026 Sunanda. ဤအက်ပ်ကို လွတ်လပ်စွာ မျှဝေ၍ ဖြန့်ချိနိုင်သည်။",
     },
@@ -482,10 +483,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "หากสร้างจากซอร์สโค้ด โปรดอ่าน `PROJECT.md`",
       "download.dataHelp.title": "โฟลเดอร์ Tipitaka และฐานข้อมูลด้วยตนเอง",
       "download.dataHelp.apkIntro":
-        "แพ็กเกจติดตั้ง Android (APK) Windows และ Linux อยู่ในโฟลเดอร์ Tipitaka บนเซิร์ฟเวอร์ไฟล์ Pa-Auk (ลิงก์ด้านล่าง) ใช้เมื่อไม่ติดตั้งจากสโตร์",
+        "แพ็กเกจติดตั้ง Android (APK) Windows และ Linux เผยแพร่ในโฟลเดอร์ Tipitaka บนเว็บไซต์ไฟล์ของคณะป่าเอ๋ก (ลิงก์ด้านล่าง) ลิงก์จะเปิดเข้าโฟลเดอร์นั้นโดยตรง ไม่ต้องคลิกเข้าไปทีละชั้นในเว็บไฟล์ ใช้เมื่อไม่ติดตั้งจากสโตร์",
       "download.dataHelp.apkCta": "เปิดโฟลเดอร์ Tipitaka (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "หากดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จ ให้ดาวน์โหลดแพ็กเกจ SQLite จากโฟลเดอร์ SqlLite Database ด้านล่าง แล้วนำเข้าแอป",
+        "หากดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จ ให้ใช้ลิงก์ด้านล่างเพื่อเปิดโฟลเดอร์ SqlLite Database โดยตรง ดาวน์โหลดแพ็กเกจ SQLite แล้วนำเข้าแอป",
       "download.dataHelp.manualCta": "เปิดโฟลเดอร์ SqlLite Database",
       "download.platforms.title": "แพลตฟอร์ม",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -501,7 +502,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "คำถามที่พบบ่อย",
       "faq.q4.q": "ดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จทำอย่างไร",
       "faq.q4.a":
-        "ใช้ลิงก์ SqlLite Database เพื่อดาวน์โหลดแพ็กเกจฐานข้อมูลแล้วนำเข้าแอป ใช้ลิงก์โฟลเดอร์ Tipitaka สำหรับ APK ของ Android และตัวติดตั้ง Windows/Linux เมื่อไม่ใช้สโตร์",
+        "ใช้ลิงก์ SqlLite Database ซึ่งเปิดเข้าโฟลเดอร์นั้นโดยตรงเพื่อดาวน์โหลดแพ็กเกจฐานข้อมูลแล้วนำเข้าแอป ใช้ลิงก์โฟลเดอร์ Tipitaka ซึ่งก็เปิดตรงเช่นกันสำหรับ APK ของ Android และตัวติดตั้ง Windows/Linux เมื่อไม่ใช้สโตร์",
       "footer.tagline": "อ่านและตรวจทานพระไตรปิฎกบาลีหลายคำแปล",
       "footer.copyright": "© 2026 Sunanda. แอปนี้สามารถแชร์และแจกจ่ายได้อย่างเสรี",
     },
@@ -543,10 +544,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "ソースからビルドする場合は `PROJECT.md` を参照してください。",
       "download.dataHelp.title": "Tipitaka フォルダと手動データベース",
       "download.dataHelp.apkIntro":
-        "Android APK、Windows、Linux のインストーラーは Pa-Auk ファイルサーバーの Tipitaka フォルダ（下のリンク）にあります。ストアを使わない場合にご利用ください。",
+        "Android APK、Windows、Linux のインストーラーは Pa-Auk 学会ファイルサイトの Tipitaka フォルダ（下のリンク）に公開されています。リンクはそのフォルダを直接開き、ファイルサイト内を階層で辿る必要はありません。ストアを使わない場合にご利用ください。",
       "download.dataHelp.apkCta": "Tipitaka フォルダを開く（APK · Windows · Linux）",
       "download.dataHelp.manualIntro":
-        "アプリ内のデータベースのダウンロードが失敗した場合は、下の SqlLite Database フォルダから SQLite パッケージを取得し、アプリにインポートしてください。",
+        "アプリ内のデータベースのダウンロードが失敗した場合は、下のリンクから SqlLite Database フォルダを直接開き、SQLite パッケージを取得してアプリにインポートしてください。",
       "download.dataHelp.manualCta": "SqlLite Database フォルダを開く",
       "download.platforms.title": "プラットフォーム",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -562,7 +563,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "アプリ内のデータベースのダウンロードに失敗したら？",
       "faq.q4.a":
-        "SqlLite Database のリンクからデータベースパッケージを取得してアプリにインポートしてください。Android の APK と Windows/Linux のインストーラーは、ストアを使わない場合に Tipitaka フォルダのリンクから入手できます。",
+        "SqlLite Database のリンクは該当フォルダを直接開きます。そこからデータベースパッケージを取得してアプリにインポートしてください。ストアを使わない場合、Tipitaka フォルダのリンクも直接開き、Android の APK と Windows/Linux のインストーラーを入手できます。",
       "footer.tagline": "複数訳で読むパーリ三蔵：読書と校正。",
       "footer.copyright": "© 2026 Sunanda. 本アプリは自由に共有・配布できます。",
     },
@@ -604,10 +605,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "소스에서 빌드할 경우 `PROJECT.md`를 읽으세요.",
       "download.dataHelp.title": "Tipitaka 폴더 및 수동 데이터베이스",
       "download.dataHelp.apkIntro":
-        "Android APK, Windows, Linux 설치 파일은 Pa-Auk 파일 서버의 Tipitaka 폴더(아래 링크)에 있습니다. 스토어를 쓰지 않을 때 이용하세요.",
+        "Android APK, Windows, Linux 설치 파일은 Pa-Auk 학회 파일 사이트의 Tipitaka 폴더(아래 링크)에 게시됩니다. 링크를 누르면 해당 폴더로 바로 이동하며 파일 사이트를 단계마다 찾아 들어갈 필요가 없습니다. 스토어를 쓰지 않을 때 이용하세요.",
       "download.dataHelp.apkCta": "Tipitaka 폴더 열기 (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "앱에서 데이터베이스 다운로드가 실패하면 아래 SqlLite Database 폴더에서 SQLite 패키지를 받아 앱으로 가져오세요.",
+        "앱에서 데이터베이스 다운로드가 실패하면 아래 링크로 SqlLite Database 폴더를 바로 연 뒤 SQLite 패키지를 받아 앱으로 가져오세요.",
       "download.dataHelp.manualCta": "SqlLite Database 폴더 열기",
       "download.platforms.title": "플랫폼",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -623,7 +624,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "앱에서 데이터베이스 다운로드가 실패하면요?",
       "faq.q4.a":
-        "SqlLite Database 링크에서 데이터베이스 패키지를 받아 앱으로 가져오세요. 스토어를 쓰지 않을 때 Android APK와 Windows/Linux 설치 파일은 Tipitaka 폴더 링크에서 받으세요.",
+        "SqlLite Database 링크는 해당 폴더를 바로 엽니다. 패키지를 받아 앱으로 가져오세요. 스토어를 쓰지 않을 때 Tipitaka 폴더 링크도 바로 열어 Android APK와 Windows/Linux 설치 파일을 받으세요.",
       "footer.tagline": "다중 번역으로 읽는 팔리 삼장: 읽기와 교정.",
       "footer.copyright": "© 2026 Sunanda. 이 앱은 자유롭게 공유 및 배포할 수 있습니다.",
     },
@@ -665,10 +666,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "स्रोत से बिल्ड करने पर `PROJECT.md` पढ़ें।",
       "download.dataHelp.title": "Tipitaka फ़ोल्डर और मैन्युअल डेटाबेस",
       "download.dataHelp.apkIntro":
-        "Android APK, Windows और Linux इंस्टॉलर Pa-Auk फ़ाइल सर्वर के Tipitaka फ़ोल्डर (नीचे लिंक) में हैं; स्टोर के बिना उपयोग करें।",
+        "Android APK, Windows और Linux इंस्टॉलर Pa-Auk सोसाइटी फ़ाइल साइट के Tipitaka फ़ोल्डर (नीचे लिंक) में प्रकाशित हैं। लिंक सीधे उस फ़ोल्डर पर खुलता है; फ़ाइल साइट में मैन्युअल रूप से स्तर दर स्तर नेविगेट करने की ज़रूरत नहीं। स्टोर के बिना उपयोग करें।",
       "download.dataHelp.apkCta": "Tipitaka फ़ोल्डर खोलें (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "ऐप में डेटाबेस डाउनलोड विफल हो तो नीचे SqlLite Database फ़ोल्डर से SQLite पैकेज डाउनलोड कर ऐप में आयात करें।",
+        "ऐप में डेटाबेस डाउनलोड विफल हो तो नीचे दिए लिंक से SqlLite Database फ़ोल्डर सीधे खोलें, SQLite पैकेज डाउनलोड कर ऐप में आयात करें।",
       "download.dataHelp.manualCta": "SqlLite Database फ़ोल्डर खोलें",
       "download.platforms.title": "प्लेटफ़ॉर्म",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -684,7 +685,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "ऐप में डेटाबेस डाउनलोड विफल हो तो?",
       "faq.q4.a":
-        "SqlLite Database लिंक से डेटाबेस पैकेज डाउनलोड कर ऐप में आयात करें। स्टोर के बिना Android APK और Windows/Linux इंस्टॉलर Tipitaka फ़ोल्डर लिंक से लें।",
+        "SqlLite Database लिंक सीधे उस फ़ोल्डर पर खुलता है; पैकेज डाउनलोड कर ऐप में आयात करें। स्टोर के बिना Tipitaka फ़ोल्डर लिंक भी सीधे खुलता है—वहाँ से Android APK और Windows/Linux इंस्टॉलर लें।",
       "footer.tagline": "बहु-अनुवाद पाली त्रिपिटक: पठन और प्रूफरीडिंग।",
       "footer.copyright": "© 2026 Sunanda. यह ऐप स्वतंत्र रूप से साझा और वितरित किया जा सकता है।",
     },
@@ -726,10 +727,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "Si compilas desde el código fuente, lee `PROJECT.md`.",
       "download.dataHelp.title": "Carpeta Tipitaka y bases de datos manuales",
       "download.dataHelp.apkIntro":
-        "Los paquetes de instalación para Android (APK), Windows y Linux están en la carpeta Tipitaka del servidor Pa-Auk (enlace abajo); úsalo si no instalas desde las tiendas.",
+        "Los instaladores Android (APK), Windows y Linux se publican en la carpeta Tipitaka del sitio de archivos de la sociedad Pa-Auk (enlace abajo). El enlace abre esa carpeta directamente; no hace falta navegar manualmente nivel por nivel en el sitio. Úsalo si no instalas desde las tiendas.",
       "download.dataHelp.apkCta": "Abrir carpeta Tipitaka (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "Si falla la descarga en la app, descarga el paquete SQLite desde la carpeta SqlLite Database inferior e impórtalo en la app.",
+        "Si falla la descarga en la app, usa el enlace inferior para abrir directamente la carpeta SqlLite Database, descarga el paquete SQLite e impórtalo en la app.",
       "download.dataHelp.manualCta": "Abrir carpeta SqlLite Database",
       "download.platforms.title": "Plataformas",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -745,7 +746,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "¿Qué hago si falla la descarga de la base de datos en la app?",
       "faq.q4.a":
-        "Usa el enlace SqlLite Database para descargar el paquete de base de datos e impórtalo en la app. El APK de Android y los instaladores de Windows/Linux están en el enlace de la carpeta Tipitaka cuando no uses las tiendas.",
+        "El enlace SqlLite Database abre esa carpeta directamente: descarga el paquete e impórtalo en la app. Sin tiendas, el enlace de Tipitaka también abre directo para el APK y los instaladores de Windows/Linux.",
       "footer.tagline": "Lectura y revisión del Tipitaka Pali con múltiples traducciones.",
       "footer.copyright": "© 2026 Sunanda. Esta app puede compartirse y distribuirse libremente.",
     },
@@ -787,10 +788,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "Jika membangun dari sumber, baca `PROJECT.md`.",
       "download.dataHelp.title": "Folder Tipitaka & basis data manual",
       "download.dataHelp.apkIntro":
-        "APK Android, Windows, dan Linux ada di folder Tipitaka server Pa-Auk (tautan di bawah); gunakan jika tidak memasang dari toko aplikasi.",
+        "APK Android, Windows, dan Linux dipublikasikan di folder Tipitaka situs berkas Pa-Auk (tautan di bawah). Tautan membuka folder itu langsung—tidak perlu menelusuri situs berkas tingkat demi tingkat secara manual. Gunakan jika tidak memasang dari toko aplikasi.",
       "download.dataHelp.apkCta": "Buka folder Tipitaka (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "Jika unduhan basis data di aplikasi gagal, unduh paket SQLite dari folder SqlLite Database di bawah lalu impor ke aplikasi.",
+        "Jika unduhan basis data di aplikasi gagal, gunakan tautan di bawah untuk membuka folder SqlLite Database langsung, unduh paket SQLite lalu impor ke aplikasi.",
       "download.dataHelp.manualCta": "Buka folder SqlLite Database",
       "download.platforms.title": "Platform",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -806,7 +807,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "Bagaimana jika unduhan basis data di aplikasi gagal?",
       "faq.q4.a":
-        "Gunakan tautan SqlLite Database untuk mengunduh paket basis data lalu impor ke aplikasi. APK Android dan pemasang Windows/Linux ada di tautan folder Tipitaka bila tidak memakai toko.",
+        "Tautan SqlLite Database membuka folder tersebut langsung—unduh paket lalu impor ke aplikasi. Tanpa toko, tautan Tipitaka juga langsung untuk APK Android dan pemasang Windows/Linux.",
       "footer.tagline": "Membaca & mengoreksi Tipitaka Pali dengan multi-terjemahan.",
       "footer.copyright": "© 2026 Sunanda. Aplikasi ini dapat dibagikan dan didistribusikan secara bebas.",
     },
@@ -848,10 +849,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.hint": "Si vous compilez depuis les sources, lisez `PROJECT.md`.",
       "download.dataHelp.title": "Dossier Tipitaka et bases manuelles",
       "download.dataHelp.apkIntro":
-        "Les installateurs Android (APK), Windows et Linux se trouvent dans le dossier Tipitaka du serveur Pa-Auk (lien ci-dessous) ; à utiliser hors stores.",
+        "Les installateurs Android (APK), Windows et Linux sont publiés dans le dossier Tipitaka du site de fichiers Pa-Auk (lien ci-dessous). Le lien ouvre ce dossier directement, sans parcourir le site fichier par fichier. À utiliser hors stores.",
       "download.dataHelp.apkCta": "Ouvrir le dossier Tipitaka (APK · Windows · Linux)",
       "download.dataHelp.manualIntro":
-        "Si le téléchargement dans l’app échoue, téléchargez le paquet SQLite depuis le dossier SqlLite Database ci-dessous puis importez-le dans l’app.",
+        "Si le téléchargement dans l’app échoue, utilisez le lien ci-dessous pour ouvrir directement le dossier SqlLite Database, téléchargez le paquet SQLite puis importez-le dans l’app.",
       "download.dataHelp.manualCta": "Ouvrir le dossier SqlLite Database",
       "download.platforms.title": "Plateformes",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
@@ -867,7 +868,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "Que faire si le téléchargement de la base de données échoue dans l’app ?",
       "faq.q4.a":
-        "Utilisez le lien SqlLite Database pour télécharger le paquet de base de données, puis importez-le dans l’app. L’APK Android et les installateurs Windows/Linux sont via le lien du dossier Tipitaka si vous n’utilisez pas les stores.",
+        "Le lien SqlLite Database ouvre ce dossier directement : téléchargez le paquet, puis importez-le dans l’app. Sans stores, le lien Tipitaka ouvre aussi directement l’APK Android et les installateurs Windows/Linux.",
       "footer.tagline": "Lecture et relecture du Tipitaka pali en multi-traductions.",
       "footer.copyright": "© 2026 Sunanda. Cette application peut être partagée et distribuée librement.",
     },
