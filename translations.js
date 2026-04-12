@@ -39,6 +39,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "Read, compare, search, and proofread the Pali Tipitaka—comfortably on any device.",
       "hero.mission":
         "Under the guidance of Sayadaw Kumārābhivaṃsa, this project is committed to using modern technology to give learners worldwide a reliable multi-language comparative reading experience of the Pali Tipitaka.",
+      "hero.translationLangs":
+        "Translation languages currently supported include Chinese, English, Vietnamese, Thai, Hindi, Indonesian, Japanese, Korean, and French. More languages will be added over time.",
       "hero.subtitle":
         "OpenTipitaka is a cross-platform Flutter app for parallel reading of the Pali original and multiple translations, with dictionary, full-text search, bookmarks, split-screen, auto-scroll, and translation read-aloud.",
 
@@ -104,15 +106,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "Install from the App Store (iPhone, iPad, Mac) or Google Play (Android). For Windows and Linux, download the installer from the Pa-Auk Tipitaka folder (link in the next card).",
       "download.quickStart.s2": "On first launch, choose the app interface language.",
-      "download.quickStart.s3": "While online, download translation and dictionary databases from inside the app.",
-      "download.quickStart.hint": "If you build from source, please read `PROJECT.md` for packaging notes.",
-      "download.dataHelp.title": "Tipitaka directory & manual databases",
+      "download.quickStart.s3": "While online, download translation databases from inside the app.",
+      "download.dataHelp.title": "Android & Linux installers · translation database downloads",
       "download.dataHelp.apkIntro":
-        "Android APK, Windows, and Linux installers are published in the Pa-Auk society file site’s Tipitaka directory (link below). The link opens that directory directly—you do not need to browse the file site folder by folder. Use it when you do not install from an app store.",
-      "download.dataHelp.apkCta": "Open Tipitaka directory (APK · Windows · Linux)",
+        "Android APK, Windows, and Linux installers are published on the Pa-Auk society file site (link below). If you cannot install from an app store, use that link to download and install.",
+      "download.dataHelp.apkCta": "Android APK · Windows · Linux installer downloads",
       "download.dataHelp.manualIntro":
-        "If in-app database download fails, use the link below to open the SqlLite Database directory directly, download a SQLite package, then import it into the app.",
-      "download.dataHelp.manualCta": "Open SqlLite Database directory",
+        "If in-app database download fails, use the link below to manually download a translation data package, then import it into the app.",
+      "download.dataHelp.manualCta": "Translation database download",
       "download.platforms.title": "Platforms",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -135,7 +136,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.q3.a": "Yes. Content is stored in local SQLite databases. You can import databases and update them when online.",
       "faq.q4.q": "What if database download fails in the app?",
       "faq.q4.a":
-        "Use the SqlLite Database link—it opens that directory directly—to download a database package, then import it into the app. Use the Tipitaka directory link (also direct) for the Android APK and for Windows/Linux installers when you do not use app stores.",
+        "Use the translation database download link—it opens the folder directly—to download a package, then import it into the app. Use the installer download link (also direct) for the Android APK and for Windows/Linux installers when you do not use app stores.",
 
       "footer.tagline": "Multi-translation Pali Tipitaka reading & proofreading.",
       "footer.copyright": "© 2026 Sunanda. This app may be freely shared and distributed.",
@@ -157,9 +158,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openMicrosoftStore": "在 Microsoft Store 获取",
 
       "hero.kicker": "巴利三藏 · 多译文对照 · 校对共建",
-      "hero.title": "在任意设备上舒适阅读、对照、搜索，并参与校对巴利三藏。",
+      "hero.title": "在任意设备上舒适阅读、对照、搜索，并参与校对巴利三藏多语言译本。",
       "hero.mission":
         "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于通过现代技术手段为全球学习者提供可靠的巴利三藏多语言对比阅读体验。",
+      "hero.translationLangs":
+        "目前支持的译文语言有：中文、英语、越南语、泰语、印地语、印度尼西亚语、日语、韩语、法语。未来还会进一步扩展其他语言。",
       "hero.subtitle":
         "OpenTipitaka 是一款跨平台 Flutter 应用，支持巴利原文与多语言译文按段对照阅读，内置词典与全文搜索，支持书签、分屏、多标签、自动滚动与译文朗读，并欢迎大家参与校对完善。",
 
@@ -223,15 +226,13 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "从 App Store（iPhone、iPad、Mac）或 Google Play（Android）安装；Windows 与 Linux 请从帕奥学会文件站点的 Tipitaka 目录下载安装包（见下一张卡片中的链接）。",
       "download.quickStart.s2": "首次启动选择程序界面语言。",
-      "download.quickStart.s3": "在联网时于应用内下载译文与词典数据库。",
-      "download.quickStart.hint": "从源码构建请阅读 `PROJECT.md` 的打包与数据库说明。",
-      "download.dataHelp.title": "Tipitaka 目录与手动数据库",
+      "download.quickStart.s3": "在联网时于应用内下载译文数据库。",
+      "download.dataHelp.title": "安卓、Linux安装包与译文数据库下载",
       "download.dataHelp.apkIntro":
-        "Android 安装包（APK）、Windows 与 Linux 安装包均发布在帕奥学会文件站点的 Tipitaka 目录（下方链接）。点击链接将直接进入该目录，无需在文件站中逐层查找。未通过应用商店安装时请使用该链接。",
-      "download.dataHelp.apkCta": "打开 Tipitaka 目录（APK · Windows · Linux）",
-      "download.dataHelp.manualIntro":
-        "若应用内数据库下载失败，请点击下方链接直接进入 SqlLite Database 目录，下载 SQLite 数据包后在应用内导入。",
-      "download.dataHelp.manualCta": "打开 SqlLite Database 目录",
+        "Android APK安装包、Windows 与 Linux 安装包均发布在帕奥学会文件站点（下方链接）。未能通过应用商店安装时请使用该链接下载安装。",
+      "download.dataHelp.apkCta": "Android APK · Windows · Linux 安装包下载",
+      "download.dataHelp.manualIntro": "若应用内数据库下载失败，请在下方链接手动下载译文数据包，再在应用内导入。",
+      "download.dataHelp.manualCta": "译文数据库下载",
       "download.platforms.title": "平台",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -248,12 +249,12 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.q1.q": "译文是否已经完全校对？",
       "faq.q1.a": "尚未。当前译文中有相当部分由 AI 生成，仍在持续改进；应用也邀请大家共同参与校对与术语统一。",
       "faq.q2.q": "我可以贡献修订吗？",
-      "faq.q2.a": "可以。注册并登录后，双击段落译文即可编辑并提交校对建议（需审核后发布到后续数据库版本）。",
+      "faq.q2.a": "可以。注册并登录后，双击段落译文即可编辑并提交校对建议（经后台审核后将发布到后续数据库版本）。",
       "faq.q3.q": "是否支持离线使用？",
-      "faq.q3.a": "支持。内容存储在本地 SQLite 数据库中；可导入数据库，并在联网时更新。",
+      "faq.q3.a": "支持。内容存储在本地 SQLite 数据库中；可离线使用，并在联网时获取更新。",
       "faq.q4.q": "应用内数据库下载失败怎么办？",
       "faq.q4.a":
-        "使用 SqlLite Database 链接（直达该目录）下载数据库包并导入应用；未使用应用商店时，可通过 Tipitaka 目录链接（同样直达）获取 Android APK 以及 Windows/Linux 安装包。",
+        "使用上述数据库下载数据库包并导入应用；未使用应用商店时，可通过上述下载链接获取 Android APK 以及 Windows/Linux 安装包。",
 
       "footer.tagline": "多译文对照的巴利三藏阅读与校对工具。",
       "footer.copyright": "© 2026 Sunanda。本程序可自由分享和传播。",
@@ -279,6 +280,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "Đọc, đối chiếu, tìm kiếm và tham gia hiệu đính Tam tạng Pāli trên mọi thiết bị.",
       "hero.mission":
         "Dưới sự hướng dẫn của Sayadaw Kumārābhivaṃsa, dự án cam kết dùng công nghệ hiện đại để mang đến trải nghiệm đọc đối chiếu đa ngôn ngữ đáng tin cậy về Tam tạng Pāli cho người học trên toàn thế giới.",
+      "hero.translationLangs":
+        "Hiện tại các ngôn ngữ bản dịch được hỗ trợ gồm: tiếng Trung, tiếng Anh, tiếng Việt, tiếng Thái, tiếng Hindi, tiếng Indonesia, tiếng Nhật, tiếng Hàn và tiếng Pháp. Các ngôn ngữ khác sẽ được bổ sung sau này.",
       "hero.subtitle":
         "OpenTipitaka là ứng dụng Flutter đa nền tảng cho đọc song song nguyên văn Pāli và nhiều bản dịch, có từ điển, tìm kiếm toàn văn, đánh dấu, chia màn hình, tự cuộn và đọc to bản dịch.",
       "badges.crossPlatform": "Đa nền tảng",
@@ -296,15 +299,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "Cài từ App Store (iPhone, iPad, Mac) hoặc Google Play (Android). Với Windows và Linux, tải gói cài từ thư mục Tipitaka trên máy chủ tệp Pa-Auk (liên kết ở ô kế bên).",
       "download.quickStart.s2": "Khi mở lần đầu, chọn ngôn ngữ giao diện.",
-      "download.quickStart.s3": "Khi có mạng, tải cơ sở dữ liệu bản dịch và từ điển trong ứng dụng.",
-      "download.quickStart.hint": "Nếu build từ mã nguồn, hãy đọc `PROJECT.md` về đóng gói.",
-      "download.dataHelp.title": "Thư mục Tipitaka & CSDL thủ công",
+      "download.quickStart.s3": "Khi có mạng, tải cơ sở dữ liệu bản dịch trong ứng dụng.",
+      "download.dataHelp.title": "Gói cài Android & Linux · tải CSDL bản dịch",
       "download.dataHelp.apkIntro":
-        "Gói cài APK Android, Windows và Linux được đăng trên thư mục Tipitaka của trang tệp Hội Pa-Auk (liên kết dưới). Bấm liên kết sẽ vào thẳng thư mục đó, không cần tự duyệt từng cấp trên máy chủ. Dùng khi không cài qua cửa hàng ứng dụng.",
-      "download.dataHelp.apkCta": "Mở thư mục Tipitaka (APK · Windows · Linux)",
+        "Gói cài APK Android, Windows và Linux được đăng trên trang tệp Hội Pa-Auk (liên kết dưới). Nếu không cài được qua cửa hàng ứng dụng, hãy dùng liên kết đó để tải và cài.",
+      "download.dataHelp.apkCta": "Tải gói cài Android APK · Windows · Linux",
       "download.dataHelp.manualIntro":
-        "Nếu tải CSDL trong ứng dụng thất bại, hãy bấm liên kết dưới để vào thẳng thư mục SqlLite Database, tải gói SQLite rồi nhập vào ứng dụng.",
-      "download.dataHelp.manualCta": "Mở thư mục SqlLite Database",
+        "Nếu tải CSDL trong ứng dụng thất bại, dùng liên kết dưới để tải thủ công gói dữ liệu bản dịch, rồi nhập vào ứng dụng.",
+      "download.dataHelp.manualCta": "Tải CSDL bản dịch",
       "download.platforms.title": "Nền tảng",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -319,7 +321,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "Hỏi đáp",
       "faq.q4.q": "Tải cơ sở dữ liệu trong ứng dụng bị lỗi thì sao?",
       "faq.q4.a":
-        "Dùng liên kết SqlLite Database (mở thẳng thư mục đó) để tải gói CSDL rồi nhập vào ứng dụng. Dùng liên kết thư mục Tipitaka (cũng mở thẳng) cho APK Android và bộ cài Windows/Linux khi không dùng cửa hàng.",
+        "Dùng liên kết tải CSDL bản dịch (mở thẳng thư mục) để tải gói rồi nhập vào ứng dụng. Khi không dùng cửa hàng, dùng liên kết tải gói cài (cũng mở thẳng) cho APK Android và bộ cài Windows/Linux.",
       "footer.tagline": "Đọc & hiệu đính Tam tạng Pāli với nhiều bản dịch.",
       "footer.copyright": "© 2026 Sunanda. Ứng dụng có thể được chia sẻ và phân phối tự do.",
     },
@@ -342,6 +344,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "སྐད་སྤྱོད་གང་རུང་ནས་ཏི་པི་ཊ་ཀ་ཀློག་པ་དང་ བསྡུར་བ་ འཚོལ་བ་ ཞིབ་བཤེར་གྱི་ལས་ཀ་བྱེད།",
       "hero.mission":
         "Sayadaw Kumārābhivaṃsa གྱིས་མཛད་པའི་མཛུབ་སྟོན་འོག ལས་གཞིས་དེང་རབས་ལག་རྩལ་སྤྱད་དེ་འཛམ་གླིང་སྤྱིའི་སློབ་གྲྭ་བརྒྱུད་པ་ལ་པ་ལི་ཏི་པི་ཊ་ཀའི་སྐད་རིགས་མང་པོའི་བསྡུར་ཀློག་ཉམས་མྱོང་ཡིད་རྟོན་རུང་བ་ཞིག་མཁོ་འདོན་བྱེད།",
+      "hero.translationLangs":
+        "ད་ལྟ་རྒྱབ་སྐྱོར་བྱེད་པའི་ཡིག་སྒྱུར་སྐད་ཡིག་ནི། རྒྱ་སྐད། དབྱིན་སྐད། ཡུ་ནམ་སྐད། འཐག་སྐད། ཧིན་སྐད། ཨིན་ཏུ་ནི་ཞི་ཡ་སྐད། ཉི་ཧོང་སྐད། ཀོ་རི་ཡའི་སྐད། ཧྥ་རན་སིའི་སྐད་བཅས་ཡིན། མ་འོངས་པར་སྐད་ཡིག་གཞན་དག་ཀྱང་འཕེལ་རྒྱས་གཏོང་རྒྱུ་ཡིན།",
       "hero.subtitle":
         "OpenTipitaka ནི Flutter ལས་བཟོས་པའི་སྣ་མང་སྟེགས་བུའི་མཉེན་ཆས་ཞིག་ཡིན། པ་ལིའི་གཞུང་དང་ཐབས་སྒྱུར་མང་པོ་མཉམ་དུ་ཀློག་པ། ཚིག་མཛོད། འཚོལ་བ། དཔེ་ཐོའི་རྟགས། བརྙན་བཤེར་བགོ་བ། རང་འགྲིལ། ཐབས་སྒྱུར་ཀློག་སྒྲ་སོགས་ལྡན།",
       "badges.crossPlatform": "སྣ་མང་སྟེགས་བུ",
@@ -357,15 +361,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "App Store (iPhone/iPad/Mac) དང་ Google Play (Android) ནས་བཙུགས། Windows དང་ Linux ལ་ Pa-Auk ཡིག་ཁུག་བཤེར་ཆས་ཀྱི་ Tipitaka ཡིག་ཁུག་ནས་སྒྲིག་ཆས་ཕབ་ལེན།（འོག་གི་བྱང་བུ）",
       "download.quickStart.s2": "ཐོག་མར་འབྱེད་སྐབས་སྤྱོད་མཁན་སྐད་ཡིག་འདེམས།",
-      "download.quickStart.s3": "དྲ་བ་ཡོད་སྐབས་མཉེན་ཆས་ནང་ནས་ཐབས་སྒྱུར་དང་ཚིག་མཛོད་གཞི་གྲངས་ཕབ་ལེན།",
-      "download.quickStart.hint": "ཁུངས་ཀོད་ནས་སྒྲིག་པར་ `PROJECT.md` ལྟོས།",
-      "download.dataHelp.title": "Tipitaka ཡིག་ཁུག་དང་ SQLite ལག་ཐོག",
+      "download.quickStart.s3": "དྲ་བ་ཡོད་སྐབས་མཉེན་ཆས་ནང་ནས་ཐབས་སྒྱུར་གཞི་གྲངས་ཕབ་ལེན།",
+      "download.dataHelp.title": "ཨན་ཌོའི་རིགས་དང་ Linux སྒྲིག་ཆས། ཐབས་སྒྱུར་གཞི་གྲངས་ཕབ་ལེན།",
       "download.dataHelp.apkIntro":
-        "Android APK་དང་ Windows/Linux སྒྲིག་ཆས་ Pa-Auk ཡིག་ཁུག་བཤེར་ཆས་ཀྱི་ Tipitaka ཡིག་ཁུག（འོག་གི་སྦྲེལ་ཐག）དུ་ཡོད། སྦྲེལ་ཐག་གིས་ཡིག་ཁུག་དེ་ཐད་ཀར་འབྱེད་པས་ཡིག་ཁུག་བཤེར་ཆས་ནང་རིམ་པ་རེ་རེ་བཞིན་འཚོལ་དགོས་མིན། ཚོང་ཁང་མེད་པར་བཙུགས་ན་སྦྲེལ་ཐག་དེ་སྤྱོད།",
-      "download.dataHelp.apkCta": "Tipitaka ཡིག་ཁུག་ཁ་ཕྱེ（APK · Windows · Linux）",
+        "Android APKདང་ Windows/Linux སྒྲིག་ཆས་ Pa-Auk ཡིག་ཁུག་བཤེར་ཆས（འོག་གི་སྦྲེལ་ཐག）དུ་ཡོད། ཚོང་ཁང་ནས་བཙུགས་མ་ཐུབ་ཚེ་སྦྲེལ་ཐག་དེས་ཕབ་ལེན་དང་བཙུགས།",
+      "download.dataHelp.apkCta": "Android APK · Windows · Linux སྒྲིག་ཆས་ཕབ་ལེན།",
       "download.dataHelp.manualIntro":
-        "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ཚེ་འོག་གི་སྦྲེལ་ཐག་གིས་ SqlLite Database ཡིག་ཁུག་ཐད་ཀར་ཁ་ཕྱེ་ནས་ SQLite ཕབ་ལེན་བྱས་ཏེ་ནང་འཇུག་བྱེད།",
-      "download.dataHelp.manualCta": "SqlLite Database ཡིག་ཁུག་ཁ་ཕྱེ",
+        "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ཚེ་འོག་གི་སྦྲེལ་ཐག་གིས་ཐབས་སྒྱུར་གཞི་གྲངས་ཐུམ་སྒྲིལ་ལག་ཐོག་ཏུ་ཕབ་ལེན་ནས་ནང་འཇུག་བྱེད།",
+      "download.dataHelp.manualCta": "ཐབས་སྒྱུར་གཞི་གྲངས་ཕབ་ལེན།",
       "download.platforms.title": "སྟེགས་བུ",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -380,7 +383,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "དྲི་བ-ལན",
       "faq.q4.q": "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ན་གང་བྱེད།",
       "faq.q4.a":
-        "SqlLite Database སྦྲེལ་ཐག་གིས་ཡིག་ཁུག་དེ་ཐད་ཀར་འབྱེད་ནས་གཞི་གྲངས་ཐུམ་སྒྲིལ་ཕབ་ལེན་བྱས་ཏེ་མཉེན་ཆས་སུ་ནང་འཇུག་བྱེད། ཚོང་ཁང་མེད་ན་ Tipitaka སྦྲེལ་ཐག་གིས་ཐད་ཀར་ APKདང་ Windows/Linux སྒྲིག་ཆས་ཐོབ།",
+        "ཐབས་སྒྱུར་གཞི་གྲངས་ཕབ་ལེན་སྦྲེལ་ཐག་གིས་ཡིག་ཁུག་ཐད་ཀར་འབྱེད་ནས་ཐུམ་སྒྲིལ་ཕབ་ལེན་བྱས་ཏེ་མཉེན་ཆས་སུ་ནང་འཇུག་བྱེད། ཚོང་ཁང་ནས་བཙུགས་མ་ཐུབ་ཚེ་སྒྲིག་ཆས་ཕབ་ལེན་སྦྲེལ་ཐག་གིས་ཐད་ཀར་ APKདང་ Windows/Linux སྒྲིག་ཆས་ཐོབ།",
       "footer.tagline": "པ་ལིའི་ཏི་པི་ཊ་ཀ་ཐབས་སྒྱུར་མང་པོ་དང་མཉམ་དུ་ཀློག་པ/ཞིབ་བཤེར།",
       "footer.copyright": "© 2026 Sunanda. མཉེན་ཆས་འདི་རང་དབང་གིས་བགོ་སྤེལ་བྱས་ཆོག",
     },
@@ -403,6 +406,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "မည်သည့်ကိရိယာပေါ်မဆို Pāli Tipitaka ကိုဖတ်ရှု၊ နှိုင်းယှဉ်၊ ရှာဖွေပြီး စိစစ်ပြင်ဆင်နိုင်သည်။",
       "hero.mission":
         "Sayadaw Kumārābhivaṃsa ၏ လမ်းညွှန်ချက်အောက်တွင် ပရောဂျက်သည် ခေတ်မီနည်းပညာဖြင့် ကမ္ဘာတဝှမ်းရှိ သင်ယူသူများအတွက် ယုံကြည်စိတ်ချရသော ပါဠိတိပိဋက ဘာသာစကားများစွာ နှိုင်းယှဉ်ဖတ်ရှုနိုင်မှု ပေးရန် ကြိုးပမ်းသည်။",
+      "hero.translationLangs":
+        "လက်ရှိပံ့ပိုးထားသော ဘာသာပြန်ဘာသာစကားများမှာ တရုတ်၊ အင်္ဂလိပ်၊ ဗီယက်နမ်၊ ထိုင်း၊ ဟိန္ဒီ၊ အင်ဒိုနီးရှား၊ ဂျပန်၊ ကိုရီးယား၊ ပြင်သစ် တို့ ဖြစ်သည်။ နောက်ပိုင်းတွင် အခြားဘာသာစကားများကို ထပ်မံ ထည့်သွင်းမည်။",
       "hero.subtitle":
         "OpenTipitaka သည် Flutter အခြေပြု ပလက်ဖောင်းစုံအက်ပ်ဖြစ်ပြီး Pāli မူရင်းနှင့် ဘာသာပြန်များကို ပေါင်းပြိုင်ဖတ်ရှုနိုင်ခြင်း၊ အဘိဓာန်၊ စာသားအပြည့်ရှာဖွေမှု၊ စာမှတ်များ၊ ခွဲမျက်နှာပြင်၊ အလိုအလျောက်လှိမ့်ခြင်းနှင့် ဘာသာပြန်ဖတ်ကြားမှုတို့ပါဝင်သည်။",
       "badges.crossPlatform": "ပလက်ဖောင်းစုံ",
@@ -418,15 +423,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "App Store (iPhone, iPad, Mac) သို့မဟုတ် Google Play (Android) မှ ထည့်သွင်းပါ။ Windows နှင့် Linux အတွက် Pa-Auk ဖိုင်ဆာဗာရှိ Tipitaka ဖိုလ်ဒါမှ အင်စတောလာဒေါင်းလုဒ်လုပ်ပါ（နောက်ကတ်တွင် လင့်ပါ）။",
       "download.quickStart.s2": "ပထမဖွင့်ချိန်တွင် အက်ပ်ဘာသာစကားကို ရွေးပါ။",
-      "download.quickStart.s3": "အင်တာနက်ရှိချိန်တွင် အက်ပ်အတွင်းမှ ဘာသာပြန်နှင့် အဘိဓာန်ဒေတာဘေ့စ်များကို ဒေါင်းလုဒ်လုပ်ပါ။",
-      "download.quickStart.hint": "ရင်းမြစ်ကုဒ်မှ တည်ဆောက်ပါက `PROJECT.md` ကို ဖတ်ပါ။",
-      "download.dataHelp.title": "Tipitaka ဖိုလ်ဒါနှင့် လက်ဖြင့် ဒေတာဘေ့စ်",
+      "download.quickStart.s3": "အင်တာနက်ရှိချိန်တွင် အက်ပ်အတွင်းမှ ဘာသာပြန်ဒေတာဘေ့စ်များကို ဒေါင်းလုဒ်လုပ်ပါ။",
+      "download.dataHelp.title": "Android နှင့် Linux အင်စတောလာ · ဘာသာပြန်ဒေတာဘေ့စ် ဒေါင်းလုဒ်",
       "download.dataHelp.apkIntro":
-        "Android APK၊ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk ဖိုင်ဆာဗာရှိ Tipitaka ဖိုလ်ဒါ（အောက်လင့်）တွင် ထုတ်ဝေထားသည်။ လင့်ခ်ကို နှိပ်ပါက ထိုဖိုလ်ဒါသို့ တိုက်ရိုက် သွားရောက်နိုင်ပြီး ဖိုင်ဆာဗာတွင် အဆင့်ဆင့် ရှာဖွေစရာ မလိုပါ။ စတိုးမသုံးပါက ဤလင့်ခ်ကို သုံးပါ။",
-      "download.dataHelp.apkCta": "Tipitaka ဖိုလ်ဒါဖွင့်ရန် (APK · Windows · Linux)",
+        "Android APK၊ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk ဖိုင်ဆာဗာ（အောက်လင့်）တွင် ထုတ်ဝေထားသည်။ စတိုးမှ ထည့်သွင်း မရပါက ထိုလင့်မှ ဒေါင်းပြီး ထည့်သွင်းပါ။",
+      "download.dataHelp.apkCta": "Android APK · Windows · Linux အင်စတောလာ ဒေါင်းလုဒ်",
       "download.dataHelp.manualIntro":
-        "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက အောက်ပါ လင့်ခ်ဖြင့် SqlLite Database ဖိုလ်ဒါသို့ တိုက်ရိုက် သွားပြီး SQLite ပက်ကေ့ချ်ကို ဒေါင်းကာ အက်ပ်သို့ ထည့်သွင်းပါ။",
-      "download.dataHelp.manualCta": "SqlLite Database ဖိုလ်ဒါဖွင့်ရန်",
+        "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက အောက်လင့်မှ ဘာသာပြန်ဒေတာ ပက်ကေ့ချ် လက်ဖြင့် ဒေါင်းပြီး အက်ပ်သို့ ထည့်သွင်းပါ။",
+      "download.dataHelp.manualCta": "ဘာသာပြန်ဒေတာဘေ့စ် ဒေါင်းလုဒ်",
       "download.platforms.title": "ပလက်ဖောင်းများ",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -441,7 +445,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "မေးလေ့ရှိသောမေးခွန်းများ",
       "faq.q4.q": "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက?",
       "faq.q4.a":
-        "SqlLite Database လင့်သည် ထိုဖိုလ်ဒါသို့ တိုက်ရိုက် ဖွင့်ပေးသည်။ ပက်ကေ့ချ်ဒေါင်းပြီး အက်ပ်သို့ ထည့်သွင်းပါ။ စတိုးမသုံးသောအခါ Tipitaka လင့်မှလည်း တိုက်ရိုက် သွားရောက်၍ Android APK နှင့် Windows/Linux အင်စတောလာ ရယူပါ။",
+        "ဘာသာပြန်ဒေတာဘေ့စ် ဒေါင်းလုဒ် လင့်သည် ဖိုလ်ဒါကို တိုက်ရိုက် ဖွင့်ပေးသည်။ ပက်ကေ့ချ် ဒေါင်းပြီး အက်ပ်သို့ ထည့်သွင်းပါ။ စတိုးမသုံးသောအခါ အင်စတောလာ ဒေါင်းလုဒ် လင့်မှ Android APK နှင့် Windows/Linux အင်စတောလာ ရယူပါ။",
       "footer.tagline": "ဘာသာပြန်များစွာဖြင့် Pāli Tipitaka ဖတ်ရှု/စိစစ်。",
       "footer.copyright": "© 2026 Sunanda. ဤအက်ပ်ကို လွတ်လပ်စွာ မျှဝေ၍ ဖြန့်ချိနိုင်သည်။",
     },
@@ -464,6 +468,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "อ่าน เปรียบเทียบ ค้นหา และร่วมตรวจทานพระไตรปิฎกบาลีได้อย่างสบายบนทุกอุปกรณ์",
       "hero.mission":
         "ภายใต้การแนะนำของพระอาจารย์ Kumārābhivaṃsa (Sayadaw Kumārābhivaṃsa) โครงการนี้มุ่งใช้เทคโนโลยีสมัยใหม่เพื่อมอบประสบการณ์อ่านเปรียบเทียบหลายภาษาที่เชื่อถือได้แก่ผู้ศึกษาพระไตรปิฎกบาลีทั่วโลก",
+      "hero.translationLangs":
+        "ภาษาคำแปลที่รองรับในปัจจุบัน ได้แก่ ภาษาจีน อังกฤษ เวียดนาม ไทย ฮินดี อินโดนีเซีย ญี่ปุ่น เกาหลี และฝรั่งเศส ในอนาคตจะขยายเพิ่มภาษาอื่นต่อไป",
       "hero.subtitle":
         "OpenTipitaka เป็นแอป Flutter ข้ามแพลตฟอร์มสำหรับอ่านบาลีและคำแปลหลายภาษาแบบขนาน มีพจนานุกรม ค้นหาทั้งหมด บุ๊กมาร์ก แบ่งหน้าจอ เลื่อนอัตโนมัติ และอ่านคำแปลออกเสียง",
       "badges.crossPlatform": "ข้ามแพลตฟอร์ม",
@@ -479,15 +485,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "ติดตั้งจาก App Store (iPhone, iPad, Mac) หรือ Google Play (Android) สำหรับ Windows และ Linux ให้ดาวน์โหลดตัวติดตั้งจากโฟลเดอร์ Tipitaka บนเซิร์ฟเวอร์ไฟล์ Pa-Auk (ลิงก์ในการ์ดถัดไป)",
       "download.quickStart.s2": "เมื่อเปิดครั้งแรก เลือกภาษาของแอป",
-      "download.quickStart.s3": "เมื่อออนไลน์ ให้ดาวน์โหลดฐานข้อมูลคำแปลและพจนานุกรมจากในแอป",
-      "download.quickStart.hint": "หากสร้างจากซอร์สโค้ด โปรดอ่าน `PROJECT.md`",
-      "download.dataHelp.title": "โฟลเดอร์ Tipitaka และฐานข้อมูลด้วยตนเอง",
+      "download.quickStart.s3": "เมื่อออนไลน์ ให้ดาวน์โหลดฐานข้อมูลคำแปลจากในแอป",
+      "download.dataHelp.title": "ติดตั้ง Android และ Linux · ดาวน์โหลดฐานข้อมูลคำแปล",
       "download.dataHelp.apkIntro":
-        "แพ็กเกจติดตั้ง Android (APK) Windows และ Linux เผยแพร่ในโฟลเดอร์ Tipitaka บนเว็บไซต์ไฟล์ของคณะป่าเอ๋ก (ลิงก์ด้านล่าง) ลิงก์จะเปิดเข้าโฟลเดอร์นั้นโดยตรง ไม่ต้องคลิกเข้าไปทีละชั้นในเว็บไฟล์ ใช้เมื่อไม่ติดตั้งจากสโตร์",
-      "download.dataHelp.apkCta": "เปิดโฟลเดอร์ Tipitaka (APK · Windows · Linux)",
+        "แพ็กเกจติดตั้ง Android APK, Windows และ Linux เผยแพร่บนเว็บไซต์ไฟล์ของคณะป่าเอ๋ก (ลิงก์ด้านล่าง) หากติดตั้งจากสโตร์ไม่ได้ ให้ใช้ลิงก์นั้นดาวน์โหลดและติดตั้ง",
+      "download.dataHelp.apkCta": "ดาวน์โหลดติดตั้ง Android APK · Windows · Linux",
       "download.dataHelp.manualIntro":
-        "หากดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จ ให้ใช้ลิงก์ด้านล่างเพื่อเปิดโฟลเดอร์ SqlLite Database โดยตรง ดาวน์โหลดแพ็กเกจ SQLite แล้วนำเข้าแอป",
-      "download.dataHelp.manualCta": "เปิดโฟลเดอร์ SqlLite Database",
+        "หากดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จ ให้ใช้ลิงก์ด้านล่างดาวน์โหลดแพ็กเกจข้อมูลคำแปลด้วยตนเอง แล้วนำเข้าแอป",
+      "download.dataHelp.manualCta": "ดาวน์โหลดฐานข้อมูลคำแปล",
       "download.platforms.title": "แพลตฟอร์ม",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -502,7 +507,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "คำถามที่พบบ่อย",
       "faq.q4.q": "ดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จทำอย่างไร",
       "faq.q4.a":
-        "ใช้ลิงก์ SqlLite Database ซึ่งเปิดเข้าโฟลเดอร์นั้นโดยตรงเพื่อดาวน์โหลดแพ็กเกจฐานข้อมูลแล้วนำเข้าแอป ใช้ลิงก์โฟลเดอร์ Tipitaka ซึ่งก็เปิดตรงเช่นกันสำหรับ APK ของ Android และตัวติดตั้ง Windows/Linux เมื่อไม่ใช้สโตร์",
+        "ใช้ลิงก์ดาวน์โหลดฐานข้อมูลคำแปล (เปิดโฟลเดอร์โดยตรง) เพื่อดาวน์โหลดแพ็กเกจแล้วนำเข้าแอป เมื่อไม่ใช้สโตร์ ให้ใช้ลิงก์ดาวน์โหลดติดตั้ง (เปิดตรงเช่นกัน) สำหรับ APK ของ Android และตัวติดตั้ง Windows/Linux",
       "footer.tagline": "อ่านและตรวจทานพระไตรปิฎกบาลีหลายคำแปล",
       "footer.copyright": "© 2026 Sunanda. แอปนี้สามารถแชร์และแจกจ่ายได้อย่างเสรี",
     },
@@ -525,6 +530,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "どのデバイスでも快適に、パーリ三蔵を読む・比較する・検索する・校正に参加する。",
       "hero.mission":
         "クマーラビヴァンマ尊者（Sayadaw Kumārābhivaṃsa）のご指導のもと、現代の技術で世界中の学習者に信頼できるパーリ三蔵の多言語対照読書体験を届けることを目指しています。",
+      "hero.translationLangs":
+        "現在対応している訳文の言語は、中国語、英語、ベトナム語、タイ語、ヒンディー語、インドネシア語、日本語、韓国語、フランス語です。今後、さらに他言語へ拡張していく予定です。",
       "hero.subtitle":
         "OpenTipitaka は Flutter 製のクロスプラットフォームアプリです。パーリ原文と複数訳の対照読書、辞書、全文検索、ブックマーク、分割表示、自動スクロール、訳文読み上げに対応します。",
       "badges.crossPlatform": "クロスプラットフォーム",
@@ -540,15 +547,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "App Store（iPhone / iPad / Mac）と Google Play（Android）からインストール。Windows と Linux のインストーラーは Pa-Auk ファイルサーバーの Tipitaka フォルダから入手してください（次のカードのリンク）。",
       "download.quickStart.s2": "初回起動時にアプリの表示言語を選びます。",
-      "download.quickStart.s3": "オンライン時にアプリ内から訳文・辞書データベースをダウンロードします。",
-      "download.quickStart.hint": "ソースからビルドする場合は `PROJECT.md` を参照してください。",
-      "download.dataHelp.title": "Tipitaka フォルダと手動データベース",
+      "download.quickStart.s3": "オンライン時にアプリ内から訳文データベースをダウンロードします。",
+      "download.dataHelp.title": "Android / Linux インストーラー · 訳文データベースのダウンロード",
       "download.dataHelp.apkIntro":
-        "Android APK、Windows、Linux のインストーラーは Pa-Auk 学会ファイルサイトの Tipitaka フォルダ（下のリンク）に公開されています。リンクはそのフォルダを直接開き、ファイルサイト内を階層で辿る必要はありません。ストアを使わない場合にご利用ください。",
-      "download.dataHelp.apkCta": "Tipitaka フォルダを開く（APK · Windows · Linux）",
+        "Android APK、Windows、Linux のインストーラーは Pa-Auk 学会ファイルサイト（下のリンク）に公開されています。ストアからインストールできない場合は、そのリンクからダウンロードしてインストールしてください。",
+      "download.dataHelp.apkCta": "Android APK · Windows · Linux インストーラーのダウンロード",
       "download.dataHelp.manualIntro":
-        "アプリ内のデータベースのダウンロードが失敗した場合は、下のリンクから SqlLite Database フォルダを直接開き、SQLite パッケージを取得してアプリにインポートしてください。",
-      "download.dataHelp.manualCta": "SqlLite Database フォルダを開く",
+        "アプリ内のデータベースのダウンロードが失敗した場合は、下のリンクから訳文データパッケージを手動でダウンロードし、アプリにインポートしてください。",
+      "download.dataHelp.manualCta": "訳文データベースのダウンロード",
       "download.platforms.title": "プラットフォーム",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -563,7 +569,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "アプリ内のデータベースのダウンロードに失敗したら？",
       "faq.q4.a":
-        "SqlLite Database のリンクは該当フォルダを直接開きます。そこからデータベースパッケージを取得してアプリにインポートしてください。ストアを使わない場合、Tipitaka フォルダのリンクも直接開き、Android の APK と Windows/Linux のインストーラーを入手できます。",
+        "訳文データベースのダウンロードのリンクはフォルダを直接開きます。パッケージを取得してアプリにインポートしてください。ストアを使わない場合は、インストーラー用のリンクから Android APK と Windows/Linux 用インストーラーを入手できます。",
       "footer.tagline": "複数訳で読むパーリ三蔵：読書と校正。",
       "footer.copyright": "© 2026 Sunanda. 本アプリは自由に共有・配布できます。",
     },
@@ -586,6 +592,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "어떤 기기에서도 편하게 팔리 삼장을 읽고, 비교하고, 검색하고, 교정에 참여하세요.",
       "hero.mission":
         "쿠마라비왐사 스야도(Sayadaw Kumārābhivaṃsa)의 지도 아래, 현대 기술로 전 세계 학습자에게 신뢰할 수 있는 팔리 삼장 다국어 대조 독서 경험을 제공하고자 합니다.",
+      "hero.translationLangs":
+        "현재 지원되는 번역 언어는 중국어, 영어, 베트남어, 태국어, 힌디어, 인도네시아어, 일본어, 한국어, 프랑스어입니다. 앞으로 다른 언어로도 점차 확대할 예정입니다.",
       "hero.subtitle":
         "OpenTipitaka 는 Flutter 기반 크로스플랫폼 앱으로, 팔리 원문과 여러 번역의 병렬 읽기, 사전, 전체 검색, 북마크, 분할 화면, 자동 스크롤, 번역 음성 읽기를 제공합니다.",
       "badges.crossPlatform": "크로스플랫폼",
@@ -601,15 +609,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "App Store(iPhone, iPad, Mac)와 Google Play(Android)에서 설치하세요. Windows와 Linux 설치 파일은 Pa-Auk 파일 서버의 Tipitaka 폴더에서 받으세요(다음 카드 링크).",
       "download.quickStart.s2": "첫 실행 시 앱 표시 언어를 선택합니다.",
-      "download.quickStart.s3": "온라인일 때 앱에서 번역·사전 데이터베이스를 다운로드합니다.",
-      "download.quickStart.hint": "소스에서 빌드할 경우 `PROJECT.md`를 읽으세요.",
-      "download.dataHelp.title": "Tipitaka 폴더 및 수동 데이터베이스",
+      "download.quickStart.s3": "온라인일 때 앱에서 번역 데이터베이스를 다운로드합니다.",
+      "download.dataHelp.title": "Android·Linux 설치 파일 · 번역 데이터베이스 다운로드",
       "download.dataHelp.apkIntro":
-        "Android APK, Windows, Linux 설치 파일은 Pa-Auk 학회 파일 사이트의 Tipitaka 폴더(아래 링크)에 게시됩니다. 링크를 누르면 해당 폴더로 바로 이동하며 파일 사이트를 단계마다 찾아 들어갈 필요가 없습니다. 스토어를 쓰지 않을 때 이용하세요.",
-      "download.dataHelp.apkCta": "Tipitaka 폴더 열기 (APK · Windows · Linux)",
+        "Android APK, Windows, Linux 설치 파일은 Pa-Auk 학회 파일 사이트(아래 링크)에 게시됩니다. 스토어로 설치할 수 없을 때는 해당 링크에서 받아 설치하세요.",
+      "download.dataHelp.apkCta": "Android APK · Windows · Linux 설치 파일 다운로드",
       "download.dataHelp.manualIntro":
-        "앱에서 데이터베이스 다운로드가 실패하면 아래 링크로 SqlLite Database 폴더를 바로 연 뒤 SQLite 패키지를 받아 앱으로 가져오세요.",
-      "download.dataHelp.manualCta": "SqlLite Database 폴더 열기",
+        "앱에서 데이터베이스 다운로드가 실패하면 아래 링크에서 번역 데이터 패키지를 직접 받아 앱으로 가져오세요.",
+      "download.dataHelp.manualCta": "번역 데이터베이스 다운로드",
       "download.platforms.title": "플랫폼",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -624,7 +631,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "앱에서 데이터베이스 다운로드가 실패하면요?",
       "faq.q4.a":
-        "SqlLite Database 링크는 해당 폴더를 바로 엽니다. 패키지를 받아 앱으로 가져오세요. 스토어를 쓰지 않을 때 Tipitaka 폴더 링크도 바로 열어 Android APK와 Windows/Linux 설치 파일을 받으세요.",
+        "번역 데이터베이스 다운로드 링크는 해당 폴더를 바로 엽니다. 패키지를 받아 앱으로 가져오세요. 스토어를 쓰지 않을 때는 설치 파일 다운로드 링크에서 Android APK와 Windows/Linux 설치 파일을 받으세요.",
       "footer.tagline": "다중 번역으로 읽는 팔리 삼장: 읽기와 교정.",
       "footer.copyright": "© 2026 Sunanda. 이 앱은 자유롭게 공유 및 배포할 수 있습니다.",
     },
@@ -647,6 +654,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "किसी भी डिवाइस पर आराम से पाली त्रिपिटक पढ़ें, तुलना करें, खोजें और प्रूफरीडिंग में योगदान दें।",
       "hero.mission":
         "सयादाव कुमाराभिवंस (Sayadaw Kumārābhivaṃsa) के मार्गदर्शन में यह परियोजना आधुनिक तकनीक से विश्वभर के अध्ययनकर्ताओं को विश्वसनीय पाली त्रिपिटक बहुभाषी तुलनात्मक पठन अनुभव देने हेतु समर्पित है।",
+      "hero.translationLangs":
+        "वर्तमान में समर्थित अनुवाद भाषाएँ हैं: चीनी, अंग्रेज़ी, वियतनामी, थाई, हिंदी, इंडोनेशियाई, जापानी, कोरियाई और फ़्रेंच। भविष्य में और भाषाओं का विस्तार किया जाएगा।",
       "hero.subtitle":
         "OpenTipitaka एक क्रॉस-प्लैटफ़ॉर्म Flutter ऐप है: पाली मूल पाठ और कई अनुवादों का समानांतर पठन, शब्दकोश, फुल-टेक्स्ट सर्च, बुकमार्क, स्प्लिट-स्क्रीन, ऑटो-स्क्रॉल और अनुवाद का पाठ-से-वाक्।",
       "badges.crossPlatform": "क्रॉस-प्लैटफ़ॉर्म",
@@ -662,15 +671,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "App Store (iPhone, iPad, Mac) और Google Play (Android) से इंस्टॉल करें। Windows और Linux इंस्टॉलर Pa-Auk फ़ाइल सर्वर के Tipitaka फ़ोल्डर से डाउनलोड करें (अगले कार्ड में लिंक)।",
       "download.quickStart.s2": "पहली बार खोलने पर ऐप की भाषा चुनें।",
-      "download.quickStart.s3": "ऑनलाइन रहते हुए ऐप के भीतर से अनुवाद और शब्दकोश डेटाबेस डाउनलोड करें।",
-      "download.quickStart.hint": "स्रोत से बिल्ड करने पर `PROJECT.md` पढ़ें।",
-      "download.dataHelp.title": "Tipitaka फ़ोल्डर और मैन्युअल डेटाबेस",
+      "download.quickStart.s3": "ऑनलाइन रहते हुए ऐप के भीतर से अनुवाद डेटाबेस डाउनलोड करें।",
+      "download.dataHelp.title": "Android व Linux इंस्टॉलर · अनुवाद डेटाबेस डाउनलोड",
       "download.dataHelp.apkIntro":
-        "Android APK, Windows और Linux इंस्टॉलर Pa-Auk सोसाइटी फ़ाइल साइट के Tipitaka फ़ोल्डर (नीचे लिंक) में प्रकाशित हैं। लिंक सीधे उस फ़ोल्डर पर खुलता है; फ़ाइल साइट में मैन्युअल रूप से स्तर दर स्तर नेविगेट करने की ज़रूरत नहीं। स्टोर के बिना उपयोग करें।",
-      "download.dataHelp.apkCta": "Tipitaka फ़ोल्डर खोलें (APK · Windows · Linux)",
+        "Android APK, Windows और Linux इंस्टॉलर Pa-Auk सोसाइटी फ़ाइल साइट (नीचे लिंक) पर प्रकाशित हैं। स्टोर से इंस्टॉल न हो तो उसी लिंक से डाउनलोड कर इंस्टॉल करें।",
+      "download.dataHelp.apkCta": "Android APK · Windows · Linux इंस्टॉलर डाउनलोड",
       "download.dataHelp.manualIntro":
-        "ऐप में डेटाबेस डाउनलोड विफल हो तो नीचे दिए लिंक से SqlLite Database फ़ोल्डर सीधे खोलें, SQLite पैकेज डाउनलोड कर ऐप में आयात करें।",
-      "download.dataHelp.manualCta": "SqlLite Database फ़ोल्डर खोलें",
+        "ऐप में डेटाबेस डाउनलोड विफल हो तो नीचे लिंक से अनुवाद डेटा पैकेज मैन्युअल रूप से डाउनलोड कर ऐप में आयात करें।",
+      "download.dataHelp.manualCta": "अनुवाद डेटाबेस डाउनलोड",
       "download.platforms.title": "प्लेटफ़ॉर्म",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -685,7 +693,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "ऐप में डेटाबेस डाउनलोड विफल हो तो?",
       "faq.q4.a":
-        "SqlLite Database लिंक सीधे उस फ़ोल्डर पर खुलता है; पैकेज डाउनलोड कर ऐप में आयात करें। स्टोर के बिना Tipitaka फ़ोल्डर लिंक भी सीधे खुलता है—वहाँ से Android APK और Windows/Linux इंस्टॉलर लें।",
+        "अनुवाद डेटाबेस डाउनलोड लिंक सीधे फ़ोल्डर खोलता है; पैकेज डाउनलोड कर ऐप में आयात करें। स्टोर के बिना इंस्टॉलर डाउनलोड लिंक से Android APK और Windows/Linux इंस्टॉलर लें।",
       "footer.tagline": "बहु-अनुवाद पाली त्रिपिटक: पठन और प्रूफरीडिंग।",
       "footer.copyright": "© 2026 Sunanda. यह ऐप स्वतंत्र रूप से साझा और वितरित किया जा सकता है।",
     },
@@ -708,6 +716,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "Lee, compara, busca y participa en la revisión del Tipitaka Pali en cualquier dispositivo.",
       "hero.mission":
         "Bajo la guía del Sayadaw Kumārābhivaṃsa, este proyecto se dedica a ofrecer, con medios modernos, una lectura comparada multilingüe fiable del Tipitaka Pali para estudiantes de todo el mundo.",
+      "hero.translationLangs":
+        "Los idiomas de traducción admitidos actualmente son chino, inglés, vietnamita, tailandés, hindi, indonesio, japonés, coreano y francés. Se ampliarán más idiomas en el futuro.",
       "hero.subtitle":
         "OpenTipitaka es una app Flutter multiplataforma para lectura paralela del Pali original y varias traducciones, con diccionario, búsqueda de texto completo, marcadores, pantalla dividida, auto-desplazamiento y lectura en voz alta de traducciones.",
       "badges.crossPlatform": "Multiplataforma",
@@ -723,15 +733,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "Instala desde App Store (iPhone, iPad, Mac) y Google Play (Android). Para Windows y Linux, descarga los instaladores desde la carpeta Tipitaka del servidor de archivos Pa-Auk (enlace en la tarjeta siguiente).",
       "download.quickStart.s2": "En el primer inicio, elige el idioma de la interfaz.",
-      "download.quickStart.s3": "Con conexión, descarga bases de datos de traducción y diccionarios dentro de la app.",
-      "download.quickStart.hint": "Si compilas desde el código fuente, lee `PROJECT.md`.",
-      "download.dataHelp.title": "Carpeta Tipitaka y bases de datos manuales",
+      "download.quickStart.s3": "Con conexión, descarga bases de datos de traducción dentro de la app.",
+      "download.dataHelp.title": "Instaladores Android y Linux · descarga de bases de traducción",
       "download.dataHelp.apkIntro":
-        "Los instaladores Android (APK), Windows y Linux se publican en la carpeta Tipitaka del sitio de archivos de la sociedad Pa-Auk (enlace abajo). El enlace abre esa carpeta directamente; no hace falta navegar manualmente nivel por nivel en el sitio. Úsalo si no instalas desde las tiendas.",
-      "download.dataHelp.apkCta": "Abrir carpeta Tipitaka (APK · Windows · Linux)",
+        "Los instaladores Android (APK), Windows y Linux se publican en el sitio de archivos de la sociedad Pa-Auk (enlace abajo). Si no puedes instalar desde las tiendas, usa ese enlace para descargar e instalar.",
+      "download.dataHelp.apkCta": "Descarga de instaladores Android APK · Windows · Linux",
       "download.dataHelp.manualIntro":
-        "Si falla la descarga en la app, usa el enlace inferior para abrir directamente la carpeta SqlLite Database, descarga el paquete SQLite e impórtalo en la app.",
-      "download.dataHelp.manualCta": "Abrir carpeta SqlLite Database",
+        "Si falla la descarga en la app, usa el enlace inferior para descargar manualmente un paquete de datos de traducción e impórtalo en la app.",
+      "download.dataHelp.manualCta": "Descarga de base de datos de traducción",
       "download.platforms.title": "Plataformas",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -746,7 +755,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "¿Qué hago si falla la descarga de la base de datos en la app?",
       "faq.q4.a":
-        "El enlace SqlLite Database abre esa carpeta directamente: descarga el paquete e impórtalo en la app. Sin tiendas, el enlace de Tipitaka también abre directo para el APK y los instaladores de Windows/Linux.",
+        "El enlace de descarga de la base de traducción abre la carpeta directamente: descarga el paquete e impórtalo en la app. Sin tiendas, usa el enlace de instaladores para el APK y los instaladores de Windows/Linux.",
       "footer.tagline": "Lectura y revisión del Tipitaka Pali con múltiples traducciones.",
       "footer.copyright": "© 2026 Sunanda. Esta app puede compartirse y distribuirse libremente.",
     },
@@ -769,6 +778,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "Baca, bandingkan, cari, dan ikut mengoreksi Tipitaka Pali di perangkat apa pun.",
       "hero.mission":
         "Di bawah bimbingan Sayadaw Kumārābhivaṃsa, proyek ini berkomitmen memanfaatkan teknologi modern untuk memberi pelajar di seluruh dunia pengalaman membaca Tipitaka Pali multibahasa yang andal dan dapat dibandingkan.",
+      "hero.translationLangs":
+        "Bahasa terjemahan yang saat ini didukung: Mandarin, Inggris, Vietnam, Thai, Hindi, Indonesia, Jepang, Korea, dan Prancis. Bahasa lain akan ditambahkan secara bertahap ke depannya.",
       "hero.subtitle":
         "OpenTipitaka adalah aplikasi Flutter lintas platform untuk membaca paralel Pali asli dan beberapa terjemahan, dengan kamus, pencarian teks penuh, bookmark, layar terbagi, gulir otomatis, dan pembacaan terjemahan.",
       "badges.crossPlatform": "Lintas platform",
@@ -784,15 +795,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "Pasang dari App Store (iPhone, iPad, Mac) dan Google Play (Android). Untuk Windows dan Linux, unduh pemasang dari folder Tipitaka di server berkas Pa-Auk (tautan di kartu berikutnya).",
       "download.quickStart.s2": "Saat pertama dibuka, pilih bahasa antarmuka aplikasi.",
-      "download.quickStart.s3": "Saat daring, unduh basis data terjemahan dan kamus dari dalam aplikasi.",
-      "download.quickStart.hint": "Jika membangun dari sumber, baca `PROJECT.md`.",
-      "download.dataHelp.title": "Folder Tipitaka & basis data manual",
+      "download.quickStart.s3": "Saat daring, unduh basis data terjemahan dari dalam aplikasi.",
+      "download.dataHelp.title": "Pemasang Android & Linux · unduhan basis data terjemahan",
       "download.dataHelp.apkIntro":
-        "APK Android, Windows, dan Linux dipublikasikan di folder Tipitaka situs berkas Pa-Auk (tautan di bawah). Tautan membuka folder itu langsung—tidak perlu menelusuri situs berkas tingkat demi tingkat secara manual. Gunakan jika tidak memasang dari toko aplikasi.",
-      "download.dataHelp.apkCta": "Buka folder Tipitaka (APK · Windows · Linux)",
+        "APK Android, Windows, dan Linux dipublikasikan di situs berkas Pa-Auk (tautan di bawah). Jika tidak bisa memasang dari toko aplikasi, gunakan tautan itu untuk mengunduh dan memasang.",
+      "download.dataHelp.apkCta": "Unduh pemasang Android APK · Windows · Linux",
       "download.dataHelp.manualIntro":
-        "Jika unduhan basis data di aplikasi gagal, gunakan tautan di bawah untuk membuka folder SqlLite Database langsung, unduh paket SQLite lalu impor ke aplikasi.",
-      "download.dataHelp.manualCta": "Buka folder SqlLite Database",
+        "Jika unduhan basis data di aplikasi gagal, gunakan tautan di bawah untuk mengunduh manual paket data terjemahan, lalu impor ke aplikasi.",
+      "download.dataHelp.manualCta": "Unduhan basis data terjemahan",
       "download.platforms.title": "Platform",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -807,7 +817,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "Bagaimana jika unduhan basis data di aplikasi gagal?",
       "faq.q4.a":
-        "Tautan SqlLite Database membuka folder tersebut langsung—unduh paket lalu impor ke aplikasi. Tanpa toko, tautan Tipitaka juga langsung untuk APK Android dan pemasang Windows/Linux.",
+        "Tautan unduhan basis data terjemahan membuka folder tersebut langsung—unduh paket lalu impor ke aplikasi. Tanpa toko, gunakan tautan unduhan pemasang untuk APK Android dan pemasang Windows/Linux.",
       "footer.tagline": "Membaca & mengoreksi Tipitaka Pali dengan multi-terjemahan.",
       "footer.copyright": "© 2026 Sunanda. Aplikasi ini dapat dibagikan dan didistribusikan secara bebas.",
     },
@@ -830,6 +840,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.title": "Lisez, comparez, cherchez et contribuez à la relecture du Tipitaka pali sur n’importe quel appareil.",
       "hero.mission":
         "Sous la direction du Sayadaw Kumārābhivaṃsa, ce projet s’engage à offrir, grâce aux moyens modernes, une expérience de lecture comparée multilingue fiable du Tipitaka pali aux apprenants du monde entier.",
+      "hero.translationLangs":
+        "Les langues de traduction actuellement prises en charge sont le chinois, l’anglais, le vietnamien, le thaï, l’hindi, l’indonésien, le japonais, le coréen et le français. D’autres langues seront ajoutées progressivement.",
       "hero.subtitle":
         "OpenTipitaka est une application Flutter multiplateforme pour la lecture parallèle du pali original et de plusieurs traductions, avec dictionnaire, recherche plein texte, signets, écran partagé, défilement automatique et lecture à voix haute des traductions.",
       "badges.crossPlatform": "Multiplateforme",
@@ -845,15 +857,14 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.quickStart.s1":
         "Installez depuis l’App Store (iPhone, iPad, Mac) et Google Play (Android). Pour Windows et Linux, téléchargez les installateurs depuis le dossier Tipitaka du serveur de fichiers Pa-Auk (lien dans la carte suivante).",
       "download.quickStart.s2": "Au premier lancement, choisissez la langue de l’interface.",
-      "download.quickStart.s3": "En ligne, téléchargez les bases de données de traduction et de dictionnaires dans l’app.",
-      "download.quickStart.hint": "Si vous compilez depuis les sources, lisez `PROJECT.md`.",
-      "download.dataHelp.title": "Dossier Tipitaka et bases manuelles",
+      "download.quickStart.s3": "En ligne, téléchargez les bases de données de traduction dans l’app.",
+      "download.dataHelp.title": "Installateurs Android & Linux · téléchargement des bases de traduction",
       "download.dataHelp.apkIntro":
-        "Les installateurs Android (APK), Windows et Linux sont publiés dans le dossier Tipitaka du site de fichiers Pa-Auk (lien ci-dessous). Le lien ouvre ce dossier directement, sans parcourir le site fichier par fichier. À utiliser hors stores.",
-      "download.dataHelp.apkCta": "Ouvrir le dossier Tipitaka (APK · Windows · Linux)",
+        "Les installateurs Android (APK), Windows et Linux sont publiés sur le site de fichiers Pa-Auk (lien ci-dessous). Si vous ne pouvez pas installer depuis les stores, utilisez ce lien pour télécharger et installer.",
+      "download.dataHelp.apkCta": "Télécharger les installateurs Android APK · Windows · Linux",
       "download.dataHelp.manualIntro":
-        "Si le téléchargement dans l’app échoue, utilisez le lien ci-dessous pour ouvrir directement le dossier SqlLite Database, téléchargez le paquet SQLite puis importez-le dans l’app.",
-      "download.dataHelp.manualCta": "Ouvrir le dossier SqlLite Database",
+        "Si le téléchargement dans l’app échoue, utilisez le lien ci-dessous pour télécharger manuellement un paquet de données de traduction, puis importez-le dans l’app.",
+      "download.dataHelp.manualCta": "Téléchargement de la base de traduction",
       "download.platforms.title": "Plateformes",
       "download.platforms.rowApple.k": "iPhone · iPad · Mac",
       "download.platforms.rowApple.v": "App Store",
@@ -868,7 +879,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.title": "FAQ",
       "faq.q4.q": "Que faire si le téléchargement de la base de données échoue dans l’app ?",
       "faq.q4.a":
-        "Le lien SqlLite Database ouvre ce dossier directement : téléchargez le paquet, puis importez-le dans l’app. Sans stores, le lien Tipitaka ouvre aussi directement l’APK Android et les installateurs Windows/Linux.",
+        "Le lien de téléchargement de la base de traduction ouvre le dossier directement : téléchargez le paquet, puis importez-le dans l’app. Sans stores, utilisez le lien des installateurs pour l’APK Android et les installateurs Windows/Linux.",
       "footer.tagline": "Lecture et relecture du Tipitaka pali en multi-traductions.",
       "footer.copyright": "© 2026 Sunanda. Cette application peut être partagée et distribuée librement.",
     },

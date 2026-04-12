@@ -261,6 +261,14 @@ a {
   max-width: 52ch;
 }
 
+.hero-translation-langs {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+  max-width: 56ch;
+}
+
 .hero-subtitle {
   margin: 12px 0 0;
   color: var(--muted);
