@@ -21,6 +21,7 @@ function wireExternalSiteLinks() {
     appleAppStoreLink: SITE_EXTERNAL_LINKS.appleAppStore,
     googlePlayLink: SITE_EXTERNAL_LINKS.googlePlay,
     apkMirrorLink: SITE_EXTERNAL_LINKS.apkMirror,
+    tipitakaDocumentsLink: SITE_EXTERNAL_LINKS.apkMirror,
     manualDatabasesLink: SITE_EXTERNAL_LINKS.manualDatabases,
   };
   for (const [id, url] of Object.entries(map)) {

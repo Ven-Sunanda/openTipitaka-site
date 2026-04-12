@@ -93,7 +93,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Install from the App Store (iPhone, iPad, Mac) or Google Play (Android). For Windows and Linux, download the installer from the Pa-Auk Tipitaka folder (link in the next card).",
       "download.quickStart.s2": "On first launch, choose the app interface language.",
       "download.quickStart.s3": "While online, download translation databases from inside the app.",
-      "download.dataHelp.title": "Android & Linux installers · translation database downloads",
+      "download.dataHelp.title":
+        "Android/Linux installers, translation databases, EPUB/PDF/TXT document downloads",
+      "download.dataHelp.documentsCta": "EPUB, PDF, and TXT document downloads",
       "download.dataHelp.apkIntro":
         "Android APK, Windows, and Linux installers are published on the Pa-Auk society file site (link below). If you cannot install from an app store, use that link to download and install.",
       "download.dataHelp.apkCta": "Android APK · Windows · Linux installer downloads",
@@ -116,7 +118,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.ariyavamsa.name": "Ven. Ariyavaṃsa",
       "contributors.ariyavamsa.role":
         "Website design and maintenance for Pa-Auk Meditation Society",
-      "contributors.sunanda.name": "Ven. Sunanda Bhikkhu",
+      "contributors.sunanda.name": "Ven. Sunanda",
       "contributors.sunanda.role": "AI translation; design of the OpenTipitaka reading app",
       "contributors.liuyujun.name": "Upāsaka Liu Yujun",
       "contributors.liuyujun.role": "Project support",
@@ -214,7 +216,8 @@ window.OPENTIPITAKA_SITE_I18N = {
         "从 App Store（iPhone、iPad、Mac）或 Google Play（Android）安装；Windows 与 Linux 请从帕奥学会文件站点的 Tipitaka 目录下载安装包（见下一张卡片中的链接）。",
       "download.quickStart.s2": "首次启动选择程序界面语言。",
       "download.quickStart.s3": "在联网时于应用内下载译文数据库。",
-      "download.dataHelp.title": "安卓、Linux安装包与译文数据库下载",
+      "download.dataHelp.title": "安卓/Linux安装包、译文数据库、Epub/Pdf/Txt文档下载",
+      "download.dataHelp.documentsCta": "Epub、Pdf、Txt文档下载",
       "download.dataHelp.apkIntro":
         "Android APK安装包、Windows 与 Linux 安装包均发布在帕奥学会文件站点（下方链接）。未能通过应用商店安装时请使用该链接下载安装。",
       "download.dataHelp.apkCta": "Android APK · Windows · Linux 安装包下载",
@@ -298,7 +301,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Cài từ App Store (iPhone, iPad, Mac) hoặc Google Play (Android). Với Windows và Linux, tải gói cài từ thư mục Tipitaka trên máy chủ tệp Pa-Auk (liên kết ở ô kế bên).",
       "download.quickStart.s2": "Khi mở lần đầu, chọn ngôn ngữ giao diện.",
       "download.quickStart.s3": "Khi có mạng, tải cơ sở dữ liệu bản dịch trong ứng dụng.",
-      "download.dataHelp.title": "Gói cài Android & Linux · tải CSDL bản dịch",
+      "download.dataHelp.title":
+        "Gói cài Android/Linux, CSDL bản dịch, tài liệu EPUB/PDF/TXT",
+      "download.dataHelp.documentsCta": "Tải tài liệu EPUB, PDF, TXT",
       "download.dataHelp.apkIntro":
         "Gói cài APK Android, Windows và Linux được đăng trên trang tệp Hội Pa-Auk (liên kết dưới). Nếu không cài được qua cửa hàng ứng dụng, hãy dùng liên kết đó để tải và cài.",
       "download.dataHelp.apkCta": "Tải gói cài Android APK · Windows · Linux",
@@ -319,7 +324,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "Các cộng sự chính của dự án",
       "contributors.ariyavamsa.name": "Tôn giả Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Thiết kế và bảo trì website Hội Thiền Pa-Auk",
-      "contributors.sunanda.name": "Tỳ-kheo Sunanda (Sunanda Bhikkhu)",
+      "contributors.sunanda.name": "Tỳ-kheo Sunanda (Sunanda)",
       "contributors.sunanda.role": "Dịch thuật AI, thiết kế phần mềm đọc OpenTipitaka",
       "contributors.liuyujun.name": "Cư sĩ Liễu Dục Quân (Liu Yujun)",
       "contributors.liuyujun.role": "Hỗ trợ hoàn thành",
@@ -369,7 +374,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "App Store (iPhone/iPad/Mac) དང་ Google Play (Android) ནས་བཙུགས། Windows དང་ Linux ལ་ Pa-Auk ཡིག་ཁུག་བཤེར་ཆས་ཀྱི་ Tipitaka ཡིག་ཁུག་ནས་སྒྲིག་ཆས་ཕབ་ལེན།（འོག་གི་བྱང་བུ）",
       "download.quickStart.s2": "ཐོག་མར་འབྱེད་སྐབས་སྤྱོད་མཁན་སྐད་ཡིག་འདེམས།",
       "download.quickStart.s3": "དྲ་བ་ཡོད་སྐབས་མཉེན་ཆས་ནང་ནས་ཐབས་སྒྱུར་གཞི་གྲངས་ཕབ་ལེན།",
-      "download.dataHelp.title": "ཨན་ཌོའི་རིགས་དང་ Linux སྒྲིག་ཆས། ཐབས་སྒྱུར་གཞི་གྲངས་ཕབ་ལེན།",
+      "download.dataHelp.title":
+        "ཨན་ཌོའི་རིགས/Linux སྒྲིག་ཆས། ཐབས་སྒྱུར་གཞི་གྲངས། EPUB/PDF/TXT ཡིག་ཆ་ཕབ་ལེན།",
+      "download.dataHelp.documentsCta": "EPUB、PDF、TXT ཡིག་ཆ་ཕབ་ལེན།",
       "download.dataHelp.apkIntro":
         "Android APKདང་ Windows/Linux སྒྲིག་ཆས་ Pa-Auk ཡིག་ཁུག་བཤེར་ཆས（འོག་གི་སྦྲེལ་ཐག）དུ་ཡོད། ཚོང་ཁང་ནས་བཙུགས་མ་ཐུབ་ཚེ་སྦྲེལ་ཐག་དེས་ཕབ་ལེན་དང་བཙུགས།",
       "download.dataHelp.apkCta": "Android APK · Windows · Linux སྒྲིག་ཆས་ཕབ་ལེན།",
@@ -390,7 +397,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "ལས་གཞིའི་ཞུགས་མཁན་གཙོ་བོ།",
       "contributors.ariyavamsa.name": "དགེ་སློང་ Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Pa-Auk ཚོགས་པའི་དྲ་ངོས་ཇུས་འགོད་དང་སྐྱོང་བ།",
-      "contributors.sunanda.name": "དགེ་སློང་ Sunanda Bhikkhu",
+      "contributors.sunanda.name": "དགེ་སློང་ Sunanda",
       "contributors.sunanda.role": "AI ཡིག་སྒྱུར་དང་ OpenTipitaka ཀློག་མཉེན་ཆས་ཀྱི་ཇུས་འགོད།",
       "contributors.liuyujun.name": "དགེ་བསྐྱེད་ Liu Yujun",
       "contributors.liuyujun.role": "རོགས་རམ་བྱས་ནས་མཇུག་སྒྲིལ།",
@@ -440,7 +447,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "App Store (iPhone, iPad, Mac) သို့မဟုတ် Google Play (Android) မှ ထည့်သွင်းပါ။ Windows နှင့် Linux အတွက် Pa-Auk ဖိုင်ဆာဗာရှိ Tipitaka ဖိုလ်ဒါမှ အင်စတောလာဒေါင်းလုဒ်လုပ်ပါ（နောက်ကတ်တွင် လင့်ပါ）။",
       "download.quickStart.s2": "ပထမဖွင့်ချိန်တွင် အက်ပ်ဘာသာစကားကို ရွေးပါ။",
       "download.quickStart.s3": "အင်တာနက်ရှိချိန်တွင် အက်ပ်အတွင်းမှ ဘာသာပြန်ဒေတာဘေ့စ်များကို ဒေါင်းလုဒ်လုပ်ပါ။",
-      "download.dataHelp.title": "Android နှင့် Linux အင်စတောလာ · ဘာသာပြန်ဒေတာဘေ့စ် ဒေါင်းလုဒ်",
+      "download.dataHelp.title":
+        "Android/Linux အင်စတောလာ၊ ဘာသာပြန်ဒေတာဘေ့စ်၊ EPUB/PDF/TXT စာတမ်းများ ဒေါင်းလုဒ်",
+      "download.dataHelp.documentsCta": "EPUB၊ PDF၊ TXT စာတမ်းများ ဒေါင်းလုဒ်",
       "download.dataHelp.apkIntro":
         "Android APK၊ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk ဖိုင်ဆာဗာ（အောက်လင့်）တွင် ထုတ်ဝေထားသည်။ စတိုးမှ ထည့်သွင်း မရပါက ထိုလင့်မှ ဒေါင်းပြီး ထည့်သွင်းပါ။",
       "download.dataHelp.apkCta": "Android APK · Windows · Linux အင်စတောလာ ဒေါင်းလုဒ်",
@@ -461,7 +470,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "ပရောဂျက်တွင် ပါဝင်သူ အဓိကပုဂ္ဂိုလ်များ",
       "contributors.ariyavamsa.name": "ဘိက္ခု Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Pa-Auk လူ့အဖွဲ့၏ ဝက်ဘ်ဆိုဒ် ဒီဇိုင်နှင့် ထိန်းသိမ်းမှု",
-      "contributors.sunanda.name": "ဘိက္ခု Sunanda Bhikkhu",
+      "contributors.sunanda.name": "ဘိက္ခု Sunanda",
       "contributors.sunanda.role": "AI ဘာသာပြန်၊ OpenTipitaka ဖတ်ရှုဆော့ဖ်ဝဲ ဒီဇိုင်း",
       "contributors.liuyujun.name": "ဥပါသကာ Liu Yujun",
       "contributors.liuyujun.role": "ကူညီပြီးမြောက်စေခြင်း",
@@ -511,7 +520,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "ติดตั้งจาก App Store (iPhone, iPad, Mac) หรือ Google Play (Android) สำหรับ Windows และ Linux ให้ดาวน์โหลดตัวติดตั้งจากโฟลเดอร์ Tipitaka บนเซิร์ฟเวอร์ไฟล์ Pa-Auk (ลิงก์ในการ์ดถัดไป)",
       "download.quickStart.s2": "เมื่อเปิดครั้งแรก เลือกภาษาของแอป",
       "download.quickStart.s3": "เมื่อออนไลน์ ให้ดาวน์โหลดฐานข้อมูลคำแปลจากในแอป",
-      "download.dataHelp.title": "ติดตั้ง Android และ Linux · ดาวน์โหลดฐานข้อมูลคำแปล",
+      "download.dataHelp.title":
+        "ติดตั้ง Android/Linux · ฐานข้อมูลคำแปล · ดาวน์โหลดเอกสาร EPUB/PDF/TXT",
+      "download.dataHelp.documentsCta": "ดาวน์โหลดเอกสาร EPUB, PDF, TXT",
       "download.dataHelp.apkIntro":
         "แพ็กเกจติดตั้ง Android APK, Windows และ Linux เผยแพร่บนเว็บไซต์ไฟล์ของคณะป่าเอ๋ก (ลิงก์ด้านล่าง) หากติดตั้งจากสโตร์ไม่ได้ ให้ใช้ลิงก์นั้นดาวน์โหลดและติดตั้ง",
       "download.dataHelp.apkCta": "ดาวน์โหลดติดตั้ง Android APK · Windows · Linux",
@@ -532,7 +543,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "ผู้มีส่วนร่วมหลักของโครงการ",
       "contributors.ariyavamsa.name": "พระอริยวัฒน์ (Ariyavaṃsa)",
       "contributors.ariyavamsa.role": "ออกแบบและดูแลเว็บไซต์ของคณะป่าเอ๋ก (Pa-Auk)",
-      "contributors.sunanda.name": "พระสุนันทภิกขุ (Sunanda Bhikkhu)",
+      "contributors.sunanda.name": "พระสุนันทภิกขุ (Sunanda)",
       "contributors.sunanda.role": "การแปลด้วย AI การออกแบบแอปอ่าน OpenTipitaka",
       "contributors.liuyujun.name": "อุบาสกหลิว ยฺวี่จฺวิน (Liu Yujun)",
       "contributors.liuyujun.role": "สนับสนุนและช่วยดำเนินการให้สำเร็จ",
@@ -582,7 +593,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "App Store（iPhone / iPad / Mac）と Google Play（Android）からインストール。Windows と Linux のインストーラーは Pa-Auk ファイルサーバーの Tipitaka フォルダから入手してください（次のカードのリンク）。",
       "download.quickStart.s2": "初回起動時にアプリの表示言語を選びます。",
       "download.quickStart.s3": "オンライン時にアプリ内から訳文データベースをダウンロードします。",
-      "download.dataHelp.title": "Android / Linux インストーラー · 訳文データベースのダウンロード",
+      "download.dataHelp.title":
+        "Android/Linux インストーラー、訳文データベース、EPUB/PDF/TXT 文書のダウンロード",
+      "download.dataHelp.documentsCta": "EPUB・PDF・TXT 文書のダウンロード",
       "download.dataHelp.apkIntro":
         "Android APK、Windows、Linux のインストーラーは Pa-Auk 学会ファイルサイト（下のリンク）に公開されています。ストアからインストールできない場合は、そのリンクからダウンロードしてインストールしてください。",
       "download.dataHelp.apkCta": "Android APK · Windows · Linux インストーラーのダウンロード",
@@ -653,7 +666,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "App Store(iPhone, iPad, Mac)와 Google Play(Android)에서 설치하세요. Windows와 Linux 설치 파일은 Pa-Auk 파일 서버의 Tipitaka 폴더에서 받으세요(다음 카드 링크).",
       "download.quickStart.s2": "첫 실행 시 앱 표시 언어를 선택합니다.",
       "download.quickStart.s3": "온라인일 때 앱에서 번역 데이터베이스를 다운로드합니다.",
-      "download.dataHelp.title": "Android·Linux 설치 파일 · 번역 데이터베이스 다운로드",
+      "download.dataHelp.title":
+        "Android/Linux 설치 파일, 번역 데이터베이스, EPUB/PDF/TXT 문서 다운로드",
+      "download.dataHelp.documentsCta": "EPUB, PDF, TXT 문서 다운로드",
       "download.dataHelp.apkIntro":
         "Android APK, Windows, Linux 설치 파일은 Pa-Auk 학회 파일 사이트(아래 링크)에 게시됩니다. 스토어로 설치할 수 없을 때는 해당 링크에서 받아 설치하세요.",
       "download.dataHelp.apkCta": "Android APK · Windows · Linux 설치 파일 다운로드",
@@ -674,7 +689,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "프로젝트 주요 참여자",
       "contributors.ariyavamsa.name": "성종장로 Ariyavaṃsa",
       "contributors.ariyavamsa.role": "파오 계열 학회 웹사이트 설계 및 유지보수",
-      "contributors.sunanda.name": "문희 비구 Sunanda Bhikkhu",
+      "contributors.sunanda.name": "문희 비구 Sunanda",
       "contributors.sunanda.role": "AI 번역, OpenTipitaka 독서 앱 설계",
       "contributors.liuyujun.name": "유욱군 우바사카(Liu Yujun)",
       "contributors.liuyujun.role": "협력 및 지원",
@@ -724,7 +739,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "App Store (iPhone, iPad, Mac) और Google Play (Android) से इंस्टॉल करें। Windows और Linux इंस्टॉलर Pa-Auk फ़ाइल सर्वर के Tipitaka फ़ोल्डर से डाउनलोड करें (अगले कार्ड में लिंक)।",
       "download.quickStart.s2": "पहली बार खोलने पर ऐप की भाषा चुनें।",
       "download.quickStart.s3": "ऑनलाइन रहते हुए ऐप के भीतर से अनुवाद डेटाबेस डाउनलोड करें।",
-      "download.dataHelp.title": "Android व Linux इंस्टॉलर · अनुवाद डेटाबेस डाउनलोड",
+      "download.dataHelp.title":
+        "Android/Linux इंस्टॉलर, अनुवाद डेटाबेस, EPUB/PDF/TXT दस्तावेज़ डाउनलोड",
+      "download.dataHelp.documentsCta": "EPUB, PDF, TXT दस्तावेज़ डाउनलोड",
       "download.dataHelp.apkIntro":
         "Android APK, Windows और Linux इंस्टॉलर Pa-Auk सोसाइटी फ़ाइल साइट (नीचे लिंक) पर प्रकाशित हैं। स्टोर से इंस्टॉल न हो तो उसी लिंक से डाउनलोड कर इंस्टॉल करें।",
       "download.dataHelp.apkCta": "Android APK · Windows · Linux इंस्टॉलर डाउनलोड",
@@ -745,7 +762,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "परियोजना के मुख्य योगदानकर्ता",
       "contributors.ariyavamsa.name": "वेन. अरियवंस (Ariyavaṃsa)",
       "contributors.ariyavamsa.role": "पा-ऑक संघ की वेबसाइट का डिज़ाइन और रखरखाव",
-      "contributors.sunanda.name": "वेन. सुनंदा भिक्खु (Sunanda Bhikkhu)",
+      "contributors.sunanda.name": "वेन. सुनंदा भिक्खु (Sunanda)",
       "contributors.sunanda.role": "AI अनुवाद; OpenTipitaka पठन ऐप का डिज़ाइन",
       "contributors.liuyujun.name": "उपासक लियू युजुन (Liu Yujun)",
       "contributors.liuyujun.role": "सहायता और सम्पादन में सहयोग",
@@ -795,7 +812,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Instala desde App Store (iPhone, iPad, Mac) y Google Play (Android). Para Windows y Linux, descarga los instaladores desde la carpeta Tipitaka del servidor de archivos Pa-Auk (enlace en la tarjeta siguiente).",
       "download.quickStart.s2": "En el primer inicio, elige el idioma de la interfaz.",
       "download.quickStart.s3": "Con conexión, descarga bases de datos de traducción dentro de la app.",
-      "download.dataHelp.title": "Instaladores Android y Linux · descarga de bases de traducción",
+      "download.dataHelp.title":
+        "Instaladores Android/Linux, bases de traducción, descarga de documentos EPUB/PDF/TXT",
+      "download.dataHelp.documentsCta": "Descarga de documentos EPUB, PDF y TXT",
       "download.dataHelp.apkIntro":
         "Los instaladores Android (APK), Windows y Linux se publican en el sitio de archivos de la sociedad Pa-Auk (enlace abajo). Si no puedes instalar desde las tiendas, usa ese enlace para descargar e instalar.",
       "download.dataHelp.apkCta": "Descarga de instaladores Android APK · Windows · Linux",
@@ -816,7 +835,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "Principales colaboradores del proyecto",
       "contributors.ariyavamsa.name": "Venerable Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Diseño y mantenimiento del sitio web de la sociedad Pa-Auk",
-      "contributors.sunanda.name": "Venerable Sunanda Bhikkhu",
+      "contributors.sunanda.name": "Venerable Sunanda",
       "contributors.sunanda.role": "Traducción con IA; diseño de la app de lectura OpenTipitaka",
       "contributors.liuyujun.name": "Upāsaka Liu Yujun",
       "contributors.liuyujun.role": "Colaboración y apoyo al proyecto",
@@ -866,7 +885,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Pasang dari App Store (iPhone, iPad, Mac) dan Google Play (Android). Untuk Windows dan Linux, unduh pemasang dari folder Tipitaka di server berkas Pa-Auk (tautan di kartu berikutnya).",
       "download.quickStart.s2": "Saat pertama dibuka, pilih bahasa antarmuka aplikasi.",
       "download.quickStart.s3": "Saat daring, unduh basis data terjemahan dari dalam aplikasi.",
-      "download.dataHelp.title": "Pemasang Android & Linux · unduhan basis data terjemahan",
+      "download.dataHelp.title":
+        "Pemasang Android/Linux, basis data terjemahan, unduhan dokumen EPUB/PDF/TXT",
+      "download.dataHelp.documentsCta": "Unduhan dokumen EPUB, PDF, dan TXT",
       "download.dataHelp.apkIntro":
         "APK Android, Windows, dan Linux dipublikasikan di situs berkas Pa-Auk (tautan di bawah). Jika tidak bisa memasang dari toko aplikasi, gunakan tautan itu untuk mengunduh dan memasang.",
       "download.dataHelp.apkCta": "Unduh pemasang Android APK · Windows · Linux",
@@ -887,7 +908,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "Kontributor utama proyek",
       "contributors.ariyavamsa.name": "Bhante Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Desain dan pemeliharaan situs web masyarakat Pa-Auk",
-      "contributors.sunanda.name": "Bhikkhu Sunanda (Sunanda Bhikkhu)",
+      "contributors.sunanda.name": "Bhikkhu Sunanda",
       "contributors.sunanda.role": "Terjemahan AI; desain aplikasi baca OpenTipitaka",
       "contributors.liuyujun.name": "Upāsaka Liu Yujun",
       "contributors.liuyujun.role": "Dukungan dan bantuan penyelesaian",
@@ -937,7 +958,9 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Installez depuis l’App Store (iPhone, iPad, Mac) et Google Play (Android). Pour Windows et Linux, téléchargez les installateurs depuis le dossier Tipitaka du serveur de fichiers Pa-Auk (lien dans la carte suivante).",
       "download.quickStart.s2": "Au premier lancement, choisissez la langue de l’interface.",
       "download.quickStart.s3": "En ligne, téléchargez les bases de données de traduction dans l’app.",
-      "download.dataHelp.title": "Installateurs Android & Linux · téléchargement des bases de traduction",
+      "download.dataHelp.title":
+        "Installateurs Android/Linux, bases de traduction, téléchargement de documents EPUB/PDF/TXT",
+      "download.dataHelp.documentsCta": "Téléchargement de documents EPUB, PDF et TXT",
       "download.dataHelp.apkIntro":
         "Les installateurs Android (APK), Windows et Linux sont publiés sur le site de fichiers Pa-Auk (lien ci-dessous). Si vous ne pouvez pas installer depuis les stores, utilisez ce lien pour télécharger et installer.",
       "download.dataHelp.apkCta": "Télécharger les installateurs Android APK · Windows · Linux",
@@ -958,7 +981,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "contributors.title": "Principaux contributeurs du projet",
       "contributors.ariyavamsa.name": "Vénérable Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Conception et maintenance du site web de la société Pa-Auk",
-      "contributors.sunanda.name": "Vénérable Sunanda Bhikkhu",
+      "contributors.sunanda.name": "Vénérable Sunanda",
       "contributors.sunanda.role": "Traduction assistée par IA ; conception de l’app de lecture OpenTipitaka",
       "contributors.liuyujun.name": "Upāsaka Liu Yujun",
       "contributors.liuyujun.role": "Soutien et collaboration au projet",

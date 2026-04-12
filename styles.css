@@ -636,6 +636,10 @@ a {
   margin: 6px 0 0;
 }
 
+.download-card .data-help-documents {
+  margin-top: 10px;
+}
+
 .text-link {
   color: var(--accent3);
   font-weight: 800;
