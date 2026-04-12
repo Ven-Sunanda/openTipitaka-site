@@ -7,8 +7,12 @@ const SITE_EXTERNAL_LINKS = {
   googlePlay: "https://play.google.com/store/apps/details?id=org.opentipitaka.app&pcampaignid=web_share",
   /** Leave empty until the Microsoft Store listing URL is ready. */
   microsoftStore: "",
-  apkMirror: "https://dhamma.paauksociety.org/index.php?dir=Root%2FTipitaka",
-  manualDatabases: "https://dhamma.paauksociety.org/index.php?dir=Root%2FTipitaka%2FSqlLite%20Database",
+  /**
+   * This file server expects `dir=Root/Tipitaka/...` with literal slashes (not `%2F`).
+   * Encode spaces in folder names only (e.g. SqlLite%20Database).
+   */
+  apkMirror: "https://dhamma.paauksociety.org/index.php?dir=Root/Tipitaka",
+  manualDatabases: "https://dhamma.paauksociety.org/index.php?dir=Root/Tipitaka/SqlLite%20Database",
 };
 
 function wireExternalSiteLinks() {
@@ -125,8 +129,6 @@ function wireGithubLinks() {
   const links = [
     { id: "githubLink", href: repoUrl },
     { id: "footerGithubLink", href: repoUrl },
-    { id: "releasesLink", href: `${repoUrl}/releases` },
-    { id: "footerReleasesLink", href: `${repoUrl}/releases` },
     { id: "docsLink", href: `${repoUrl}/blob/main/PROJECT.md` },
   ];
 
