@@ -89,15 +89,32 @@ function setUrlQueryLanguage(lang) {
 
 function applyTranslations(lang) {
   const dict = OPENTIPITAKA_SITE_I18N.languages[lang] || OPENTIPITAKA_SITE_I18N.languages.en;
+  const en = OPENTIPITAKA_SITE_I18N.languages.en;
   document.documentElement.lang = lang;
 
   const nodes = document.querySelectorAll("[data-i18n]");
   for (const node of nodes) {
     const key = node.getAttribute("data-i18n");
     if (!key) continue;
-    const value = dict[key] ?? OPENTIPITAKA_SITE_I18N.languages.en[key];
+    const value = dict[key] ?? en[key];
     if (typeof value !== "string") continue;
     node.textContent = value;
+  }
+
+  for (const node of document.querySelectorAll("[data-i18n-alt]")) {
+    const key = node.getAttribute("data-i18n-alt");
+    if (!key) continue;
+    const value = dict[key] ?? en[key];
+    if (typeof value !== "string") continue;
+    node.setAttribute("alt", value);
+  }
+
+  for (const node of document.querySelectorAll("[data-i18n-aria-label]")) {
+    const key = node.getAttribute("data-i18n-aria-label");
+    if (!key) continue;
+    const value = dict[key] ?? en[key];
+    if (typeof value !== "string") continue;
+    node.setAttribute("aria-label", value);
   }
 }
 
@@ -153,6 +170,30 @@ function wireSmoothScroll() {
   }
 }
 
+function wireScreenshotLightbox() {
+  const dialog = document.getElementById("screenshotLightbox");
+  const fullImg = document.getElementById("screenshotLightboxImg");
+  const closeBtn = dialog?.querySelector(".screenshot-lightbox-close");
+  if (!dialog || !fullImg || !closeBtn) return;
+
+  document.querySelectorAll(".screenshot-open").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const src = btn.getAttribute("data-screenshot-src");
+      const thumb = btn.querySelector("img");
+      if (src) fullImg.setAttribute("src", src);
+      const alt = thumb?.getAttribute("alt") || "";
+      fullImg.setAttribute("alt", alt);
+      dialog.showModal();
+    });
+  });
+
+  closeBtn.addEventListener("click", () => dialog.close());
+
+  dialog.addEventListener("click", (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+}
+
 function main() {
   wireGithubLinks();
   wireExternalSiteLinks();
@@ -162,6 +203,7 @@ function main() {
   setUrlQueryLanguage(lang);
   applyTranslations(lang);
   wireSmoothScroll();
+  wireScreenshotLightbox();
 }
 
 main();

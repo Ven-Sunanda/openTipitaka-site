@@ -36,6 +36,7 @@
 
         <nav class="nav">
           <a class="nav-link" href="#features" data-i18n="nav.features">Features</a>
+          <a class="nav-link" href="#screenshots" data-i18n="nav.screenshots">Screenshots</a>
           <a class="nav-link" href="#online" data-i18n="nav.online">Online reading</a>
           <a class="nav-link" href="#download" data-i18n="nav.download">Download</a>
           <a class="nav-link" href="#contributors" data-i18n="nav.contributors">Contributors</a>
@@ -92,7 +93,7 @@
             <div class="hero-badges">
               <div class="badge" data-i18n="badges.crossPlatform">Cross-platform</div>
               <div class="badge" data-i18n="badges.offlineFirst">Offline-first data</div>
-              <div class="badge" data-i18n="badges.multiLang">12 UI languages</div>
+              <div class="badge" data-i18n="badges.multiLang">14 UI languages</div>
             </div>
           </div>
 
@@ -236,6 +237,130 @@
           </div>
         </div>
       </section>
+
+      <section id="screenshots" class="section section-alt">
+        <div class="container">
+          <div class="section-head">
+            <h2 class="section-title" data-i18n="screenshots.title">App screenshots</h2>
+            <p class="section-subtitle" data-i18n="screenshots.subtitle">
+              Illustrative previews of the reader interface. You can replace the files in web/assets/screenshots/ with real
+              captures at any time.
+            </p>
+          </div>
+          <ul class="screenshots-grid" role="list">
+            <li class="screenshots-item" role="listitem">
+              <figure class="screenshots-figure">
+                <button
+                  type="button"
+                  class="screenshot-open"
+                  data-screenshot-src="./assets/screenshots/01-parallel.svg"
+                  data-i18n-aria-label="screenshots.expandAria"
+                  aria-label="Open larger preview"
+                >
+                  <img
+                    class="screenshot-img"
+                    src="./assets/screenshots/01-parallel.svg"
+                    width="960"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                    data-i18n-alt="screenshots.alt1"
+                    alt="OpenTipitaka reader: parallel Pali and translation columns by paragraph."
+                  />
+                </button>
+                <figcaption class="screenshots-caption" data-i18n="screenshots.caption1">
+                  Parallel reading: Pali with multiple translations by paragraph.
+                </figcaption>
+              </figure>
+            </li>
+            <li class="screenshots-item" role="listitem">
+              <figure class="screenshots-figure">
+                <button
+                  type="button"
+                  class="screenshot-open"
+                  data-screenshot-src="./assets/screenshots/02-toc-dictionary.svg"
+                  data-i18n-aria-label="screenshots.expandAria"
+                  aria-label="Open larger preview"
+                >
+                  <img
+                    class="screenshot-img"
+                    src="./assets/screenshots/02-toc-dictionary.svg"
+                    width="960"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                    data-i18n-alt="screenshots.alt2"
+                    alt="OpenTipitaka reader: navigation tree, contents, and dictionary strip."
+                  />
+                </button>
+                <figcaption class="screenshots-caption" data-i18n="screenshots.caption2">
+                  Tipitaka tree, book contents, and dictionary.
+                </figcaption>
+              </figure>
+            </li>
+            <li class="screenshots-item" role="listitem">
+              <figure class="screenshots-figure">
+                <button
+                  type="button"
+                  class="screenshot-open"
+                  data-screenshot-src="./assets/screenshots/03-search.svg"
+                  data-i18n-aria-label="screenshots.expandAria"
+                  aria-label="Open larger preview"
+                >
+                  <img
+                    class="screenshot-img"
+                    src="./assets/screenshots/03-search.svg"
+                    width="960"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                    data-i18n-alt="screenshots.alt3"
+                    alt="OpenTipitaka reader: search field with highlighted results list."
+                  />
+                </button>
+                <figcaption class="screenshots-caption" data-i18n="screenshots.caption3">
+                  Full-text search across Pali and translations.
+                </figcaption>
+              </figure>
+            </li>
+            <li class="screenshots-item" role="listitem">
+              <figure class="screenshots-figure">
+                <button
+                  type="button"
+                  class="screenshot-open"
+                  data-screenshot-src="./assets/screenshots/04-split-tabs.svg"
+                  data-i18n-aria-label="screenshots.expandAria"
+                  aria-label="Open larger preview"
+                >
+                  <img
+                    class="screenshot-img"
+                    src="./assets/screenshots/04-split-tabs.svg"
+                    width="960"
+                    height="600"
+                    loading="lazy"
+                    decoding="async"
+                    data-i18n-alt="screenshots.alt4"
+                    alt="OpenTipitaka reader: two-pane split layout with multiple tabs."
+                  />
+                </button>
+                <figcaption class="screenshots-caption" data-i18n="screenshots.caption4">
+                  Tabs and split view for comparing texts on wide screens.
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <dialog id="screenshotLightbox" class="screenshot-lightbox" aria-labelledby="screenshotLightboxTitle">
+        <div class="screenshot-lightbox-panel">
+          <h2 id="screenshotLightboxTitle" class="sr-only" data-i18n="screenshots.lightboxTitle">Screenshot preview</h2>
+          <button type="button" class="screenshot-lightbox-close btn btn-secondary" data-i18n="screenshots.dialogClose">
+            Close
+          </button>
+          <img id="screenshotLightboxImg" class="screenshot-lightbox-img" src="" alt="" width="960" height="600" />
+        </div>
+      </dialog>
 
       <section id="online" class="section">
         <div class="container">
