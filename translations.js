@@ -41,7 +41,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.kicker": "Pali Tipitaka · Multi-translation · Proofreading",
       "hero.title": "Read, compare, search, and proofread the Pali Tipitaka—comfortably on any device.",
       "hero.mission":
-        "Under the guidance of Venerable Kumārābhivaṃsa Sayadaw, this project is dedicated to carrying ancient wisdom through modern technology. By bridging the gap between Pali scriptures and contemporary multilingual needs, we leverage AI-assisted translation and the cross-platform application OpenTipitaka to build a trustworthy platform for multilingual translation and parallel reading. Our mission is to make the profound wisdom of the Theravāda Tipiṭaka, Aṭṭhakathā, and Ṭīkā accessible to every practitioner and scholar at their fingertips.\n\nOpenTipitaka is developed by Venerable Sunanda (Sunanda Bhikkhu) and operated by Dhamma Sarana LLC. It is a multilingual Pali Tipiṭaka reading and proofreading application, offering a full cross-platform experience on Windows, macOS, iOS, Android, and Linux. OpenTipitaka supports paragraph-by-paragraph parallel reading of Pali and translations, with professional built-in dictionaries and full-text search, and deeply integrates bookmark management, split-screen comparison, multi-tab switching, auto-scroll, and text-to-speech (TTS) for translations. We invite readers everywhere to join in proofreading and help refine this treasury of wisdom on the path to liberation.",
+        "Under the guidance of Venerable Kumārābhivaṃsa Sayadaw, this project is dedicated to carrying ancient wisdom through modern technology. By bridging the gap between Pali scriptures and contemporary multilingual needs, we leverage AI-assisted translation and the cross-platform application OpenTipitaka to build a trustworthy platform for multilingual translation and parallel reading. Our mission is to make the profound wisdom of the Theravāda Tipiṭaka, Aṭṭhakathā, and Ṭīkā accessible to every practitioner and scholar at their fingertips.\n\nOpenTipitaka is developed by Venerable Sunanda and operated by Dhamma Sarana LLC. It is a multilingual Pali Tipiṭaka reading and proofreading application, offering a full cross-platform experience on Windows, macOS, iOS, Android, and Linux. OpenTipitaka supports paragraph-by-paragraph parallel reading of Pali and translations, with professional built-in dictionaries and full-text search, and deeply integrates bookmark management, split-screen comparison, multi-tab switching, auto-scroll, and text-to-speech (TTS) for translations. We invite readers everywhere to join in proofreading and help refine this treasury of wisdom on the path to liberation.",
       "hero.translationLangs":
         "Translation languages currently supported include Chinese, English, Vietnamese, Thai, Hindi, Indonesian, Japanese, Korean, and French. More languages will be added over time.",
 
@@ -126,9 +126,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (coming) · Tipitaka folder",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka folder · build from source",
+      "download.platforms.rowLinux.v": "Tipitaka folder",
       "download.platforms.note":
-        "Store availability may vary by region. Windows and Linux installers are distributed via the Pa-Auk Tipitaka folder; developers may also build from source.",
+        "Store availability may vary by region. Windows and Linux installers are distributed via the Pa-Auk Tipitaka folder.",
 
       "contributors.title": "Main contributors",
       "contributors.ariyavamsa.name": "Ven. Ariyavaṃsa",
@@ -261,7 +261,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store（即将）· Tipitaka 目录",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka 目录 · 源码构建",
+      "download.platforms.rowLinux.v": "Tipitaka 目录",
       "download.platforms.note":
         "商店上架情况可能因地区而异；Windows 与 Linux 安装包通过帕奥 Tipitaka 目录分发。",
 
@@ -362,9 +362,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (sắp có) · thư mục Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Thư mục Tipitaka · build từ mã nguồn",
+      "download.platforms.rowLinux.v": "Thư mục Tipitaka",
       "download.platforms.note":
-        "Khả dụng trên cửa hàng có thể khác theo khu vực. Bộ cài Windows và Linux phân phối qua thư mục Tipitaka Pa-Auk; có thể tự build từ mã nguồn.",
+        "Khả dụng trên cửa hàng có thể khác theo khu vực. Bộ cài Windows và Linux phân phối qua thư mục Tipitaka Pa-Auk.",
       "contributors.title": "Các cộng sự chính của dự án",
       "contributors.ariyavamsa.name": "Tôn giả Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Thiết kế và bảo trì website Hội Thiền Pa-Auk",
@@ -449,9 +449,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (འགྲོ་བཞིན) · Tipitaka ཡིག་ཁུག",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka ཡིག་ཁུག · ཁུངས་ནས་སྒྲིག",
+      "download.platforms.rowLinux.v": "Tipitaka ཡིག་ཁུག",
       "download.platforms.note":
-        "ཚོང་ཁང་གནས་ཚུལ་ས་ཁུལ་ལ་བལྟོས། Windows/Linux སྒྲིག་ཆས་ Pa-Auk Tipitaka ཡིག་ཁུག་བརྒྱུད་དུ་བགོ་བཤམས། ཁུངས་ནས་སྒྲིག་ཆོག",
+        "ཚོང་ཁང་གནས་ཚུལ་ས་ཁུལ་ལ་བལྟོས། Windows/Linux སྒྲིག་ཆས་ Pa-Auk Tipitaka ཡིག་ཁུག་བརྒྱུད་དུ་བགོ་བཤམས།",
       "contributors.title": "ལས་གཞིའི་ཞུགས་མཁན་གཙོ་བོ།",
       "contributors.ariyavamsa.name": "དགེ་སློང་ Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Pa-Auk ཚོགས་པའི་དྲ་ངོས་ཇུས་འགོད་དང་སྐྱོང་བ།",
@@ -536,9 +536,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (လာမည်) · Tipitaka ဖိုလ်ဒါ",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka ဖိုလ်ဒါ · ရင်းမြစ်မှ တည်ဆောက်",
+      "download.platforms.rowLinux.v": "Tipitaka ဖိုလ်ဒါ",
       "download.platforms.note":
-        "စတိုးရရှိမှုသည် ဒေသအလိုက် ကွာခြားနိုင်သည်။ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk Tipitaka ဖိုလ်ဒါမှ ဖြန့်ချိသည်။ ရင်းမြစ်မှလည်း တည်ဆောက်နိုင်သည်။",
+        "စတိုးရရှိမှုသည် ဒေသအလိုက် ကွာခြားနိုင်သည်။ Windows နှင့် Linux အင်စတောလာများကို Pa-Auk Tipitaka ဖိုလ်ဒါမှ ဖြန့်ချိသည်။",
       "contributors.title": "ပရောဂျက်တွင် ပါဝင်သူ အဓိကပုဂ္ဂိုလ်များ",
       "contributors.ariyavamsa.name": "ဘိက္ခု Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Pa-Auk လူ့အဖွဲ့၏ ဝက်ဘ်ဆိုဒ် ဒီဇိုင်နှင့် ထိန်းသိမ်းမှု",
@@ -623,9 +623,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (เร็วๆ นี้) · โฟลเดอร์ Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "โฟลเดอร์ Tipitaka · สร้างจากซอร์ส",
+      "download.platforms.rowLinux.v": "โฟลเดอร์ Tipitaka",
       "download.platforms.note":
-        "การมีแอปใน Store อาจต่างกันตามภูมิภาค ตัวติดตั้ง Windows และ Linux แจกผ่านโฟลเดอร์ Tipitaka ของ Pa-Auk หรือสร้างจากซอร์สเอง",
+        "การมีแอปใน Store อาจต่างกันตามภูมิภาค ตัวติดตั้ง Windows และ Linux แจกผ่านโฟลเดอร์ Tipitaka ของ Pa-Auk",
       "contributors.title": "ผู้มีส่วนร่วมหลักของโครงการ",
       "contributors.ariyavamsa.name": "พระอริยวัฒน์ (Ariyavaṃsa)",
       "contributors.ariyavamsa.role": "ออกแบบและดูแลเว็บไซต์ของคณะป่าเอ๋ก (Pa-Auk)",
@@ -710,9 +710,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store（準備中）· Tipitaka フォルダ",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka フォルダ · ソースからビルド",
+      "download.platforms.rowLinux.v": "Tipitaka フォルダ",
       "download.platforms.note":
-        "ストアの提供状況は地域により異なります。Windows と Linux のインストーラーは Pa-Auk の Tipitaka フォルダから入手するか、ソースからビルドしてください。",
+        "ストアの提供状況は地域により異なります。Windows と Linux のインストーラーは Pa-Auk の Tipitaka フォルダから入手できます。",
       "contributors.title": "プロジェクトの主な関係者",
       "contributors.ariyavamsa.name": "聖種長老（Ariyavaṃsa）",
       "contributors.ariyavamsa.role": "パオ系学会ウェブサイトの設計と保守",
@@ -797,9 +797,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store(예정) · Tipitaka 폴더",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka 폴더 · 소스 빌드",
+      "download.platforms.rowLinux.v": "Tipitaka 폴더",
       "download.platforms.note":
-        "스토어 제공 여부는 지역마다 다를 수 있습니다. Windows와 Linux 설치 파일은 Pa-Auk Tipitaka 폴더에서 받거나 소스에서 빌드하세요.",
+        "스토어 제공 여부는 지역마다 다를 수 있습니다. Windows와 Linux 설치 파일은 Pa-Auk Tipitaka 폴더에서 받으세요.",
       "contributors.title": "프로젝트 주요 참여자",
       "contributors.ariyavamsa.name": "성종장로 Ariyavaṃsa",
       "contributors.ariyavamsa.role": "파오 계열 학회 웹사이트 설계 및 유지보수",
@@ -884,9 +884,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (जल्द) · Tipitaka फ़ोल्डर",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka फ़ोल्डर · स्रोत से बिल्ड",
+      "download.platforms.rowLinux.v": "Tipitaka फ़ोल्डर",
       "download.platforms.note":
-        "स्टोर उपलब्धता क्षेत्र के अनुसार भिन्न हो सकती है। Windows और Linux इंस्टॉलर Pa-Auk Tipitaka फ़ोल्डर से लें या स्रोत से बिल्ड करें।",
+        "स्टोर उपलब्धता क्षेत्र के अनुसार भिन्न हो सकती है। Windows और Linux इंस्टॉलर Pa-Auk Tipitaka फ़ोल्डर से प्राप्त करें।",
       "contributors.title": "परियोजना के मुख्य योगदानकर्ता",
       "contributors.ariyavamsa.name": "वेन. अरियवंस (Ariyavaṃsa)",
       "contributors.ariyavamsa.role": "पा-ऑक संघ की वेबसाइट का डिज़ाइन और रखरखाव",
@@ -971,9 +971,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (próx.) · carpeta Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "carpeta Tipitaka · compilar desde fuente",
+      "download.platforms.rowLinux.v": "carpeta Tipitaka",
       "download.platforms.note":
-        "La disponibilidad en tiendas puede variar según la región. Los instaladores de Windows y Linux se obtienen en la carpeta Tipitaka de Pa-Auk o compilando desde el código.",
+        "La disponibilidad en tiendas puede variar según la región. Los instaladores de Windows y Linux se obtienen en la carpeta Tipitaka de Pa-Auk.",
       "contributors.title": "Principales colaboradores del proyecto",
       "contributors.ariyavamsa.name": "Venerable Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Diseño y mantenimiento del sitio web de la sociedad Pa-Auk",
@@ -1058,9 +1058,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (segera) · folder Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "folder Tipitaka · bangun dari sumber",
+      "download.platforms.rowLinux.v": "folder Tipitaka",
       "download.platforms.note":
-        "Ketersediaan toko dapat berbeda menurut wilayah. Pemasang Windows dan Linux di folder Tipitaka Pa-Auk atau bangun dari sumber.",
+        "Ketersediaan toko dapat berbeda menurut wilayah. Pemasang Windows dan Linux di folder Tipitaka Pa-Auk.",
       "contributors.title": "Kontributor utama proyek",
       "contributors.ariyavamsa.name": "Bhante Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Desain dan pemeliharaan situs web masyarakat Pa-Auk",
@@ -1145,9 +1145,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (bientôt) · dossier Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "dossier Tipitaka · compilation des sources",
+      "download.platforms.rowLinux.v": "dossier Tipitaka",
       "download.platforms.note":
-        "La disponibilité sur les stores peut varier selon la région. Les installateurs Windows et Linux sont dans le dossier Tipitaka Pa-Auk ou par compilation des sources.",
+        "La disponibilité sur les stores peut varier selon la région. Les installateurs Windows et Linux sont disponibles dans le dossier Tipitaka Pa-Auk.",
       "contributors.title": "Principaux contributeurs du projet",
       "contributors.ariyavamsa.name": "Vénérable Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Conception et maintenance du site web de la société Pa-Auk",
@@ -1273,9 +1273,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (in Kürze) · Tipitaka-Ordner",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka-Ordner · aus Quelltext bauen",
+      "download.platforms.rowLinux.v": "Tipitaka-Ordner",
       "download.platforms.note":
-        "Store-Verfügbarkeit je nach Region unterschiedlich. Windows- und Linux-Installer über den Pa-Auk-Tipitaka-Ordner; Entwickler können aus dem Quelltext bauen.",
+        "Store-Verfügbarkeit je nach Region unterschiedlich. Windows- und Linux-Installer über den Pa-Auk-Tipitaka-Ordner.",
       "contributors.title": "Hauptmitwirkende",
       "contributors.ariyavamsa.name": "Ehrw. Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Webdesign und Pflege für die Pa-Auk Meditation Society",
@@ -1410,9 +1410,9 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowWindows.k": "Windows",
       "download.platforms.rowWindows.v": "Microsoft Store (ඉදිරියේ) · Tipitaka ෆෝල්ඩරය",
       "download.platforms.rowLinux.k": "Linux",
-      "download.platforms.rowLinux.v": "Tipitaka ෆෝල්ඩරය · මූලාශ්‍රයෙන් තැනීම",
+      "download.platforms.rowLinux.v": "Tipitaka ෆෝල්ඩරය",
       "download.platforms.note":
-        "වෙළඳසැල් ලබා ගැනීම කලාපය අනුව වෙනස් විය හැක. Windows සහ Linux ස්ථාපක Pa-Auk Tipitaka ෆෝල්ඩරයෙන්; සංවර්ධකයින් මූලාශ්‍රයෙන් ද තැනිය හැක.",
+        "වෙළඳසැල් ලබා ගැනීම කලාපය අනුව වෙනස් විය හැක. Windows සහ Linux ස්ථාපක Pa-Auk Tipitaka ෆෝල්ඩරයෙන්.",
       "contributors.title": "ප්‍රධාන දායකයින්",
       "contributors.ariyavamsa.name": "ගරු අරියවංශ හිමි",
       "contributors.ariyavamsa.role": "පාඕක් ධ්‍යාන සමාජ වෙබ් අඩවියේ නිර්මාණය සහ නඩත්තුව",
