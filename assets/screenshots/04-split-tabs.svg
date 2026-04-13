@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Split view preview">
+  <defs>
+    <style>
+      .bg { fill: #1a1d26; }
+      .frame { fill: none; stroke: rgba(255,255,255,0.18); stroke-width: 2; }
+      .panel { fill: rgba(255,255,255,0.06); stroke: rgba(255,255,255,0.12); stroke-width: 1; }
+      .line { fill: rgba(255,255,255,0.22); }
+      .tab { fill: rgba(123, 231, 195, 0.2); stroke: rgba(255,255,255,0.14); stroke-width: 1; }
+      .divider { stroke: rgba(255,255,255,0.2); stroke-width: 2; }
+      @media (prefers-color-scheme: light) {
+        .bg { fill: #eef0f4; }
+        .frame { stroke: rgba(15,18,26,0.14); }
+        .panel { fill: rgba(15,18,26,0.05); stroke: rgba(15,18,26,0.1); }
+        .line { fill: rgba(15,18,26,0.2); }
+        .tab { fill: rgba(0, 122, 90, 0.12); stroke: rgba(15,18,26,0.12); }
+        .divider { stroke: rgba(15,18,26,0.18); }
+      }
+    </style>
+  </defs>
+  <rect class="bg" width="960" height="600" rx="24"/>
+  <rect class="frame" x="24" y="24" width="912" height="552" rx="16"/>
+  <rect class="tab" x="44" y="56" width="100" height="30" rx="8"/>
+  <rect class="tab" x="152" y="56" width="100" height="30" rx="8"/>
+  <rect class="tab" x="260" y="56" width="100" height="30" rx="8"/>
+  <rect class="panel" x="44" y="100" width="420" height="420" rx="10"/>
+  <line class="divider" x1="480" y1="100" x2="480" y2="520"/>
+  <rect class="panel" x="496" y="100" width="420" height="420" rx="10"/>
+  <rect class="line" x="64" y="128" width="300" height="10" rx="3"/>
+  <rect class="line" x="64" y="152" width="360" height="8" rx="2"/>
+  <rect class="line" x="64" y="172" width="340" height="8" rx="2"/>
+  <rect class="line" x="64" y="192" width="370" height="8" rx="2"/>
+  <rect class="line" x="516" y="128" width="280" height="10" rx="3"/>
+  <rect class="line" x="516" y="152" width="350" height="8" rx="2"/>
+  <rect class="line" x="516" y="172" width="320" height="8" rx="2"/>
+  <rect class="line" x="516" y="192" width="360" height="8" rx="2"/>
+</svg>
