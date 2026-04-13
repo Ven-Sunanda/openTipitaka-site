@@ -50,7 +50,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "14 UI languages",
 
       "screenshots.title": "App screenshots",
-      "screenshots.subtitle": "Illustrative previews of the reader interface. Replace the files in web/assets/screenshots/ with real captures any time.",
       "screenshots.expandAria": "Open larger preview",
       "screenshots.dialogClose": "Close",
       "screenshots.lightboxTitle": "Screenshot preview",
@@ -189,7 +188,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "14 种界面语言",
 
       "screenshots.title": "应用截图",
-      "screenshots.subtitle": "阅读器界面的示意图；可随时用真实截图替换 web/assets/screenshots/ 中的文件。",
       "screenshots.expandAria": "放大查看",
       "screenshots.dialogClose": "关闭",
       "screenshots.lightboxTitle": "截图预览",
@@ -323,7 +321,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "14 ngôn ngữ giao diện",
 
       "screenshots.title": "Ảnh ứng dụng",
-      "screenshots.subtitle": "Hình minh họa giao diện đọc. Có thể thay các tệp trong web/assets/screenshots/ bằng ảnh chụp thật bất cứ lúc nào.",
       "screenshots.expandAria": "Mở xem lớn hơn",
       "screenshots.dialogClose": "Đóng",
       "screenshots.lightboxTitle": "Xem trước ảnh chụp",
@@ -413,7 +410,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "སྐད་ཡིག 14",
 
       "screenshots.title": "བརྙན་ཤེལ་མཐོང་རིས།",
-      "screenshots.subtitle": "ཀློག་བྱང་གི་མཐོང་རིས་དཔེར་བརྗོད། web/assets/screenshots/ ནང་གི་ཡིག་ཆ་ངོ་མའི་པར་གྱིས་བརྗེ་བཅོས་བྱེད་ཆོག",
       "screenshots.expandAria": "ཆེ་བའི་མཐོང་རིས་འབྱེད།",
       "screenshots.dialogClose": "སྒོ་རྒྱག",
       "screenshots.lightboxTitle": "བརྙན་ཤེལ་མཐོང་རིས།",
@@ -501,7 +497,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "UI ဘာသာ 14 မျိုး",
 
       "screenshots.title": "အက်ပ် မျက်နှာပြင်ဓာတ်ပုံများ",
-      "screenshots.subtitle": "ဖတ်ရှုမှုအင်တာဖေ့စ်၏ နမူနာပုံများ။ web/assets/screenshots/ ရှိ ဖိုင်များကို အစစ်အမှန်ဓာတ်ပုံများဖြင့် အချိန်မရွေး အစားထိုးနိုင်သည်။",
       "screenshots.expandAria": "ပိုကြီးသော အစမ်းကြည့်ရှုမှု ဖွင့်ရန်",
       "screenshots.dialogClose": "ပိတ်ရန်",
       "screenshots.lightboxTitle": "ဓာတ်ပုံ အစမ်းကြည့်ရှုမှု",
@@ -589,7 +584,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "ภาษา UI 14 ภาษา",
 
       "screenshots.title": "ภาพหน้าจอแอป",
-      "screenshots.subtitle": "ภาพตัวอย่างอินเทอร์เฟซโปรแกรมอ่าน แทนที่ไฟล์ใน web/assets/screenshots/ ด้วยภาพจริงได้ตลอดเวลา",
       "screenshots.expandAria": "เปิดดูขนาดใหญ่",
       "screenshots.dialogClose": "ปิด",
       "screenshots.lightboxTitle": "ดูตัวอย่างภาพหน้าจอ",
@@ -677,7 +671,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "UI 14言語",
 
       "screenshots.title": "スクリーンショット",
-      "screenshots.subtitle": "リーダー画面のイメージ図です。web/assets/screenshots/ のファイルはいつでも実際の画面キャプチャに差し替えできます。",
       "screenshots.expandAria": "拡大表示",
       "screenshots.dialogClose": "閉じる",
       "screenshots.lightboxTitle": "スクリーンショットのプレビュー",
@@ -765,7 +758,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "UI 14개 언어",
 
       "screenshots.title": "스크린샷",
-      "screenshots.subtitle": "리더 인터페이스를 보여 주는 예시 이미지입니다. web/assets/screenshots/의 파일을 실제 캡처로 언제든 바꿀 수 있습니다.",
       "screenshots.expandAria": "크게 보기",
       "screenshots.dialogClose": "닫기",
       "screenshots.lightboxTitle": "스크린샷 미리보기",
@@ -853,7 +845,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "UI 14 भाषाएँ",
 
       "screenshots.title": "ऐप स्क्रीनशॉट",
-      "screenshots.subtitle": "रीडर इंटरफ़ेस के नमूने। web/assets/screenshots/ में फ़ाइलें कभी भी वास्तविक कैप्चर से बदलें।",
       "screenshots.expandAria": "बड़ा पूर्वावलोकन खोलें",
       "screenshots.dialogClose": "बंद करें",
       "screenshots.lightboxTitle": "स्क्रीनशॉट पूर्वावलोकन",
@@ -941,7 +932,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "14 idiomas de UI",
 
       "screenshots.title": "Capturas de la app",
-      "screenshots.subtitle": "Vistas ilustrativas del lector. Puede sustituir los archivos en web/assets/screenshots/ por capturas reales en cualquier momento.",
       "screenshots.expandAria": "Abrir vista ampliada",
       "screenshots.dialogClose": "Cerrar",
       "screenshots.lightboxTitle": "Vista previa de captura",
@@ -1029,7 +1019,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "14 bahasa UI",
 
       "screenshots.title": "Tangkapan layar aplikasi",
-      "screenshots.subtitle": "Pratinjau ilustratif antarmuka pembaca. Ganti berkas di web/assets/screenshots/ dengan tangkapan layar asli kapan saja.",
       "screenshots.expandAria": "Buka pratinjau lebih besar",
       "screenshots.dialogClose": "Tutup",
       "screenshots.lightboxTitle": "Pratinjau tangkapan layar",
@@ -1117,7 +1106,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "14 langues d’UI",
 
       "screenshots.title": "Captures d’écran",
-      "screenshots.subtitle": "Aperçus illustratifs du lecteur. Remplacez les fichiers dans web/assets/screenshots/ par de vraies captures à tout moment.",
       "screenshots.expandAria": "Ouvrir un aperçu plus grand",
       "screenshots.dialogClose": "Fermer",
       "screenshots.lightboxTitle": "Aperçu de la capture",
@@ -1205,7 +1193,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "14 UI-Sprachen",
 
       "screenshots.title": "App-Screenshots",
-      "screenshots.subtitle": "Illustrative Vorschauen der Leser-Oberfläche. Die Dateien in web/assets/screenshots/ können jederzeit durch echte Aufnahmen ersetzt werden.",
       "screenshots.expandAria": "Größere Vorschau öffnen",
       "screenshots.dialogClose": "Schließen",
       "screenshots.lightboxTitle": "Screenshot-Vorschau",
@@ -1343,7 +1330,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "badges.multiLang": "UI භාෂා 14",
 
       "screenshots.title": "යෙදුමේ තිර රුප",
-      "screenshots.subtitle": "කියවන්නාගේ අතුරුමුහුණතේ සංදර්ශක පෙරදසුන්; web/assets/screenshots/ තුළ ගොනු සැබෑ රුපවලින් ඕනෑම වේලාවක ප්‍රතිස්ථාපනය කළ හැක.",
       "screenshots.expandAria": "විශාල පෙරදසුනක් විවෘත කරන්න",
       "screenshots.dialogClose": "වසන්න",
       "screenshots.lightboxTitle": "තිර රුප පෙරදසුන",
