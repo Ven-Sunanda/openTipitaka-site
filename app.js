@@ -279,6 +279,37 @@ function wireScreenshotLightbox() {
   });
 }
 
+function wirePlatformsJump() {
+  function scrollToId(id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollIntoView({ behavior: "smooth", block: "center" });
+    // Make keyboard focus visible after scrolling.
+    if (typeof el.focus === "function") el.focus({ preventScroll: true });
+  }
+
+  function onActivate(rowId, handler) {
+    const row = document.getElementById(rowId);
+    if (!row) return;
+    row.addEventListener("click", handler);
+    row.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        handler();
+      }
+    });
+  }
+
+  onActivate("platformRowApple", () => scrollToId("appleAppStoreLink"));
+  onActivate("platformRowAndroid", () => scrollToId("googlePlayLink"));
+  onActivate("platformRowWindows", () => {
+    const msWrap = document.getElementById("msStoreWrap");
+    const msVisible = msWrap && !msWrap.hasAttribute("hidden");
+    scrollToId(msVisible ? "microsoftStoreLink" : "apkMirrorLink");
+  });
+  onActivate("platformRowLinux", () => scrollToId("apkMirrorLink"));
+}
+
 function main() {
   wireGithubLinks();
   wireExternalSiteLinks();
@@ -290,6 +321,7 @@ function main() {
   applyTranslations(lang);
   wireSmoothScroll();
   wireScreenshotLightbox();
+  wirePlatformsJump();
 }
 
 main();

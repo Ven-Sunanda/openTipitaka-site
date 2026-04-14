@@ -699,6 +699,19 @@ a {
   padding: 10px 12px;
 }
 
+.platform-row-jump {
+  cursor: pointer;
+}
+
+.platform-row-jump:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.22);
+  outline-offset: 4px;
+}
+
+.platform-row-jump:hover .v {
+  text-decoration: underline;
+}
+
 .platforms .k {
   font-weight: 850;
 }
