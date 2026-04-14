@@ -110,7 +110,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.title": "Download & data",
       "download.quickStart.title": "Quick start",
       "download.quickStart.s1":
-        "Install from the App Store (iPhone, iPad, Mac) or Google Play (Android). For Windows and Linux, download the installer from the Pa-Auk Tipitaka folder (link in the next card).",
+        "Install from the App Store (iPhone, iPad, Mac) or Google Play (Android). For Windows, install from Microsoft Store (or use the Tipitaka folder link below). For Linux, download the installer from the Pa-Auk Tipitaka folder (link below).",
       "download.quickStart.s2": "On first launch, choose the app interface language.",
       "download.quickStart.s3": "While online, download translation databases from inside the app.",
       "download.dataHelp.title":
@@ -128,11 +128,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka folder",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (coming) · Tipitaka folder",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka folder",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka folder",
       "download.platforms.note":
-        "Store availability may vary by region. Windows and Linux installers are distributed via the Pa-Auk Tipitaka folder.",
+        "Store availability may vary by region. Windows is available on Microsoft Store. Windows and Linux installers are also distributed via the Pa-Auk Tipitaka folder.",
 
       "contributors.title": "Main contributors",
       "contributors.ariyavamsa.name": "Ven. Ariyavaṃsa",
@@ -257,7 +257,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.title": "下载与数据库",
       "download.quickStart.title": "快速开始",
       "download.quickStart.s1":
-        "从 App Store（iPhone、iPad、Mac）或 Google Play（Android）安装；Windows 与 Linux 请从帕奥学会文件站点的 Tipitaka 目录下载安装包（见下一张卡片中的链接）。",
+        "从 App Store（iPhone、iPad、Mac）或 Google Play（Android）安装；Windows 可从 Microsoft Store 安装（或使用下方 Tipitaka 目录链接下载安装包）；Linux 请从帕奥学会文件站点的 Tipitaka 目录下载安装包（见下方链接）。",
       "download.quickStart.s2": "首次启动选择程序界面语言。",
       "download.quickStart.s3": "在联网时于应用内下载译文数据库。",
       "download.dataHelp.title": "安卓/Linux安装包、译文数据库、Epub/Pdf/Txt文档下载",
@@ -273,11 +273,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka 目录",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store（即将）· Tipitaka 目录",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka 目录",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka 目录",
       "download.platforms.note":
-        "商店上架情况可能因地区而异；Windows 与 Linux 安装包通过帕奥 Tipitaka 目录分发。",
+        "商店上架情况可能因地区而异；Windows 已上架 Microsoft Store；Windows 与 Linux 安装包也可通过帕奥 Tipitaka 目录分发。",
 
       "contributors.title": "项目主要参与人员",
       "contributors.ariyavamsa.name": "圣种长老（Ariyavaṃsa）",
@@ -365,7 +365,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.title": "Tải về & dữ liệu",
       "download.quickStart.title": "Bắt đầu nhanh",
       "download.quickStart.s1":
-        "Cài từ App Store (iPhone, iPad, Mac) hoặc Google Play (Android). Với Windows và Linux, tải gói cài từ thư mục Tipitaka trên máy chủ tệp Pa-Auk (liên kết ở ô kế bên).",
+        "Cài từ App Store (iPhone, iPad, Mac) hoặc Google Play (Android). Với Windows, cài từ Microsoft Store (hoặc dùng liên kết thư mục Tipitaka bên dưới). Với Linux, tải gói cài từ thư mục Tipitaka trên máy chủ tệp Pa-Auk (liên kết bên dưới).",
       "download.quickStart.s2": "Khi mở lần đầu, chọn ngôn ngữ giao diện.",
       "download.quickStart.s3": "Khi có mạng, tải cơ sở dữ liệu bản dịch trong ứng dụng.",
       "download.dataHelp.title":
@@ -383,11 +383,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · thư mục Tipitaka",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (sắp có) · thư mục Tipitaka",
+      "download.platforms.rowWindows.v": "Microsoft Store · thư mục Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Thư mục Tipitaka",
       "download.platforms.note":
-        "Khả dụng trên cửa hàng có thể khác theo khu vực. Bộ cài Windows và Linux phân phối qua thư mục Tipitaka Pa-Auk.",
+        "Khả dụng trên cửa hàng có thể khác theo khu vực. Windows có trên Microsoft Store. Bộ cài Windows và Linux cũng được phân phối qua thư mục Tipitaka Pa-Auk.",
       "contributors.title": "Các cộng sự chính của dự án",
       "contributors.ariyavamsa.name": "Tôn giả Ariyavaṃsa",
       "contributors.ariyavamsa.role": "Thiết kế và bảo trì website Hội Thiền Pa-Auk",
@@ -480,7 +480,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka ཡིག་ཁུག",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (འགྲོ་བཞིན) · Tipitaka ཡིག་ཁུག",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka ཡིག་ཁུག",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka ཡིག་ཁུག",
       "download.platforms.note":
@@ -577,7 +577,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka ဖိုလ်ဒါ",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (လာမည်) · Tipitaka ဖိုလ်ဒါ",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka ဖိုလ်ဒါ",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka ဖိုလ်ဒါ",
       "download.platforms.note":
@@ -674,7 +674,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · โฟลเดอร์ Tipitaka",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (เร็วๆ นี้) · โฟลเดอร์ Tipitaka",
+      "download.platforms.rowWindows.v": "Microsoft Store · โฟลเดอร์ Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "โฟลเดอร์ Tipitaka",
       "download.platforms.note":
@@ -770,7 +770,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka フォルダ",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store（準備中）· Tipitaka フォルダ",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka フォルダ",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka フォルダ",
       "download.platforms.note":
@@ -866,7 +866,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka 폴더",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store(예정) · Tipitaka 폴더",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka 폴더",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka 폴더",
       "download.platforms.note":
@@ -962,7 +962,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka फ़ोल्डर",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (जल्द) · Tipitaka फ़ोल्डर",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka फ़ोल्डर",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka फ़ोल्डर",
       "download.platforms.note":
@@ -1058,7 +1058,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · carpeta Tipitaka",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (próx.) · carpeta Tipitaka",
+      "download.platforms.rowWindows.v": "Microsoft Store · carpeta Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "carpeta Tipitaka",
       "download.platforms.note":
@@ -1154,7 +1154,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · folder Tipitaka",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (segera) · folder Tipitaka",
+      "download.platforms.rowWindows.v": "Microsoft Store · folder Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "folder Tipitaka",
       "download.platforms.note":
@@ -1251,7 +1251,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · dossier Tipitaka",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (bientôt) · dossier Tipitaka",
+      "download.platforms.rowWindows.v": "Microsoft Store · dossier Tipitaka",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "dossier Tipitaka",
       "download.platforms.note":
@@ -1389,7 +1389,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka-Ordner",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (in Kürze) · Tipitaka-Ordner",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka-Ordner",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka-Ordner",
       "download.platforms.note":
@@ -1536,7 +1536,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "download.platforms.rowAndroid.k": "Android",
       "download.platforms.rowAndroid.v": "Google Play · Tipitaka ෆෝල්ඩරය",
       "download.platforms.rowWindows.k": "Windows",
-      "download.platforms.rowWindows.v": "Microsoft Store (ඉදිරියේ) · Tipitaka ෆෝල්ඩරය",
+      "download.platforms.rowWindows.v": "Microsoft Store · Tipitaka ෆෝල්ඩරය",
       "download.platforms.rowLinux.k": "Linux",
       "download.platforms.rowLinux.v": "Tipitaka ෆෝල්ඩරය",
       "download.platforms.note":

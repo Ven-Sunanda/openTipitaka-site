@@ -6,7 +6,7 @@ const SITE_EXTERNAL_LINKS = {
   appleAppStore: "https://apps.apple.com/mm/app/opentipitaka/id6760888347",
   googlePlay: "https://play.google.com/store/apps/details?id=org.opentipitaka.app&pcampaignid=web_share",
   /** Leave empty until the Microsoft Store listing URL is ready. */
-  microsoftStore: "",
+  microsoftStore: "https://apps.microsoft.com/detail/9P9Q1G51JL61?hl=en-us&gl=MM&ocid=pdpshare",
   /**
    * Canonical GitHub repo URL (used on custom domains where path-based guess fails).
    * Leave empty to rely only on *.github.io/<repo>/ inference.
