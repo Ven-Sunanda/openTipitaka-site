@@ -11,13 +11,16 @@ const SITE_EXTERNAL_LINKS = {
    * Canonical GitHub repo URL (used on custom domains where path-based guess fails).
    * Leave empty to rely only on *.github.io/<repo>/ inference.
    */
-  githubRepository: "",
+  githubRepository: "https://github.com/Ven-Sunanda/openTipitaka-site",
   /** Optional override; if empty, derived as `<githubRepository>/issues` when repository is known. */
   githubIssues: "",
-  /** Public feedback inbox; leave empty to hide the email link on the site. */
-  feedbackEmail: "",
-  /** Optional mailto subject (URL-encoded by the wiring code). */
-  feedbackEmailSubject: "OpenTipitaka feedback",
+  /** General feedback (leave empty to hide that row). */
+  feedbackEmailGeneral: "main@dhammasarana.org",
+  /** App-specific technical questions (leave empty to hide that row). */
+  feedbackEmailApp: "opentipitaka@gmail.com",
+  /** Optional mailto subject lines (URL-encoded when building links). */
+  feedbackEmailGeneralSubject: "OpenTipitaka — general feedback",
+  feedbackEmailAppSubject: "OpenTipitaka — app support",
   /**
    * This file server expects `dir=Root/Tipitaka/...` with literal slashes (not `%2F`).
    * Encode spaces in folder names only (e.g. SqlLite%20Database).
@@ -181,6 +184,21 @@ function wireGithubLinks() {
   }
 }
 
+function wireFeedbackMailRow(address, subjectKey, linkId, wrapId) {
+  const raw = (address || "").trim();
+  const link = document.getElementById(linkId);
+  const wrap = document.getElementById(wrapId);
+  if (!link || !wrap) return false;
+  if (!raw) {
+    wrap.setAttribute("hidden", "");
+    return false;
+  }
+  const subject = (SITE_EXTERNAL_LINKS[subjectKey] || "").trim();
+  link.setAttribute("href", buildMailtoHref(raw, subject));
+  wrap.removeAttribute("hidden");
+  return true;
+}
+
 function wireFeedbackLinks() {
   const issuesUrl = resolveGithubIssuesUrl();
   const issuesLink = document.getElementById("feedbackIssuesLink");
@@ -196,24 +214,23 @@ function wireFeedbackLinks() {
     }
   }
 
-  const email = (SITE_EXTERNAL_LINKS.feedbackEmail || "").trim();
-  const emailLink = document.getElementById("feedbackEmailLink");
-  const emailWrap = document.getElementById("feedbackEmailWrap");
-  let showEmail = false;
-  if (emailLink && emailWrap) {
-    if (email) {
-      const subject = (SITE_EXTERNAL_LINKS.feedbackEmailSubject || "").trim();
-      emailLink.setAttribute("href", buildMailtoHref(email, subject));
-      emailWrap.removeAttribute("hidden");
-      showEmail = true;
-    } else {
-      emailWrap.setAttribute("hidden", "");
-    }
-  }
+  const showEmailGeneral = wireFeedbackMailRow(
+    SITE_EXTERNAL_LINKS.feedbackEmailGeneral,
+    "feedbackEmailGeneralSubject",
+    "feedbackEmailGeneralLink",
+    "feedbackEmailGeneralWrap",
+  );
+  const showEmailApp = wireFeedbackMailRow(
+    SITE_EXTERNAL_LINKS.feedbackEmailApp,
+    "feedbackEmailAppSubject",
+    "feedbackEmailAppLink",
+    "feedbackEmailAppWrap",
+  );
+  const showAnyEmail = showEmailGeneral || showEmailApp;
 
   const block = document.getElementById("supportFeedbackBlock");
   if (block) {
-    if (!showIssues && !showEmail) block.setAttribute("hidden", "");
+    if (!showIssues && !showAnyEmail) block.setAttribute("hidden", "");
     else block.removeAttribute("hidden");
   }
 }
