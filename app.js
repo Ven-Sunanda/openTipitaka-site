@@ -228,10 +228,10 @@ function wireFeedbackLinks() {
   );
   const showAnyEmail = showEmailGeneral || showEmailApp;
 
-  const block = document.getElementById("supportFeedbackBlock");
-  if (block) {
-    if (!showIssues && !showAnyEmail) block.setAttribute("hidden", "");
-    else block.removeAttribute("hidden");
+  const feedbackSection = document.getElementById("feedback");
+  if (feedbackSection) {
+    if (!showIssues && !showAnyEmail) feedbackSection.setAttribute("hidden", "");
+    else feedbackSection.removeAttribute("hidden");
   }
 }
 
