@@ -247,108 +247,130 @@
           <div class="section-head">
             <h2 class="section-title" data-i18n="screenshots.title">App screenshots</h2>
           </div>
-          <ul class="screenshots-grid" role="list">
-            <li class="screenshots-item" role="listitem">
-              <figure class="screenshots-figure">
-                <button
-                  type="button"
-                  class="screenshot-open"
-                  data-screenshot-src="./assets/screenshots/01-parallel.png"
-                  data-i18n-aria-label="screenshots.expandAria"
-                  aria-label="Open larger preview"
-                >
-                  <img
-                    class="screenshot-img"
-                    src="./assets/screenshots/01-parallel.png"
-                    width="960"
-                    height="600"
-                    loading="lazy"
-                    decoding="async"
-                    data-i18n-alt="screenshots.alt1"
-                    alt="OpenTipitaka reader: parallel Pali and translation columns by paragraph."
-                  />
-                </button>
-                <figcaption class="screenshots-caption" data-i18n="screenshots.caption1">
-                  Parallel reading: Pali with multiple translations by paragraph.
-                </figcaption>
-              </figure>
-            </li>
-            <li class="screenshots-item" role="listitem">
-              <figure class="screenshots-figure">
-                <button
-                  type="button"
-                  class="screenshot-open"
-                  data-screenshot-src="./assets/screenshots/02-toc-dictionary.png"
-                  data-i18n-aria-label="screenshots.expandAria"
-                  aria-label="Open larger preview"
-                >
-                  <img
-                    class="screenshot-img"
-                    src="./assets/screenshots/02-toc-dictionary.png"
-                    width="960"
-                    height="600"
-                    loading="lazy"
-                    decoding="async"
-                    data-i18n-alt="screenshots.alt2"
-                    alt="OpenTipitaka reader: navigation tree, contents, and dictionary strip."
-                  />
-                </button>
-                <figcaption class="screenshots-caption" data-i18n="screenshots.caption2">
-                  Tipitaka tree, book contents, and dictionary.
-                </figcaption>
-              </figure>
-            </li>
-            <li class="screenshots-item" role="listitem">
-              <figure class="screenshots-figure">
-                <button
-                  type="button"
-                  class="screenshot-open"
-                  data-screenshot-src="./assets/screenshots/03-search.png"
-                  data-i18n-aria-label="screenshots.expandAria"
-                  aria-label="Open larger preview"
-                >
-                  <img
-                    class="screenshot-img"
-                    src="./assets/screenshots/03-search.png"
-                    width="960"
-                    height="600"
-                    loading="lazy"
-                    decoding="async"
-                    data-i18n-alt="screenshots.alt3"
-                    alt="OpenTipitaka reader: search field with highlighted results list."
-                  />
-                </button>
-                <figcaption class="screenshots-caption" data-i18n="screenshots.caption3">
-                  Full-text search across Pali and translations.
-                </figcaption>
-              </figure>
-            </li>
-            <li class="screenshots-item" role="listitem">
-              <figure class="screenshots-figure">
-                <button
-                  type="button"
-                  class="screenshot-open"
-                  data-screenshot-src="./assets/screenshots/04-split-tabs.png"
-                  data-i18n-aria-label="screenshots.expandAria"
-                  aria-label="Open larger preview"
-                >
-                  <img
-                    class="screenshot-img"
-                    src="./assets/screenshots/04-split-tabs.png"
-                    width="960"
-                    height="600"
-                    loading="lazy"
-                    decoding="async"
-                    data-i18n-alt="screenshots.alt4"
-                    alt="OpenTipitaka reader: two-pane split layout with multiple tabs."
-                  />
-                </button>
-                <figcaption class="screenshots-caption" data-i18n="screenshots.caption4">
-                  Tabs and split view for comparing texts on wide screens.
-                </figcaption>
-              </figure>
-            </li>
-          </ul>
+          <div class="screenshots-carousel" aria-label="App screenshots">
+            <button
+              id="screenshotsPrev"
+              type="button"
+              class="screenshots-nav btn btn-secondary"
+              data-i18n-aria-label="screenshots.prevAria"
+              aria-label="Previous screenshot"
+            >
+              ‹
+            </button>
+            <div id="screenshotsViewport" class="screenshots-viewport" tabindex="0">
+              <ul class="screenshots-track" role="list">
+                <li class="screenshots-item" role="listitem">
+                  <figure class="screenshots-figure">
+                    <button
+                      type="button"
+                      class="screenshot-open"
+                      data-screenshot-src="./assets/screenshots/01-parallel.png"
+                      data-i18n-aria-label="screenshots.expandAria"
+                      aria-label="Open larger preview"
+                    >
+                      <img
+                        class="screenshot-img"
+                        src="./assets/screenshots/01-parallel.png"
+                        width="960"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        data-i18n-alt="screenshots.alt1"
+                        alt="OpenTipitaka reader: parallel Pali and translation columns by paragraph."
+                      />
+                    </button>
+                    <figcaption class="screenshots-caption" data-i18n="screenshots.caption1">
+                      Parallel reading: Pali with multiple translations by paragraph.
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="screenshots-item" role="listitem">
+                  <figure class="screenshots-figure">
+                    <button
+                      type="button"
+                      class="screenshot-open"
+                      data-screenshot-src="./assets/screenshots/02-toc-dictionary.png"
+                      data-i18n-aria-label="screenshots.expandAria"
+                      aria-label="Open larger preview"
+                    >
+                      <img
+                        class="screenshot-img"
+                        src="./assets/screenshots/02-toc-dictionary.png"
+                        width="960"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        data-i18n-alt="screenshots.alt2"
+                        alt="OpenTipitaka reader: navigation tree, contents, and dictionary strip."
+                      />
+                    </button>
+                    <figcaption class="screenshots-caption" data-i18n="screenshots.caption2">
+                      Tipitaka tree, book contents, and dictionary.
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="screenshots-item" role="listitem">
+                  <figure class="screenshots-figure">
+                    <button
+                      type="button"
+                      class="screenshot-open"
+                      data-screenshot-src="./assets/screenshots/03-search.png"
+                      data-i18n-aria-label="screenshots.expandAria"
+                      aria-label="Open larger preview"
+                    >
+                      <img
+                        class="screenshot-img"
+                        src="./assets/screenshots/03-search.png"
+                        width="960"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        data-i18n-alt="screenshots.alt3"
+                        alt="OpenTipitaka reader: search field with highlighted results list."
+                      />
+                    </button>
+                    <figcaption class="screenshots-caption" data-i18n="screenshots.caption3">
+                      Full-text search across Pali and translations.
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="screenshots-item" role="listitem">
+                  <figure class="screenshots-figure">
+                    <button
+                      type="button"
+                      class="screenshot-open"
+                      data-screenshot-src="./assets/screenshots/04-split-tabs.png"
+                      data-i18n-aria-label="screenshots.expandAria"
+                      aria-label="Open larger preview"
+                    >
+                      <img
+                        class="screenshot-img"
+                        src="./assets/screenshots/04-split-tabs.png"
+                        width="960"
+                        height="600"
+                        loading="lazy"
+                        decoding="async"
+                        data-i18n-alt="screenshots.alt4"
+                        alt="OpenTipitaka reader: two-pane split layout with multiple tabs."
+                      />
+                    </button>
+                    <figcaption class="screenshots-caption" data-i18n="screenshots.caption4">
+                      Tabs and split view for comparing texts on wide screens.
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+            <button
+              id="screenshotsNext"
+              type="button"
+              class="screenshots-nav btn btn-secondary"
+              data-i18n-aria-label="screenshots.nextAria"
+              aria-label="Next screenshot"
+            >
+              ›
+            </button>
+          </div>
         </div>
       </section>
 

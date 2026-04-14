@@ -280,6 +280,34 @@ function wireScreenshotLightbox() {
   });
 }
 
+function wireScreenshotsCarousel() {
+  const viewport = document.getElementById("screenshotsViewport");
+  const prev = document.getElementById("screenshotsPrev");
+  const next = document.getElementById("screenshotsNext");
+  if (!viewport || !prev || !next) return;
+
+  function updateButtons() {
+    const max = viewport.scrollWidth - viewport.clientWidth;
+    const x = viewport.scrollLeft;
+    const atStart = x <= 1;
+    const atEnd = x >= max - 1;
+    prev.disabled = atStart;
+    next.disabled = atEnd;
+  }
+
+  function scrollByOnePage(direction) {
+    const dx = Math.max(260, viewport.clientWidth * 0.9) * direction;
+    viewport.scrollBy({ left: dx, top: 0, behavior: "smooth" });
+  }
+
+  prev.addEventListener("click", () => scrollByOnePage(-1));
+  next.addEventListener("click", () => scrollByOnePage(1));
+  viewport.addEventListener("scroll", () => window.requestAnimationFrame(updateButtons));
+  window.addEventListener("resize", () => updateButtons());
+
+  updateButtons();
+}
+
 function main() {
   wireGithubLinks();
   wireExternalSiteLinks();
@@ -291,6 +319,7 @@ function main() {
   applyTranslations(lang);
   wireSmoothScroll();
   wireScreenshotLightbox();
+  wireScreenshotsCarousel();
 }
 
 main();

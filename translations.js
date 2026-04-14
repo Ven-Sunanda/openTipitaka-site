@@ -53,6 +53,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "App screenshots",
       "screenshots.expandAria": "Open larger preview",
+      "screenshots.prevAria": "Previous screenshot",
+      "screenshots.nextAria": "Next screenshot",
       "screenshots.dialogClose": "Close",
       "screenshots.lightboxTitle": "Screenshot preview",
       "screenshots.caption1": "Parallel reading: Pali with multiple translations by paragraph.",
@@ -199,6 +201,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "应用截图",
       "screenshots.expandAria": "放大查看",
+      "screenshots.prevAria": "上一张截图",
+      "screenshots.nextAria": "下一张截图",
       "screenshots.dialogClose": "关闭",
       "screenshots.lightboxTitle": "截图预览",
       "screenshots.caption1": "对照阅读：巴利原文与多语言译文按段落并排。",
@@ -339,6 +343,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "Ảnh ứng dụng",
       "screenshots.expandAria": "Mở xem lớn hơn",
+      "screenshots.prevAria": "Ảnh trước",
+      "screenshots.nextAria": "Ảnh tiếp theo",
       "screenshots.dialogClose": "Đóng",
       "screenshots.lightboxTitle": "Xem trước ảnh chụp",
       "screenshots.caption1": "Đọc song song: Pāli với nhiều bản dịch theo đoạn.",
@@ -436,6 +442,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "བརྙན་ཤེལ་མཐོང་རིས།",
       "screenshots.expandAria": "ཆེ་བའི་མཐོང་རིས་འབྱེད།",
+      "screenshots.prevAria": "བརྙན་སྔོན་མ",
+      "screenshots.nextAria": "བརྙན་རྗེས་མ",
       "screenshots.dialogClose": "སྒོ་རྒྱག",
       "screenshots.lightboxTitle": "བརྙན་ཤེལ་མཐོང་རིས།",
       "screenshots.caption1": "བསྡུར་ཀློག པ་ལི་དང་ཐབས་སྒྱུར་མང་པོ་ཚན་པ་རེ་རེ་བཞིན།",
@@ -531,6 +539,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "အက်ပ် မျက်နှာပြင်ဓာတ်ပုံများ",
       "screenshots.expandAria": "ပိုကြီးသော အစမ်းကြည့်ရှုမှု ဖွင့်ရန်",
+      "screenshots.prevAria": "ယခင်ပုံ",
+      "screenshots.nextAria": "နောက်ပုံ",
       "screenshots.dialogClose": "ပိတ်ရန်",
       "screenshots.lightboxTitle": "ဓာတ်ပုံ အစမ်းကြည့်ရှုမှု",
       "screenshots.caption1": "ပေါင်းပြိုင်ဖတ်ရှု—ပါဠိနှင့် စာပိုဒ်အလိုက် ဘာသာပြန်များ။",
@@ -626,6 +636,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "ภาพหน้าจอแอป",
       "screenshots.expandAria": "เปิดดูขนาดใหญ่",
+      "screenshots.prevAria": "ภาพก่อนหน้า",
+      "screenshots.nextAria": "ภาพถัดไป",
       "screenshots.dialogClose": "ปิด",
       "screenshots.lightboxTitle": "ดูตัวอย่างภาพหน้าจอ",
       "screenshots.caption1": "อ่านคู่ขนาน: บาลีกับคำแปลหลายภาษาตามย่อหน้า",
@@ -720,6 +732,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "スクリーンショット",
       "screenshots.expandAria": "拡大表示",
+      "screenshots.prevAria": "前のスクリーンショット",
+      "screenshots.nextAria": "次のスクリーンショット",
       "screenshots.dialogClose": "閉じる",
       "screenshots.lightboxTitle": "スクリーンショットのプレビュー",
       "screenshots.caption1": "対照読書：パーリ原文と複数の訳を段落ごとに表示。",
@@ -814,6 +828,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "스크린샷",
       "screenshots.expandAria": "크게 보기",
+      "screenshots.prevAria": "이전 스크린샷",
+      "screenshots.nextAria": "다음 스크린샷",
       "screenshots.dialogClose": "닫기",
       "screenshots.lightboxTitle": "스크린샷 미리보기",
       "screenshots.caption1": "대조 독서: 팔리 원문과 여러 번역을 문단별로 표시합니다.",
@@ -908,6 +924,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "ऐप स्क्रीनशॉट",
       "screenshots.expandAria": "बड़ा पूर्वावलोकन खोलें",
+      "screenshots.prevAria": "पिछला स्क्रीनशॉट",
+      "screenshots.nextAria": "अगला स्क्रीनशॉट",
       "screenshots.dialogClose": "बंद करें",
       "screenshots.lightboxTitle": "स्क्रीनशॉट पूर्वावलोकन",
       "screenshots.caption1": "समानांतर पठन: पालि मूल और कई अनुवाद अनुच्छेदवार।",
@@ -1002,6 +1020,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "Capturas de la app",
       "screenshots.expandAria": "Abrir vista ampliada",
+      "screenshots.prevAria": "Captura anterior",
+      "screenshots.nextAria": "Siguiente captura",
       "screenshots.dialogClose": "Cerrar",
       "screenshots.lightboxTitle": "Vista previa de captura",
       "screenshots.caption1": "Lectura en paralelo: pali con varias traducciones por párrafo.",
@@ -1096,6 +1116,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "Tangkapan layar aplikasi",
       "screenshots.expandAria": "Buka pratinjau lebih besar",
+      "screenshots.prevAria": "Tangkapan layar sebelumnya",
+      "screenshots.nextAria": "Tangkapan layar berikutnya",
       "screenshots.dialogClose": "Tutup",
       "screenshots.lightboxTitle": "Pratinjau tangkapan layar",
       "screenshots.caption1": "Baca paralel: Pali dengan beberapa terjemahan per paragraf.",
@@ -1191,6 +1213,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "Captures d’écran",
       "screenshots.expandAria": "Ouvrir un aperçu plus grand",
+      "screenshots.prevAria": "Capture précédente",
+      "screenshots.nextAria": "Capture suivante",
       "screenshots.dialogClose": "Fermer",
       "screenshots.lightboxTitle": "Aperçu de la capture",
       "screenshots.caption1": "Lecture en parallèle : pali avec plusieurs traductions par paragraphe.",
@@ -1286,6 +1310,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "App-Screenshots",
       "screenshots.expandAria": "Größere Vorschau öffnen",
+      "screenshots.prevAria": "Vorheriger Screenshot",
+      "screenshots.nextAria": "Nächster Screenshot",
       "screenshots.dialogClose": "Schließen",
       "screenshots.lightboxTitle": "Screenshot-Vorschau",
       "screenshots.caption1": "Parallellektüre: Pali mit mehreren Übersetzungen pro Absatz.",
@@ -1431,6 +1457,8 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "screenshots.title": "යෙදුමේ තිර රුප",
       "screenshots.expandAria": "විශාල පෙරදසුනක් විවෘත කරන්න",
+      "screenshots.prevAria": "පෙර තිර රූපය",
+      "screenshots.nextAria": "ඊළඟ තිර රූපය",
       "screenshots.dialogClose": "වසන්න",
       "screenshots.lightboxTitle": "තිර රුප පෙරදසුන",
       "screenshots.caption1": "සමාන්තර කියැවීම: ඡේද අනුව පාලි සහ බහු පරිවර්තන.",
