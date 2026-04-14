@@ -143,6 +143,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "Feedback & issues",
+      "support.feedbackIntro":
+        "Report bugs, ask questions, or share suggestions about the app or this website.",
+      "support.feedbackGithub": "Report on GitHub",
+      "support.feedbackEmail": "Send email",
 
       "faq.title": "FAQ",
       "faq.q1.q": "Are translations fully proofread?",
@@ -277,6 +282,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "彬悟岭（眉缪）帕奥禅林",
       "support.linkRoyal": "玛哈·哇集拉隆功皇家上座部巴利学院",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "反馈与问题",
+      "support.feedbackIntro": "欢迎就应用或本网站报告缺陷、提问或提出建议。",
+      "support.feedbackGithub": "在 GitHub 上反馈",
+      "support.feedbackEmail": "发送邮件",
 
       "faq.title": "常见问题",
       "faq.q1.q": "译文是否已经完全校对？",
@@ -376,6 +385,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "Phản hồi & sự cố",
+      "support.feedbackIntro":
+        "Báo lỗi, đặt câu hỏi hoặc góp ý về ứng dụng hoặc trang web này.",
+      "support.feedbackGithub": "Báo trên GitHub",
+      "support.feedbackEmail": "Gửi email",
       "faq.title": "Hỏi đáp",
       "faq.q4.q": "Tải cơ sở dữ liệu trong ứng dụng bị lỗi thì sao?",
       "faq.q4.a":
@@ -463,6 +477,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "བསམ་འཆར་དང་དཀའ་ངལ།",
+      "support.feedbackIntro":
+        "OpenTipitaka མཉེན་ཆས་སམ་དྲ་ངོས་འདིའི་སྐོར་ལ་སྐྱོན་བརྗོད་དང་དྲི་བ། བསམ་འཆར་འདོན་རོགས།",
+      "support.feedbackGithub": "GitHub ཐོག་ནས་འདོན།",
+      "support.feedbackEmail": "ཡི་གེ་འཕྲིན་སྐྱེལ།",
       "faq.title": "དྲི་བ-ལན",
       "faq.q4.q": "མཉེན་ཆས་ནང་གཞི་གྲངས་ཕབ་ལེན་མ་ཐུབ་ན་གང་བྱེད།",
       "faq.q4.a":
@@ -550,6 +569,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "တုံ့ပြန်မှု နှင့် ပြဿနာများ",
+      "support.feedbackIntro":
+        "အက်ပ် သို့မဟုတ် ဤဝက်ဘ်ဆိုက်အကြောင်း ချို့ယွင်းချက် အကြောင်းပြုခြင်း၊ မေးခွန်းမေးခြင်း သို့မဟုတ် အကြံပြုခြင်း။",
+      "support.feedbackGithub": "GitHub တွင် အကြောင်းကြားရန်",
+      "support.feedbackEmail": "အီးမေးလ် ပို့ရန်",
       "faq.title": "မေးလေ့ရှိသောမေးခွန်းများ",
       "faq.q4.q": "အက်ပ်အတွင်း ဒေတာဘေ့စ် ဒေါင်းလုဒ် မအောင်မြင်ပါက?",
       "faq.q4.a":
@@ -637,6 +661,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "ข้อเสนอแนะและปัญหา",
+      "support.feedbackIntro": "แจ้งข้อบกพร่อง สอบถาม หรือเสนอแนะเกี่ยวกับแอปหรือเว็บไซต์นี้",
+      "support.feedbackGithub": "แจ้งผ่าน GitHub",
+      "support.feedbackEmail": "ส่งอีเมล",
       "faq.title": "คำถามที่พบบ่อย",
       "faq.q4.q": "ดาวน์โหลดฐานข้อมูลในแอปไม่สำเร็จทำอย่างไร",
       "faq.q4.a":
@@ -724,6 +752,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "フィードバック・不具合",
+      "support.feedbackIntro": "アプリや本サイトに関する不具合の報告、質問、提案などにお使いください。",
+      "support.feedbackGithub": "GitHub で報告",
+      "support.feedbackEmail": "メールを送る",
       "faq.title": "FAQ",
       "faq.q4.q": "アプリ内のデータベースのダウンロードに失敗したら？",
       "faq.q4.a":
@@ -811,6 +843,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "피드백 및 문의",
+      "support.feedbackIntro": "앱이나 이 웹사이트에 대한 오류 신고, 질문 또는 제안을 보내 주세요.",
+      "support.feedbackGithub": "GitHub에서 보고",
+      "support.feedbackEmail": "이메일 보내기",
       "faq.title": "FAQ",
       "faq.q4.q": "앱에서 데이터베이스 다운로드가 실패하면요?",
       "faq.q4.a":
@@ -898,6 +934,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "प्रतिक्रिया और समस्याएँ",
+      "support.feedbackIntro": "ऐप या इस वेबसाइट के बारे में बग रिपोर्ट, प्रश्न या सुझाव भेजें।",
+      "support.feedbackGithub": "GitHub पर रिपोर्ट करें",
+      "support.feedbackEmail": "ईमेल भेजें",
       "faq.title": "FAQ",
       "faq.q4.q": "ऐप में डेटाबेस डाउनलोड विफल हो तो?",
       "faq.q4.a":
@@ -985,6 +1025,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "Comentarios e incidencias",
+      "support.feedbackIntro": "Informe de errores, preguntas o sugerencias sobre la app o este sitio web.",
+      "support.feedbackGithub": "Informar en GitHub",
+      "support.feedbackEmail": "Enviar correo",
       "faq.title": "FAQ",
       "faq.q4.q": "¿Qué hago si falla la descarga de la base de datos en la app?",
       "faq.q4.a":
@@ -1072,6 +1116,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "Masukan & masalah",
+      "support.feedbackIntro":
+        "Laporkan bug, ajukan pertanyaan, atau sampaikan saran tentang aplikasi atau situs web ini.",
+      "support.feedbackGithub": "Laporkan di GitHub",
+      "support.feedbackEmail": "Kirim email",
       "faq.title": "FAQ",
       "faq.q4.q": "Bagaimana jika unduhan basis data di aplikasi gagal?",
       "faq.q4.a":
@@ -1159,6 +1208,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "Retours et problèmes",
+      "support.feedbackIntro":
+        "Signalez des bugs, posez des questions ou suggérez des améliorations concernant l’application ou ce site.",
+      "support.feedbackGithub": "Signaler sur GitHub",
+      "support.feedbackEmail": "Envoyer un e-mail",
       "faq.title": "FAQ",
       "faq.q4.q": "Que faire si le téléchargement de la base de données échoue dans l’app ?",
       "faq.q4.a":
@@ -1287,6 +1341,11 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "Feedback & Probleme",
+      "support.feedbackIntro":
+        "Melden Sie Fehler, stellen Sie Fragen oder teilen Sie Vorschläge zur App oder dieser Website mit.",
+      "support.feedbackGithub": "Auf GitHub melden",
+      "support.feedbackEmail": "E-Mail senden",
       "faq.title": "FAQ",
       "faq.q1.q": "Sind die Übersetzungen vollständig korrekturgelesen?",
       "faq.q1.a":
@@ -1424,6 +1483,10 @@ window.OPENTIPITAKA_SITE_I18N = {
       "support.linkPaAuk": "Pyin Oo Lwin Pa-Auk Tawya Meditation Center",
       "support.linkRoyal": "Maha Vajiralongkorn Pali Theravada Royal College",
       "support.linkDhammasarana": "https://www.dhammasarana.org",
+      "support.feedbackTitle": "ප්‍රතිපෝෂණ සහ ගැටළු",
+      "support.feedbackIntro": "යෙදුම හෝ මෙම වෙබ් අඩවිය ගැන දෝෂ වාර්තා, ප්‍රශ්න හෝ යෝජනා යොමු කරන්න.",
+      "support.feedbackGithub": "GitHub හි වාර්තා කරන්න",
+      "support.feedbackEmail": "විද්‍යුත් තැපෑල යවන්න",
       "faq.title": "නිතර අසන පැන",
       "faq.q1.q": "පරිවර්තන සම්පූර්ණයෙන් සංශෝධනය කර තිබේද?",
       "faq.q1.a":

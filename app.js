@@ -8,6 +8,17 @@ const SITE_EXTERNAL_LINKS = {
   /** Leave empty until the Microsoft Store listing URL is ready. */
   microsoftStore: "",
   /**
+   * Canonical GitHub repo URL (used on custom domains where path-based guess fails).
+   * Leave empty to rely only on *.github.io/<repo>/ inference.
+   */
+  githubRepository: "",
+  /** Optional override; if empty, derived as `<githubRepository>/issues` when repository is known. */
+  githubIssues: "",
+  /** Public feedback inbox; leave empty to hide the email link on the site. */
+  feedbackEmail: "",
+  /** Optional mailto subject (URL-encoded by the wiring code). */
+  feedbackEmailSubject: "OpenTipitaka feedback",
+  /**
    * This file server expects `dir=Root/Tipitaka/...` with literal slashes (not `%2F`).
    * Encode spaces in folder names only (e.g. SqlLite%20Database).
    */
@@ -63,6 +74,20 @@ function guessGithubRepoUrl() {
   const repo = getRepoFromLocation();
   if (!user || !repo) return null;
   return `https://github.com/${user}/${repo}`;
+}
+
+function resolveGithubRepositoryUrl() {
+  const fixed = (SITE_EXTERNAL_LINKS.githubRepository || "").trim();
+  if (fixed) return fixed.replace(/\/+$/, "");
+  return guessGithubRepoUrl();
+}
+
+function resolveGithubIssuesUrl() {
+  const override = (SITE_EXTERNAL_LINKS.githubIssues || "").trim();
+  if (override) return override;
+  const repo = resolveGithubRepositoryUrl();
+  if (!repo) return null;
+  return `${repo}/issues`;
 }
 
 function readPreferredLanguage() {
@@ -141,7 +166,7 @@ function buildLanguageSelector(selectedLang) {
 }
 
 function wireGithubLinks() {
-  const repoUrl = guessGithubRepoUrl();
+  const repoUrl = resolveGithubRepositoryUrl();
   if (!repoUrl) return;
 
   const links = [
@@ -154,6 +179,49 @@ function wireGithubLinks() {
     if (!element) continue;
     element.setAttribute("href", href);
   }
+}
+
+function wireFeedbackLinks() {
+  const issuesUrl = resolveGithubIssuesUrl();
+  const issuesLink = document.getElementById("feedbackIssuesLink");
+  const issuesWrap = document.getElementById("feedbackIssuesWrap");
+  let showIssues = false;
+  if (issuesLink && issuesWrap) {
+    if (issuesUrl) {
+      issuesLink.setAttribute("href", issuesUrl);
+      issuesWrap.removeAttribute("hidden");
+      showIssues = true;
+    } else {
+      issuesWrap.setAttribute("hidden", "");
+    }
+  }
+
+  const email = (SITE_EXTERNAL_LINKS.feedbackEmail || "").trim();
+  const emailLink = document.getElementById("feedbackEmailLink");
+  const emailWrap = document.getElementById("feedbackEmailWrap");
+  let showEmail = false;
+  if (emailLink && emailWrap) {
+    if (email) {
+      const subject = (SITE_EXTERNAL_LINKS.feedbackEmailSubject || "").trim();
+      emailLink.setAttribute("href", buildMailtoHref(email, subject));
+      emailWrap.removeAttribute("hidden");
+      showEmail = true;
+    } else {
+      emailWrap.setAttribute("hidden", "");
+    }
+  }
+
+  const block = document.getElementById("supportFeedbackBlock");
+  if (block) {
+    if (!showIssues && !showEmail) block.setAttribute("hidden", "");
+    else block.removeAttribute("hidden");
+  }
+}
+
+function buildMailtoHref(address, subject) {
+  const path = `mailto:${address}`;
+  if (!subject) return path;
+  return `${path}?subject=${encodeURIComponent(subject)}`;
 }
 
 function wireSmoothScroll() {
@@ -197,6 +265,7 @@ function wireScreenshotLightbox() {
 function main() {
   wireGithubLinks();
   wireExternalSiteLinks();
+  wireFeedbackLinks();
 
   const lang = readPreferredLanguage();
   buildLanguageSelector(lang);
