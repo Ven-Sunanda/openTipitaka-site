@@ -38,6 +38,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "Download on the App Store",
       "actions.openGooglePlay": "Get it on Google Play",
       "actions.openMicrosoftStore": "Get it from Microsoft Store",
+      "actions.openTipitakaFolder": "Tipitaka folder downloads",
 
       "hero.kicker": "Pali Tipitaka · Multi-translation · Proofreading",
       "hero.title": "Read, compare, search, and proofread the Pali Tipitaka—comfortably on any device.",
@@ -183,6 +184,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "在 App Store 下载",
       "actions.openGooglePlay": "在 Google Play 获取",
       "actions.openMicrosoftStore": "在 Microsoft Store 获取",
+      "actions.openTipitakaFolder": "Tipitaka 目录下载",
 
       "hero.kicker": "巴利三藏 · 多译文对照 · 校对共建",
       "hero.title": "在任意设备上舒适阅读、对照、搜索，并参与校对巴利三藏多语言译本。",
@@ -324,6 +326,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "Tải trên App Store",
       "actions.openGooglePlay": "Tải trên Google Play",
       "actions.openMicrosoftStore": "Tải trên Microsoft Store",
+      "actions.openTipitakaFolder": "Tải từ thư mục Tipitaka",
       "hero.kicker": "Tam tạng Pāli · Đa bản dịch · Hiệu đính",
       "hero.title": "Đọc, đối chiếu, tìm kiếm và tham gia hiệu đính Tam tạng Pāli trên mọi thiết bị.",
       "hero.mission":
@@ -420,6 +423,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "App Store ནས་ཕབ་ལེན",
       "actions.openGooglePlay": "Google Play ནས་ཐོབ་པ",
       "actions.openMicrosoftStore": "Microsoft Store ནས་ཐོབ་པ",
+      "actions.openTipitakaFolder": "Tipitaka ཡིག་ཁུག་ནས་ཕབ་ལེན",
       "hero.kicker": "པ་ལིའི་ཏི་པི་ཊ་ཀ · ཐབས་སྒྱུར་མང་པོ · ཞིབ་བཤེར",
       "hero.title": "སྐད་སྤྱོད་གང་རུང་ནས་ཏི་པི་ཊ་ཀ་ཀློག་པ་དང་ བསྡུར་བ་ འཚོལ་བ་ ཞིབ་བཤེར་གྱི་ལས་ཀ་བྱེད།",
       "hero.mission":
@@ -514,6 +518,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "App Store တွင် ရယူရန်",
       "actions.openGooglePlay": "Google Play တွင် ရယူရန်",
       "actions.openMicrosoftStore": "Microsoft Store တွင် ရယူရန်",
+      "actions.openTipitakaFolder": "Tipitaka ဖိုလ်ဒါမှ ဒေါင်းလုဒ်",
       "hero.kicker": "Pāli Tipitaka · ဘာသာပြန်များ · စိစစ်ပြင်ဆင်မှု",
       "hero.title": "မည်သည့်ကိရိယာပေါ်မဆို Pāli Tipitaka ကိုဖတ်ရှု၊ နှိုင်းယှဉ်၊ ရှာဖွေပြီး စိစစ်ပြင်ဆင်နိုင်သည်။",
       "hero.mission":
@@ -608,6 +613,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "ดาวน์โหลดบน App Store",
       "actions.openGooglePlay": "รับบน Google Play",
       "actions.openMicrosoftStore": "รับจาก Microsoft Store",
+      "actions.openTipitakaFolder": "ดาวน์โหลดจากไดเรกทอรี Tipitaka",
       "hero.kicker": "พระไตรปิฎกภาษาบาลี · หลายคำแปล · ตรวจทาน",
       "hero.title": "อ่าน เปรียบเทียบ ค้นหา และร่วมตรวจทานพระไตรปิฎกบาลีได้อย่างสบายบนทุกอุปกรณ์",
       "hero.mission":
@@ -701,6 +707,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "App Store でダウンロード",
       "actions.openGooglePlay": "Google Play で入手",
       "actions.openMicrosoftStore": "Microsoft Store で入手",
+      "actions.openTipitakaFolder": "Tipitaka フォルダからダウンロード",
       "hero.kicker": "パーリ三蔵 · 複数訳 · 校正",
       "hero.title": "どのデバイスでも快適に、パーリ三蔵を読む・比較する・検索する・校正に参加する。",
       "hero.mission":
@@ -794,6 +801,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "App Store에서 다운로드",
       "actions.openGooglePlay": "Google Play에서 받기",
       "actions.openMicrosoftStore": "Microsoft Store에서 받기",
+      "actions.openTipitakaFolder": "Tipitaka 폴더 다운로드",
       "hero.kicker": "팔리 삼장 · 다중 번역 · 교정",
       "hero.title": "어떤 기기에서도 편하게 팔리 삼장을 읽고, 비교하고, 검색하고, 교정에 참여하세요.",
       "hero.mission":
@@ -887,6 +895,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "App Store पर डाउनलोड करें",
       "actions.openGooglePlay": "Google Play पर प्राप्त करें",
       "actions.openMicrosoftStore": "Microsoft Store पर प्राप्त करें",
+      "actions.openTipitakaFolder": "Tipitaka फ़ोल्डर से डाउनलोड",
       "hero.kicker": "पाली त्रिपिटक · बहु-अनुवाद · प्रूफरीडिंग",
       "hero.title": "किसी भी डिवाइस पर आराम से पाली त्रिपिटक पढ़ें, तुलना करें, खोजें और प्रूफरीडिंग में योगदान दें।",
       "hero.mission":
@@ -980,6 +989,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "Descargar en App Store",
       "actions.openGooglePlay": "Consíguela en Google Play",
       "actions.openMicrosoftStore": "Consíguela en Microsoft Store",
+      "actions.openTipitakaFolder": "Descargas desde la carpeta Tipitaka",
       "hero.kicker": "Tipitaka Pali · Multitraducción · Revisión",
       "hero.title": "Lee, compara, busca y participa en la revisión del Tipitaka Pali en cualquier dispositivo.",
       "hero.mission":
@@ -1073,6 +1083,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "Unduh di App Store",
       "actions.openGooglePlay": "Dapatkan di Google Play",
       "actions.openMicrosoftStore": "Dapatkan di Microsoft Store",
+      "actions.openTipitakaFolder": "Unduh dari folder Tipitaka",
       "hero.kicker": "Tipitaka Pali · Multi-terjemahan · Koreksi",
       "hero.title": "Baca, bandingkan, cari, dan ikut mengoreksi Tipitaka Pali di perangkat apa pun.",
       "hero.mission":
@@ -1167,6 +1178,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "Télécharger sur l’App Store",
       "actions.openGooglePlay": "Obtenir sur Google Play",
       "actions.openMicrosoftStore": "Obtenir sur le Microsoft Store",
+      "actions.openTipitakaFolder": "Téléchargements via le dossier Tipitaka",
       "hero.kicker": "Tipitaka pali · Multi-traductions · Relecture",
       "hero.title": "Lisez, comparez, cherchez et contribuez à la relecture du Tipitaka pali sur n’importe quel appareil.",
       "hero.mission":
@@ -1261,6 +1273,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "Im App Store laden",
       "actions.openGooglePlay": "Bei Google Play",
       "actions.openMicrosoftStore": "Im Microsoft Store",
+      "actions.openTipitakaFolder": "Downloads im Tipitaka-Ordner",
       "hero.kicker": "Pali-Tipitaka · Mehrsprachig · Korrekturlesen",
       "hero.title": "Lesen, vergleichen, suchen und das Pali-Tipitaka korrigieren—bequem auf jedem Gerät.",
       "hero.mission":
@@ -1405,6 +1418,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "actions.openAppStore": "App Store හි බාගන්න",
       "actions.openGooglePlay": "Google Play හි ලබා ගන්න",
       "actions.openMicrosoftStore": "Microsoft Store හි ලබා ගන්න",
+      "actions.openTipitakaFolder": "Tipitaka ෆෝල්ඩරයෙන් බාගත කිරීම්",
       "hero.kicker": "පාලි ත්‍රිපිටකය · බහු පරිවර්තන · සංශෝධනය",
       "hero.title": "ඕනෑම උපාංගයකින් පාලි ත්‍රිපිටකය සුවපහසුවෙන් කියවන්න, සංසන්දනය කරන්න, සොයන්න සහ සංශෝධනයට දායක වන්න.",
       "hero.mission":

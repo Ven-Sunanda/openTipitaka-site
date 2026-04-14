@@ -680,47 +680,7 @@ a {
   line-height: 1.75;
 }
 
-.platforms {
-  list-style: none;
-  margin: 12px 0 0;
-  padding: 0;
-  display: grid;
-  gap: 10px;
-}
-
-.platforms li {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-  border-radius: 14px;
-  border: 1px solid var(--stroke);
-  background: color-mix(in srgb, var(--card2) 60%, transparent);
-  padding: 10px 12px;
-}
-
-.platform-row-jump {
-  cursor: pointer;
-}
-
-.platform-row-jump:focus-visible {
-  outline: 2px solid rgba(255, 255, 255, 0.22);
-  outline-offset: 4px;
-}
-
-.platform-row-jump:hover .v {
-  text-decoration: underline;
-}
-
-.platforms .k {
-  font-weight: 850;
-}
-
-.platforms .v {
-  color: var(--muted2);
-  font-family: var(--font-mono);
-  font-size: 12px;
-}
+/* Platforms card removed (merged into Quick start). */
 
 .muted {
   color: var(--muted2);
