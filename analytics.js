@@ -1,6 +1,6 @@
 // Cloudflare Web Analytics token for this static site.
 // Get it from Cloudflare Dashboard > Analytics & Logs > Web Analytics > Add a site.
-const CLOUDFLARE_WEB_ANALYTICS_TOKEN = "";
+const CLOUDFLARE_WEB_ANALYTICS_TOKEN = "94bab9f666ef46ae91c43f5dea484ec4";
 
 function loadCloudflareWebAnalytics() {
   const token = CLOUDFLARE_WEB_ANALYTICS_TOKEN.trim();
