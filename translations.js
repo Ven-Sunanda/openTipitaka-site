@@ -36,6 +36,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "Privacy statement",
       "privacy.body":
         "Except for users who participate in proofreading, who must register with an email address and set a username, this app does not collect any other personal information.",
+      "privacy.analytics":
+        "This website uses Cloudflare Web Analytics to understand aggregate visits, pages, referrers, devices, and countries/regions. The analytics dashboard is private to the site administrator.",
       "actions.github": "GitHub",
       "actions.getStarted": "Get started",
       "actions.exploreFeatures": "Explore features",
@@ -187,6 +189,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "nav.screenshots": "界面截图",
       "privacy.title": "隐私声明",
       "privacy.body": "除参与校对的用户需要使用邮箱进行注册并填写用户名外，本程序不收集其他任何个人信息。",
+      "privacy.analytics":
+        "本网站使用 Cloudflare Web Analytics 了解汇总访问量、页面、来源、设备和国家/地区等信息。统计后台仅网站管理员可见，不会公开给所有人。",
       "actions.github": "GitHub",
       "actions.getStarted": "开始使用",
       "actions.exploreFeatures": "查看功能",
@@ -335,6 +339,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "Tuyên bố quyền riêng tư",
       "privacy.body":
         "Ngoại trừ người dùng tham gia hiệu đính, cần đăng ký bằng email và đặt tên người dùng, ứng dụng không thu thập bất kỳ thông tin cá nhân nào khác.",
+      "privacy.analytics":
+        "Trang web này sử dụng Cloudflare Web Analytics để xem số lượt truy cập tổng hợp, trang, nguồn giới thiệu, thiết bị và quốc gia/khu vực. Bảng thống kê chỉ dành riêng cho quản trị viên trang.",
       "actions.github": "GitHub",
       "actions.getStarted": "Bắt đầu",
       "actions.exploreFeatures": "Xem tính năng",
@@ -461,6 +467,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "སྒེར་གསང་བའི་གསལ་བསྒྲགས།",
       "privacy.body":
         "ཞུ་དག་ལ་ཞུགས་མཁན་སྤྱོད་མཁན་གྱིས་ཡིག་སྒམ་དང་སྤྱོད་མཁན་མིང་གི་ཐོ་འགོད་བྱེད་དགོས། དེ་ལས་གཞན་སྤྱོད་མཁན་གྱི་སྒེར་གསང་གཞན་དག་མི་བསྡུ།",
+      "privacy.analytics":
+        "དྲ་ཚིགས་འདིས Cloudflare Web Analytics སྤྱད་ནས་སྤྱི་བསྡོམས་ལྟ་སྐོར། ཤོག་ངོས། འབྱུང་ཁུངས། སྒྲིག་ཆས། རྒྱལ་ཁབ/ས་ཁུལ་གྱི་ཆ་འཕྲིན་ཤེས་པར་བྱེད། སྡོམ་རྩིས་སྟེགས་བུ་ནི་དྲ་ཚིགས་དོ་དམ་པ་ཁོ་ནས་མཐོང་ཐུབ།",
       "actions.github": "GitHub",
       "actions.getStarted": "འགོ་འཛུགས",
       "actions.exploreFeatures": "ཁྱད་ཆོས་ལྟ་བ",
@@ -588,6 +596,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "ကိုယ်ရေးလုံခြုံမှု ထုတ်ပြန်ချက်",
       "privacy.body":
         "ပြန်စစ်ဆေးချက်တွင် ပါဝင်သူများအတွက် အီးမေးလ်ဖြင့် မှတ်ပုံတင်ပြီး အသုံးပြုသူအမည် ထည့်သွင်းရန် လိုအပ်သည်။ ထိုအပိုင်းမှလွဲ၍ ဤအက်ပ်သည် အခြားကိုယ်ရေးအချက်အလက်များ မစုဆောင်းပါ။",
+      "privacy.analytics":
+        "ဤဝဘ်ဆိုက်သည် စုစုပေါင်းလာရောက်ကြည့်ရှုမှု၊ စာမျက်နှာများ၊ ရည်ညွှန်းလင့်ခ်များ၊ စက်အမျိုးအစားများနှင့် နိုင်ငံ/ဒေသများကို နားလည်ရန် Cloudflare Web Analytics ကို အသုံးပြုသည်။ စာရင်းအင်းဒက်ရှ်ဘုတ်ကို ဝဘ်ဆိုက်စီမံခန့်ခွဲသူသာ မြင်နိုင်သည်။",
       "actions.github": "GitHub",
       "actions.getStarted": "စတင်ရန်",
       "actions.exploreFeatures": "လုပ်ဆောင်ချက်များ",
@@ -715,6 +725,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "คำชี้แจงด้านความเป็นส่วนตัว",
       "privacy.body":
         "ยกเว้นผู้ใช้ที่เข้าร่วมการตรวจทานซึ่งต้องลงทะเบียนด้วยอีเมลและตั้งชื่อผู้ใช้ แอปนี้ไม่เก็บรวบรวมข้อมูลส่วนบุคคลอื่นใด",
+      "privacy.analytics":
+        "เว็บไซต์นี้ใช้ Cloudflare Web Analytics เพื่อดูข้อมูลรวมเกี่ยวกับจำนวนการเข้าชม หน้า แหล่งอ้างอิง อุปกรณ์ และประเทศ/ภูมิภาค แดชบอร์ดสถิติเป็นส่วนตัวสำหรับผู้ดูแลเว็บไซต์เท่านั้น",
       "actions.github": "GitHub",
       "actions.getStarted": "เริ่มต้น",
       "actions.exploreFeatures": "ดูฟีเจอร์",
@@ -841,6 +853,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "プライバシーに関する声明",
       "privacy.body":
         "校正に参加するユーザーはメールアドレスでの登録とユーザー名の設定が必要ですが、それ以外の個人情報は本アプリでは収集しません。",
+      "privacy.analytics":
+        "このウェブサイトでは Cloudflare Web Analytics を使用し、訪問数、ページ、参照元、デバイス、国・地域などの集計情報を把握します。分析ダッシュボードはサイト管理者だけが閲覧できます。",
       "actions.github": "GitHub",
       "actions.getStarted": "はじめる",
       "actions.exploreFeatures": "機能を見る",
@@ -967,6 +981,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "개인정보 안내",
       "privacy.body":
         "교정에 참여하는 사용자는 이메일로 가입하고 사용자 이름을 입력해야 하며, 그 외에는 본 앱이 다른 개인정보를 수집하지 않습니다.",
+      "privacy.analytics":
+        "이 웹사이트는 Cloudflare Web Analytics를 사용하여 전체 방문 수, 페이지, 유입 경로, 기기, 국가/지역 등의 집계 정보를 파악합니다. 분석 대시보드는 사이트 관리자만 볼 수 있습니다.",
       "actions.github": "GitHub",
       "actions.getStarted": "시작하기",
       "actions.exploreFeatures": "기능 보기",
@@ -1093,6 +1109,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "गोपनीयता विवरण",
       "privacy.body":
         "पाठ समीक्षा में भाग लेने वाले उपयोगकर्ताओं को ईमेल से पंजीकरण और उपयोगकर्ता नाम दर्ज करना होगा; इसके अलावा यह ऐप कोई अन्य व्यक्तिगत जानकारी एकत्र नहीं करता।",
+      "privacy.analytics":
+        "यह वेबसाइट कुल विज़िट, पृष्ठों, रेफरर, डिवाइस और देश/क्षेत्र की जानकारी समझने के लिए Cloudflare Web Analytics का उपयोग करती है। एनालिटिक्स डैशबोर्ड केवल साइट व्यवस्थापक के लिए निजी है।",
       "actions.github": "GitHub",
       "actions.getStarted": "शुरू करें",
       "actions.exploreFeatures": "विशेषताएँ देखें",
@@ -1219,6 +1237,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "Declaración de privacidad",
       "privacy.body":
         "Salvo los usuarios que participan en la revisión, que deben registrarse con un correo electrónico y un nombre de usuario, esta aplicación no recopila ninguna otra información personal.",
+      "privacy.analytics":
+        "Este sitio web utiliza Cloudflare Web Analytics para conocer visitas agregadas, páginas, referencias, dispositivos y países/regiones. El panel de estadísticas es privado para el administrador del sitio.",
       "actions.github": "GitHub",
       "actions.getStarted": "Empezar",
       "actions.exploreFeatures": "Ver funciones",
@@ -1345,6 +1365,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "Pernyataan privasi",
       "privacy.body":
         "Selain pengguna yang ikut serta dalam koreksi yang harus mendaftar dengan email dan mengisi nama pengguna, aplikasi ini tidak mengumpulkan informasi pribadi lainnya.",
+      "privacy.analytics":
+        "Situs web ini menggunakan Cloudflare Web Analytics untuk memahami kunjungan agregat, halaman, perujuk, perangkat, dan negara/wilayah. Dasbor analitik hanya dapat dilihat oleh administrator situs.",
       "actions.github": "GitHub",
       "actions.getStarted": "Mulai",
       "actions.exploreFeatures": "Lihat fitur",
@@ -1472,6 +1494,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "Déclaration de confidentialité",
       "privacy.body":
         "À l’exception des utilisateurs qui participent à la relecture et qui doivent s’inscrire avec une adresse e-mail et choisir un nom d’utilisateur, cette application ne collecte aucune autre donnée personnelle.",
+      "privacy.analytics":
+        "Ce site utilise Cloudflare Web Analytics pour comprendre les visites agrégées, les pages, les référents, les appareils et les pays/régions. Le tableau de bord des statistiques est privé et réservé à l’administrateur du site.",
       "actions.github": "GitHub",
       "actions.getStarted": "Commencer",
       "actions.exploreFeatures": "Voir les fonctionnalités",
@@ -1599,6 +1623,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "Datenschutzhinweis",
       "privacy.body":
         "Außer für Nutzer, die an der Korrektur mitarbeiten und dafür eine E-Mail-Adresse und einen Benutzernamen angeben müssen, erhebt diese App keine weiteren personenbezogenen Daten.",
+      "privacy.analytics":
+        "Diese Website verwendet Cloudflare Web Analytics, um aggregierte Besuche, Seiten, Verweise, Geräte und Länder/Regionen zu verstehen. Das Analyse-Dashboard ist nur für den Website-Administrator sichtbar.",
       "actions.github": "GitHub",
       "actions.getStarted": "Loslegen",
       "actions.exploreFeatures": "Funktionen ansehen",
@@ -1738,6 +1764,8 @@ window.OPENTIPITAKA_SITE_I18N = {
       "privacy.title": "පෞද්ගලිකත්ව ප්‍රකාශනය",
       "privacy.body":
         "සාක්ෂරකරණයට සහභාගී වන පරිශීලකයින් ඊමේල් ලිපිනයකින් ලියාපදිංචි වී පරිශීලක නාමයක් ඇතුළත් කළ යුතු ය; එයින් ඔබ්බෙන් මෙම යෙදුම වෙනත් පෞද්ගලික තොරතුරු එකතු නොකරයි.",
+      "privacy.analytics":
+        "මෙම වෙබ් අඩවිය සමස්ත පැමිණීම්, පිටු, යොමුකිරීම්, උපාංග සහ රටවල්/ප්‍රදේශ පිළිබඳ තොරතුරු දැන ගැනීමට Cloudflare Web Analytics භාවිත කරයි. විශ්ලේෂණ පුවරුව වෙබ් අඩවි පරිපාලකයාට පමණක් පෞද්ගලික වේ.",
       "actions.github": "GitHub",
       "actions.getStarted": "ආරම්භ කරන්න",
       "actions.exploreFeatures": "විශේෂාංග බලන්න",
