@@ -49,7 +49,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Under the guidance of Venerable Kumārābhivaṃsa Sayadaw, this project is dedicated to carrying ancient wisdom through modern technology. By bridging the gap between Pali scriptures and contemporary multilingual needs, we leverage AI-assisted translation and the cross-platform application OpenTipitaka to build a trustworthy platform for multilingual translation and parallel reading. Our mission is to make the profound wisdom of the Theravāda Tipiṭaka, Aṭṭhakathā, and Ṭīkā accessible to every practitioner and scholar at their fingertips.\n\nOpenTipitaka is developed by Venerable Sunanda and operated by Dhamma Sarana LLC. It is a multilingual Pali Tipiṭaka reading and proofreading application, offering a full cross-platform experience on Windows, macOS, iOS, Android, and Linux. OpenTipitaka supports paragraph-by-paragraph parallel reading of Pali and translations, with professional built-in dictionaries and full-text search, and deeply integrates bookmark management, split-screen comparison, multi-tab switching, auto-scroll, and text-to-speech (TTS) for translations. We invite readers everywhere to join in proofreading and help refine this treasury of wisdom on the path to liberation.",
       "hero.translationLangs":
-        "Translation languages currently supported include Chinese, English, Vietnamese, Thai, Hindi, Indonesian, Japanese, Korean, and French. More languages will be added over time.",
+        "Translation languages currently supported include Chinese, English, Vietnamese, Thai, Hindi, Indonesian, Japanese, Korean, Spanish, French, Burmese, and Sinhala. More languages will be added over time.",
 
       "badges.crossPlatform": "Cross-platform",
       "badges.offlineFirst": "Offline-first data",
@@ -200,7 +200,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "本项目在古玛拉阿毗旺萨西亚多（Sayadaw Kumārābhivaṃsa）的指导下，致力于以现代科技承载古老智慧，在巴利圣典与现代多语言需求间架起桥梁，通过 AI 翻译与跨平台应用 OpenTipitaka，为全球学习者构建可信赖的多语言翻译与对照阅读平台。我们旨在让每一位研习者都能触手可及地探索上座部佛教三藏、义注及复注的深邃智慧。\n\nOpenTipitaka 是由文喜尊者（Sunanda Bhikkhu）开发、由 Dhamma Sarana LLC 运营的多语言巴利三藏对照阅读与校对应用。本应用提供覆盖 Windows、macOS、iOS、Android 及 Linux 的全平台研读体验。OpenTipitaka 支持巴利原文与多语言译文的逐段对照，内置专业词典与全文搜索，并深度集成书签管理、分屏对比、多标签切换、自动滚动及译文朗读等功能。本项目欢迎全球用户参与校对共建，我们诚邀大家共同完善这一指引解脱的智慧宝库。",
       "hero.translationLangs":
-        "目前支持的译文语言有：中文、英语、越南语、泰语、印地语、印度尼西亚语、日语、韩语、法语。未来还会进一步扩展其他语言。",
+        "目前支持的译文语言有：中文、英语、越南语、泰语、印地语、印度尼西亚语、日语、韩语、西班牙语、法语、缅甸语、僧伽罗语。未来还会进一步扩展其他语言。",
 
       "badges.crossPlatform": "跨平台",
       "badges.offlineFirst": "离线数据库",
@@ -347,7 +347,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Dưới sự hướng dẫn của Ngài Kumārābhivaṃsa Sayadaw, dự án này cống hiến cho việc đưa trí tuệ cổ đại qua công nghệ hiện đại. Bằng cách thu hẹp khoảng cách giữa kinh điển Pāli và nhu cầu đa ngôn ngữ đương đại, chúng tôi khai thác dịch thuật hỗ trợ AI và ứng dụng đa nền tảng OpenTipitaka để xây dựng nền tảng đáng tin cậy cho dịch thuật đa ngôn ngữ và đọc song song. Sứ mệnh của chúng tôi là đưa trí tuệ sâu sắc của Theravāda Tipiṭaka, Aṭṭhakathā và Ṭīkā đến gần mọi học giả và nhà nghiên cứu.\n\nOpenTipitaka do Tôn giả Sunanda (Sunanda Bhikkhu) phát triển và do Dhamma Sarana LLC vận hành—ứng dụng đọc Tam tạng Pāli đa ngôn ngữ và hiệu đính cộng đồng. Ứng dụng mang lại trải nghiệm đọc đầy đủ trên Windows, macOS, iOS, Android và Linux. OpenTipitaka hỗ trợ đọc song song nguyên văn Pāli và bản dịch theo từng đoạn, có từ điển chuyên nghiệp tích hợp và tìm kiếm toàn văn, đồng thời tích hợp sâu quản lý đánh dấu, so sánh chia màn hình, chuyển thẻ, tự cuộn và đọc bản dịch bằng TTS. Chúng tôi hoan nghênh mọi người tham gia hiệu đính và mời người dùng khắp thế giới cùng hoàn thiện kho tàng trí tuệ hướng đến giải thoát.",
       "hero.translationLangs":
-        "Hiện tại các ngôn ngữ bản dịch được hỗ trợ gồm: tiếng Trung, tiếng Anh, tiếng Việt, tiếng Thái, tiếng Hindi, tiếng Indonesia, tiếng Nhật, tiếng Hàn và tiếng Pháp. Các ngôn ngữ khác sẽ được bổ sung sau này.",
+        "Hiện tại các ngôn ngữ bản dịch được hỗ trợ gồm: tiếng Trung, tiếng Anh, tiếng Việt, tiếng Thái, tiếng Hindi, tiếng Indonesia, tiếng Nhật, tiếng Hàn, tiếng Tây Ban Nha, tiếng Pháp, tiếng Myanmar và tiếng Sinhala. Các ngôn ngữ khác sẽ được bổ sung sau này.",
       "badges.crossPlatform": "Đa nền tảng",
       "badges.offlineFirst": "CSDL offline",
       "badges.multiLang": "14 ngôn ngữ giao diện",
@@ -473,7 +473,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Sayadaw Kumārābhivaṃsa གྱི་མཛུབ་སྟོན་འོག ལས་གཞིས་དེང་རབས་ལག་རྩལ་བརྒྱུད་དེ་རྒྱུན་མཐུད་ཡིད་གཏད་ཀྱི་ཡེ་ཤེས་འཛུགས་པར་བརྩོན། པ་ལིའི་གསུང་རབ་དང་དེང་སྐབས་ཀྱི་སྐད་རིགས་མང་པོའི་དགོས་མཁོའི་བར་སྒྲོལ་ཏེ། AI གིས་རོགས་པའི་ཡིག་སྒྱུར་དང་སྣ་མང་སྟེགས་བུའི་མཉེན་ཆས་OpenTipitaka བརྒྱུད། སྐད་རིགས་མང་པོའི་ཡིག་སྒྱུར་དང་བསྡུར་ཀློག་གི་སྟེགས་བུ་ཡིད་རྟོན་རུང་བ་ཞིག་སྐྲུན་རྒྱུ། དམིགས་ཡུལ་ནི་Theravāda Tipiṭaka་དང་ Aṭṭhakathā Ṭīkā གི་ཡེ་ཤེས་ཟབ་མོ་སློབ་གྲྭ་སོ་སོ་ལ་ལག་ཏུ་འཛོམས་པར་བྱེད་པ་དེ་ཡིན།\n\nOpenTipitaka ནི་Sunanda Bhikkhu གྱིས་བཟོས་ཤིང་། Dhamma Sarana LLC གིས་སྐྱོང་བའི་སྐད་རིགས་མང་པོའི་པ་ལི་ཏི་པི་ཊ་ཀ་ཀློག་འདོན་དང་ཞིབ་བཤེར་གྱི་མཉེན་ཆས་ཡིན། Windowsདང་ macOSདང་ iOSདང་ Androidདང་ Linux བཅས་ཀྱི་སྟེགས་བུ་ཡོངས་ལ་ཀློག་བྱང་ཆ་ཚང་འདོན་སྤྲོད་བྱེད། པ་ལི་དང་ཐབས་སྒྱུར་གྱི་ཚན་པ་རེ་རེ་བཞིན་བསྡུར་ནས་ཀློག་པ། ནང་གསོག་ཚིག་མཛོད་ལྷུན་པོ་དང་ཡོངས་རྫོགས་འཚོལ་བ། དཔེ་ཐོའི་དོ་དམ། བརྙན་བགོ་བར་བསྡུར་བ། རྟགས་མང་པོ། རང་འགྲིལ། ཡིག་སྒྱུར་ཀློག་སྒྲ་(TTS)སོགས་ཟུང་འབྲེལ་གཏིང་ཟབ་ཡོད། སྤྱི་ཚོགས་ཀྱི་ཞིབ་བཤེར་ལ་དགའ་བསུ་ཞུ་ཞིང་། འགྲོ་བ་མིའི་ཡོངས་ལ་ཞིབ་བཤེར་ནང་ཞུགས་ནས་གྲོལ་ལམ་གྱི་ཤེས་རབ་ཀྱི་མཛོད་སྤེལ་རྒྱས་སུ་གཏོང་བར་འབོད།",
       "hero.translationLangs":
-        "ད་ལྟ་རྒྱབ་སྐྱོར་བྱེད་པའི་ཡིག་སྒྱུར་སྐད་ཡིག་ནི། རྒྱ་སྐད། དབྱིན་སྐད། ཡུ་ནམ་སྐད། འཐག་སྐད། ཧིན་སྐད། ཨིན་ཏུ་ནི་ཞི་ཡ་སྐད། ཉི་ཧོང་སྐད། ཀོ་རི་ཡའི་སྐད། ཧྥ་རན་སིའི་སྐད་བཅས་ཡིན། མ་འོངས་པར་སྐད་ཡིག་གཞན་དག་ཀྱང་འཕེལ་རྒྱས་གཏོང་རྒྱུ་ཡིན།",
+        "ད་ལྟ་རྒྱབ་སྐྱོར་བྱེད་པའི་ཡིག་སྒྱུར་སྐད་ཡིག་ནི། རྒྱ་སྐད། དབྱིན་སྐད། ཡུ་ནམ་སྐད། འཐག་སྐད། ཧིན་སྐད། ཨིན་ཏུ་ནི་ཞི་ཡ་སྐད། ཉི་ཧོང་སྐད། ཀོ་རི་ཡའི་སྐད། སི་པེ་ནི་ཤ་སྐད། ཧྥ་རན་སིའི་སྐད། མེ་མར་སྐད། སིན་ཧ་ལ་སྐད་བཅས་ཡིན། མ་འོངས་པར་སྐད་ཡིག་གཞན་དག་ཀྱང་འཕེལ་རྒྱས་གཏོང་རྒྱུ་ཡིན།",
       "badges.crossPlatform": "སྣ་མང་སྟེགས་བུ",
       "badges.offlineFirst": "དྲ་མེད་ཀྱི་གཞི་གྲངས",
       "badges.multiLang": "སྐད་ཡིག 14",
@@ -600,7 +600,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Sayadaw Kumārābhivaṃsa ၏ လမ်းညွှန်ချက်အောက်တွင် ဤပရောဂျက်သည် ခေတ်မီနည်းပညာဖြင့် ရှေးရဟန္တာတော်၏ ဉာဏ်ပညာကို ဆောင်ရွက်ရန် ရည်ရွယ်သည်။ ပါဠိစာတမ်းများနှင့် ခေတ်မီ ဘာသာစကား လိုအပ်ချက်များကြား ကွာဟချက်ကို စည်းနှောင်ကာ AI အကူအညီပေးသော ဘာသာပြန်မှုနှင့် ဖြန့်တိုင်ပလက်ဖောင်းအက်ပ် OpenTipitaka အား အသုံးပြု၍ ဘာသာစကားများစွာ၏ ဘာသာပြန်နှင့် နှိုင်းယှဉ်ဖတ်ရှုမှု အတွက် ယုံကြည်စိတ်ချရသော ပလက်ဖောင်းတစ်ခု တည်ဆောက်သည်။ Theravāda Tipiṭaka၊ Aṭṭhakathā နှင့် Ṭīkā တို့၏ နက်နဲသော ဉာဏ်ပညာကို လေ့လာသူနှင့် သုတေသီတိုင်း လက်တွေ့နီးစွာ ရရှိစေရန် ဖြစ်သည်။\n\nOpenTipitaka ကို ဘိက္ခု သုနန္ဒ (Sunanda Bhikkhu) က တီထွင်ပြီး Dhamma Sarana LLC က လည်ပတ်စေသည်။ ၎င်းသည် ဘာသာစကားများစွာဖြင့် ပါဠိတိပိဋက ဖတ်ရှုခြင်းနှင့် စိစစ်ပြင်ဆင်သည့် အက်ပ်ဖြစ်ပြီး Windows၊ macOS၊ iOS၊ Android နှင့် Linux တို့အပါအဝင် ပလက်ဖောင်းအားလုံးတွင် ပြည့်စုံသော ဖတ်ရှုအတွေ့အကြုံ ပေးသည်။ ပါဠိမူနှင့် ဘာသာပြန်များကို စာပိုဒ်အလိုက် နှိုင်းယှဉ်ဖတ်ရှုခြင်း၊ ပရော်ဖက်ရှင်နယ် အဘိဓာန် နှင့် စာသားအပြည့်ရှာဖွေမှု၊ စာမှတ်စီမံခန့်ခွဲမှု၊ မျက်နှာပြင်ခွဲ၍ နှိုင်းယှဉ်ခြင်း၊ တဘ်များစွာ၊ အလိုအလျောက်လှိမ့်ခြင်းနှင့် ဘာသာပြန်ဖတ်ကြား (TTS) စသည်တို့ကို နက်ရှိုင်းစွာ ပေါင်းစပ်ထားသည်။ စိစစ်ပြင်ဆင်ရန် လူအများပါဝင်နိုင်သော ပရောဂျက်ဖြစ်ပြီး ကမ္ဘာတဝှမ်းရှိ အသုံးပြုသူများအား ဤလွတ်မြောက်ရေး လမ်းညွှန်ပေးသော ပညာသိုက်ကို ပူးပေါင်း ပြီးပြည့်စုံစေရန် ဖိတ်ခေါ်ပါသည်။",
       "hero.translationLangs":
-        "လက်ရှိပံ့ပိုးထားသော ဘာသာပြန်ဘာသာစကားများမှာ တရုတ်၊ အင်္ဂလိပ်၊ ဗီယက်နမ်၊ ထိုင်း၊ ဟိန္ဒီ၊ အင်ဒိုနီးရှား၊ ဂျပန်၊ ကိုရီးယား၊ ပြင်သစ် တို့ ဖြစ်သည်။ နောက်ပိုင်းတွင် အခြားဘာသာစကားများကို ထပ်မံ ထည့်သွင်းမည်။",
+        "လက်ရှိပံ့ပိုးထားသော ဘာသာပြန်ဘာသာစကားများမှာ တရုတ်၊ အင်္ဂလိပ်၊ ဗီယက်နမ်၊ ထိုင်း၊ ဟိန္ဒီ၊ အင်ဒိုနီးရှား၊ ဂျပန်၊ ကိုရီးယား၊ စပိန်၊ ပြင်သစ်၊ မြန်မာ၊ ဆင်ဟလာ တို့ ဖြစ်သည်။ နောက်ပိုင်းတွင် အခြားဘာသာစကားများကို ထပ်မံ ထည့်သွင်းမည်။",
       "badges.crossPlatform": "ပလက်ဖောင်းစုံ",
       "badges.offlineFirst": "အော့ဖ်လိုင်းဒေတာ",
       "badges.multiLang": "UI ဘာသာ 14 မျိုး",
@@ -727,7 +727,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "ภายใต้การแนะนำของพระอาจารย์ Kumārābhivaṃsa (Sayadaw Kumārābhivaṃsa) โครงการนี้มุ่งมั่นที่จะสืบสานพุทธปัญญาโบราณผ่านเทคโนโลยีสมัยใหม่ โดยเชื่อมช่องว่างระหว่างพระคัมภีร์บาลีกับความต้องการหลายภาษาในยุคปัจจุบัน เราใช้การแปลที่ได้รับความช่วยเหลือจาก AI และแอปพลิเคชันข้ามแพลตฟอร์ม OpenTipitaka เพื่อสร้างแพลตฟอร์มที่เชื่อถือได้สำหรับการแปลหลายภาษาและการอ่านเปรียบเทียบ พันธกิจของเราคือทำให้พุทธปัญญาอันลึกซึ้งของ Theravāda Tipiṭaka, Aṭṭhakathā และ Ṭīkā เข้าถึงได้สำหรับผู้ฝึกปฏิบัติและนักวิชาการทุกท่านอย่างใกล้ชิด\n\nOpenTipitaka พัฒนาโดยพระสุนันทะ (Sunanda Bhikkhu) และดำเนินการโดย Dhamma Sarana LLC เป็นแอปอ่านและตรวจทานพระไตรปิฎกบาลีหลายภาษา มอบประสบการณ์การอ่านครบวงจรบน Windows, macOS, iOS, Android และ Linux รองรับการอ่านเปรียบเทียบทีละย่อหน้าระหว่างต้นฉบับบาลีกับคำแปล มีพจนานุกรมในตัวระดับมืออาชีพและการค้นหาข้อความเต็ม รวมถึงการจัดการบุ๊กมาร์ก การเปรียบเทียบแบ่งหน้าจอ การสลับหลายแท็บ เลื่อนอัตโนมัติ และอ่านคำแปลด้วยเสียง (TTS) อย่างลึกซึ้ง เรายินดีต้อนรับให้ชุมชนร่วมตรวจทาน และเชิญผู้อ่านทั่วโลกช่วยกันพัฒนาคลังปัญญาที่ชี้นำสู่การหลุดพ้น",
       "hero.translationLangs":
-        "ภาษาคำแปลที่รองรับในปัจจุบัน ได้แก่ ภาษาจีน อังกฤษ เวียดนาม ไทย ฮินดี อินโดนีเซีย ญี่ปุ่น เกาหลี และฝรั่งเศส ในอนาคตจะขยายเพิ่มภาษาอื่นต่อไป",
+        "ภาษาคำแปลที่รองรับในปัจจุบัน ได้แก่ ภาษาจีน อังกฤษ เวียดนาม ไทย ฮินดี อินโดนีเซีย ญี่ปุ่น เกาหลี สเปน ฝรั่งเศส พม่า และสิงหล ในอนาคตจะขยายเพิ่มภาษาอื่นต่อไป",
       "badges.crossPlatform": "ข้ามแพลตฟอร์ม",
       "badges.offlineFirst": "ข้อมูลออฟไลน์",
       "badges.multiLang": "ภาษา UI 14 ภาษา",
@@ -853,7 +853,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "クマーラビヴァンマ尊者（Venerable Kumārābhivaṃsa Sayadaw）のご指導のもと、本プロジェクトは現代技術によって古くからの智慧を受け継ぐことに専念します。パーリ聖典と現代の多言語ニーズの隔たりを橋渡しし、AI 支援翻訳とクロスプラットフォームアプリ OpenTipitaka を活用して、多言語翻訳と対照読書のための信頼できるプラットフォームを構築します。上座部の Tipiṭaka、Aṭṭhakathā、Ṭīkā に込められた深い智慧を、すべての修行者と研究者が手の届くところで探れるようにすることが私たちの使命です。\n\nOpenTipitaka は Sunanda Bhikkhu（文喜尊者）によって開発され、Dhamma Sarana LLC が運営する、多言語のパーリ三藏対照読書・校正アプリです。Windows、macOS、iOS、Android、Linux すべてのプラットフォームで、一貫した研读体験を提供します。パーリ原文と各言語訳の段落ごとの対照、本格的な内蔵辞書と全文検索に加え、ブックマーク管理、分割画面での比較、複数タブ、自動スクロール、訳文の読み上げ（TTS）を深く統合しています。校正へのご参加を歓迎し、解脱へと導く智慧の宝庫を、世界中の利用者とともに磨き上げていただけるようお待ちしています。",
       "hero.translationLangs":
-        "現在対応している訳文の言語は、中国語、英語、ベトナム語、タイ語、ヒンディー語、インドネシア語、日本語、韓国語、フランス語です。今後、さらに他言語へ拡張していく予定です。",
+        "現在対応している訳文の言語は、中国語、英語、ベトナム語、タイ語、ヒンディー語、インドネシア語、日本語、韓国語、スペイン語、フランス語、ミャンマー語、シンハラ語です。今後、さらに他言語へ拡張していく予定です。",
       "badges.crossPlatform": "クロスプラットフォーム",
       "badges.offlineFirst": "オフラインDB",
       "badges.multiLang": "UI 14言語",
@@ -979,7 +979,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "쿠마라비왐사 스야도(Venerable Kumārābhivaṃsa Sayadaw)의 지도 아래, 이 프로젝트는 현대 기술로 오래된 지혜를 이어 가는 데 힘씁니다. 팔리 경전과 오늘날의 다국어 수요 사이를 잇고, AI 보조 번역과 크로스플랫폼 앱 OpenTipitaka를 활용해 다국어 번역과 대조 독서를 위한 신뢰할 수 있는 플랫폼을 만듭니다. 상좌부 Tipiṭaka·Aṭṭhakathā·Ṭīkā에 담긴 깊은 지혜를 모든 수행자와 학자가 손쉽게 탐구하도록 하는 것이 우리의 사명입니다.\n\nOpenTipitaka는 Sunanda Bhikkhu가 개발하고 Dhamma Sarana LLC가 운영하는 다국어 팔리 삼장 대조 읽기·교정 앱입니다. Windows, macOS, iOS, Android, Linux 전 플랫폼에서 일관된 연구용 읽기 경험을 제공합니다. 팔리 원문과 번역의 문단별 대조, 전문가 수준의 내장 사전과 전문 검색, 북마크 관리, 분할 화면 비교, 다중 탭, 자동 스크롤, 번역 음성 읽기(TTS)를 깊이 있게 통합했습니다. 교정에 동참하실 분을 환영하며, 해방으로 이끄는 지혜의 보고를 전 세계 독자와 함께 다듬어 가길 초대합니다.",
       "hero.translationLangs":
-        "현재 지원되는 번역 언어는 중국어, 영어, 베트남어, 태국어, 힌디어, 인도네시아어, 일본어, 한국어, 프랑스어입니다. 앞으로 다른 언어로도 점차 확대할 예정입니다.",
+        "현재 지원되는 번역 언어는 중국어, 영어, 베트남어, 태국어, 힌디어, 인도네시아어, 일본어, 한국어, 스페인어, 프랑스어, 미얀마어, 싱할라어입니다. 앞으로 다른 언어로도 점차 확대할 예정입니다.",
       "badges.crossPlatform": "크로스플랫폼",
       "badges.offlineFirst": "오프라인 DB",
       "badges.multiLang": "UI 14개 언어",
@@ -1105,7 +1105,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "आदरणीय कुमाराभिवंस सयादाव (Venerable Kumārābhivaṃsa Sayadaw) के मार्गदर्शन में यह परियोजना आधुनिक तकनीक के माध्यम से प्राचीन बुद्धिमत्ता को आगे बढ़ाने के लिए समर्पित है। पालि शास्त्रों और समकालीन बहुभाषी आवश्यकताओं के बीच की खाई को पाटते हुए, हम AI-सहायित अनुवाद और क्रॉस-प्लैटफ़ॉर्म ऐप OpenTipitaka का उपयोग कर बहुभाषी अनुवाद और समानांतर पठन के लिए एक विश्वसनीय मंच बनाते हैं। हमारा उद्देश्य थेरवाद Tipiṭaka, Aṭṭhakathā और Ṭīkā की गहन बुद्धिमत्ता को हर साधक और विद्वान की पहुँच में लाना है।\n\nOpenTipitaka का विकास आदरणीय सुनन्द भिक्खु (Sunanda Bhikkhu) ने किया है और Dhamma Sarana LLC इसे संचालित करता है। यह बहुभाषी पालि तिपिटक पठन व सहप्रूफरीडिंग ऐप है, जो Windows, macOS, iOS, Android और Linux पर एक समग्र अध्ययन अनुभव देता है। पालि मूल व अनुवादों का अनुच्छेद-दर-अनुच्छेद समानांतर पठन, पेशेवर अंतर्निहित शब्दकोश व पूर्ण-पाठ खोज, बुकमार्क प्रबंधन, स्प्लिट-स्क्रीन तुलना, बहु-टैब, ऑटो-स्क्रॉल और अनुवादों के लिए TTS गहराई से एकीकृत हैं। हम सहप्रूफरीडिंग हेतु समुदाय की भागीदारी का स्वागत करते हैं और विश्व भर के पाठकों को आमंत्रित करते हैं कि वे मोक्ष-मार्ग दिखाने वाले इस ज्ञान-भंडार को साथ मिलकर निखारें।",
       "hero.translationLangs":
-        "वर्तमान में समर्थित अनुवाद भाषाएँ हैं: चीनी, अंग्रेज़ी, वियतनामी, थाई, हिंदी, इंडोनेशियाई, जापानी, कोरियाई और फ़्रेंच। भविष्य में और भाषाओं का विस्तार किया जाएगा।",
+        "वर्तमान में समर्थित अनुवाद भाषाएँ हैं: चीनी, अंग्रेज़ी, वियतनामी, थाई, हिंदी, इंडोनेशियाई, जापानी, कोरियाई, स्पेनिश, फ़्रेंच, बर्मी और सिंहली। भविष्य में और भाषाओं का विस्तार किया जाएगा।",
       "badges.crossPlatform": "क्रॉस-प्लैटफ़ॉर्म",
       "badges.offlineFirst": "ऑफ़लाइन डेटा",
       "badges.multiLang": "UI 14 भाषाएँ",
@@ -1231,7 +1231,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Bajo la guía del venerable Kumārābhivaṃsa Sayadaw, este proyecto se dedica a transmitir la sabiduría antigua mediante la tecnología moderna. Al tender un puente entre las escrituras en pali y las necesidades multilingües contemporáneas, aprovechamos la traducción asistida por IA y la aplicación multiplataforma OpenTipitaka para construir una plataforma fiable de traducción multilingüe y lectura en paralelo. Nuestra misión es acercar la profunda sabiduría del Tipiṭaka, del Aṭṭhakathā y del Ṭīkā en la tradición Theravāda a practicantes y estudiosos.\n\nOpenTipitaka está desarrollada por el venerable Sunanda (Sunanda Bhikkhu) y la opera Dhamma Sarana LLC: una aplicación multilingüe para leer y corregir en colaboración el Tipiṭaka en pali. Ofrece una experiencia de estudio completa en Windows, macOS, iOS, Android y Linux. Admite lectura en paralelo párrafo a párrafo entre el original en pali y las traducciones, con diccionarios integrados de calidad profesional y búsqueda de texto completo, e integra a fondo marcadores, comparación en pantalla dividida, varias pestañas, desplazamiento automático y lectura en voz alta (TTS) de las traducciones. Invitamos a lectores de todo el mundo a participar en la corrección y a ayudar a perfeccionar este tesoro de sabiduría que guía hacia la liberación.",
       "hero.translationLangs":
-        "Los idiomas de traducción admitidos actualmente son chino, inglés, vietnamita, tailandés, hindi, indonesio, japonés, coreano y francés. Se ampliarán más idiomas en el futuro.",
+        "Los idiomas de traducción admitidos actualmente son chino, inglés, vietnamita, tailandés, hindi, indonesio, japonés, coreano, español, francés, birmano y cingalés. Se ampliarán más idiomas en el futuro.",
       "badges.crossPlatform": "Multiplataforma",
       "badges.offlineFirst": "Datos sin conexión",
       "badges.multiLang": "14 idiomas de UI",
@@ -1357,7 +1357,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Di bawah bimbingan Yang Mulia Kumārābhivaṃsa Sayadaw, proyek ini berdedikasi membawa kebijaksanaan kuno melalui teknologi modern. Dengan menjembatani kesenjangan antara kitab-kitab Pali dan kebutuhan multibahasa kontemporer, kami memanfaatkan terjemahan berbantuan AI dan aplikasi lintas platform OpenTipitaka untuk membangun platform tepercaya bagi terjemahan multibahasa dan bacaan paralel. Misi kami adalah menjadikan kebijaksanaan mendalam Tipiṭaka, Aṭṭhakathā, dan Ṭīkā Theravāda dapat diakses oleh setiap praktisi dan sarjana.\n\nOpenTipitaka dikembangkan oleh Yang Mulia Sunanda (Sunanda Bhikkhu) dan dioperasikan oleh Dhamma Sarana LLC—aplikasi multibahasa untuk membaca Tipiṭaka Pali dan koreksi bersama. Aplikasi ini menawarkan pengalaman membaca menyeluruh di Windows, macOS, iOS, Android, dan Linux. OpenTipitaka mendukung bacaan paralel per paragraf antara teks Pali dan terjemahan, dengan kamus bawaan yang mendalam dan pencarian teks penuh, serta mengintegrasikan manajemen penanda, perbandingan layar terbagi, banyak tab, gulir otomatis, dan TTS untuk terjemahan. Kami mengundang partisipasi komunitas dalam koreksi dan mengundang pembaca di seluruh dunia untuk menyempurnakan khazanah kebijaksanaan yang menuntun menuju pembebasan.",
       "hero.translationLangs":
-        "Bahasa terjemahan yang saat ini didukung: Mandarin, Inggris, Vietnam, Thai, Hindi, Indonesia, Jepang, Korea, dan Prancis. Bahasa lain akan ditambahkan secara bertahap ke depannya.",
+        "Bahasa terjemahan yang saat ini didukung: Mandarin, Inggris, Vietnam, Thai, Hindi, Indonesia, Jepang, Korea, Spanyol, Prancis, Myanmar, dan Sinhala. Bahasa lain akan ditambahkan secara bertahap ke depannya.",
       "badges.crossPlatform": "Lintas platform",
       "badges.offlineFirst": "Data offline",
       "badges.multiLang": "14 bahasa UI",
@@ -1484,7 +1484,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Sous la direction du vénérable Kumārābhivaṃsa Sayadaw, ce projet se consacre à porter la sagesse ancienne grâce à la technologie moderne. En comblant l’écart entre les écritures palies et les besoins multilingues contemporains, nous exploitons la traduction assistée par IA et l’application multiplateforme OpenTipitaka pour bâtir une plateforme fiable de traduction multilingue et de lecture en parallèle. Notre mission est de rendre accessible à chaque pratiquant et chercheur la profonde sagesse du Tipiṭaka, de l’Aṭṭhakathā et du Ṭīkā dans la tradition Theravāda.\n\nOpenTipitaka est développée par le vénérable Sunanda (Sunanda Bhikkhu) et exploitée par Dhamma Sarana LLC : une application multilingue de lecture et de relecture collaborative du Tipiṭaka pali. Elle offre une expérience d’étude complète sur Windows, macOS, iOS, Android et Linux. OpenTipitaka prend en charge la lecture en parallèle paragraphe par paragraphe entre le pali et les traductions, avec des dictionnaires intégrés de niveau professionnel et une recherche plein texte, et intègre en profondeur la gestion des signets, la comparaison en écran partagé, le multi-onglets, le défilement automatique et la synthèse vocale (TTS) des traductions. Nous invitons les lecteurs du monde entier à participer à la relecture et à aider à parfaire ce trésor de sagesse qui guide vers la libération.",
       "hero.translationLangs":
-        "Les langues de traduction actuellement prises en charge sont le chinois, l’anglais, le vietnamien, le thaï, l’hindi, l’indonésien, le japonais, le coréen et le français. D’autres langues seront ajoutées progressivement.",
+        "Les langues de traduction actuellement prises en charge sont le chinois, l’anglais, le vietnamien, le thaï, l’hindi, l’indonésien, le japonais, le coréen, l’espagnol, le français, le birman et le cinghalais. D’autres langues seront ajoutées progressivement.",
       "badges.crossPlatform": "Multiplateforme",
       "badges.offlineFirst": "Données hors ligne",
       "badges.multiLang": "14 langues d’UI",
@@ -1611,7 +1611,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "Unter der Anleitung des Ehrwürdigen Kumārābhivaṃsa Sayadaw widmet sich dieses Projekt der Aufgabe, uralte Weisheit durch moderne Technologie zu tragen. Indem wir die Kluft zwischen den Pali-Schriften und den mehrsprachigen Bedürfnissen der Gegenwart überbrücken, nutzen wir KI-gestützte Übersetzung und die plattformübergreifende Anwendung OpenTipitaka, um eine vertrauenswürdige Plattform für mehrsprachige Übersetzung und Parallellektüre aufzubauen. Unsere Mission ist es, die tiefe Weisheit des Tipiṭaka, der Aṭṭhakathā und der Ṭīkā im Theravāda jedem Übenden und Gelehrten nahezubringen.\n\nOpenTipitaka wird vom Ehrwürdigen Sunanda (Sunanda Bhikkhu) entwickelt und von Dhamma Sarana LLC betrieben. Es ist eine mehrsprachige Lese- und Korrektur-App für den Pali-Tipiṭaka und bietet auf Windows, macOS, iOS, Android und Linux ein durchgängiges Leseerlebnis. OpenTipitaka unterstützt absatzweise Parallellektüre von Pali und Übersetzungen, mit professionellen eingebauten Wörterbüchern und Volltextsuche, und vertieft Lesezeichenverwaltung, geteilten Bildschirm zum Vergleichen, mehrere Tabs, automatisches Scrollen und TTS für Übersetzungen. Das Projekt lädt zur gemeinschaftlichen Korrektur ein. Wir laden Leserinnen und Leser weltweit ein, diesen Schatz der Weisheit auf dem Weg zur Befreiung mitzugestalten.",
       "hero.translationLangs":
-        "Zu den derzeit unterstützten Übersetzungssprachen zählen Chinesisch, Englisch, Vietnamesisch, Thai, Hindi, Indonesisch, Japanisch, Koreanisch und Französisch. Weitere Sprachen werden nach und nach ergänzt.",
+        "Zu den derzeit unterstützten Übersetzungssprachen zählen Chinesisch, Englisch, Vietnamesisch, Thai, Hindi, Indonesisch, Japanisch, Koreanisch, Spanisch, Französisch, Birmanisch und Singhalesisch. Weitere Sprachen werden nach und nach ergänzt.",
       "badges.crossPlatform": "Plattformübergreifend",
       "badges.offlineFirst": "Offline-Daten",
       "badges.multiLang": "14 UI-Sprachen",
@@ -1750,7 +1750,7 @@ window.OPENTIPITAKA_SITE_I18N = {
       "hero.mission":
         "ගරු කුමාරභිවංස සයාඩො හිමියන්ගේ මඟ පෙන්වීම යටතේ මෙම ව්‍යාපෘතිය නූතන තාක්ෂණයෙන් පුරාණ ප්‍රඥාව රැගෙන යාමට කැපවී සිටී. පාලි ධර්ම ග්‍රන්ථ සහ සමකාලීන බහුභාෂා අවශ්‍යතා අතර පරතරය සම්බන්ධ කරමින්, AI උපකාරිත පරිවර්තනය සහ බහු වේදිකා යෙදුම වන OpenTipitaka භාවිතයෙන් බහුභාෂා පරිවර්තන සහ සමාන්තර කියැවීම සඳහා විශ්වාසනීය වේදිකාවක් ගොඩනගනු ලැබේ. තෙරවාද Tipiṭaka, Aṭṭhakathā සහ Ṭīkā යන ගැඹුරු ප්‍රඥාව සෑම අභ්‍යාසකරුවකුට සහ විද්වතකුට පහසුවෙන් ලබා දීම අපගේ මෙහෙවරයි.\n\nOpenTipitaka සංවර්ධනය ගරු සුනන්ද භික්ෂු (Sunanda Bhikkhu) විසින් කරනු ලබන අතර Dhamma Sarana LLC විසින් ක්‍රියාත්මක කරනු ලැබේ. එය බහුභාෂා පාලි ත්‍රිපිටක කියැවීම සහ සහය සංශෝධන යෙදුමකි; Windows, macOS, iOS, Android සහ Linux යන සියලු වේදිකාවල සම්පූර්ණ අධ්‍යයන අත්දැකීමක් ලබා දේ. පාලි මූලාශ්‍රය සහ පරිවර්තන ඡේද අනුව සමාන්තර කියැවීම, වෘත්තීය ඒකාංගික ශබ්ද කෝෂ සහ පුරා ලේඛන සොයාගැනීම, පොත් සලකුණු කළමනාකරණය, තිර බෙදීමෙන් සංසන්දනය, බහු ටැබ්, ස්වයං අනුචලනය සහ පරිවර්තන TTS යනාදී විශේෂාංග ගැඹුරින් ඒකාබද්ධ වේ. සංශෝධනයට සමුදා සහභාගීත්වය සාදරයෙන් පිළිගනිමු. විමුක්තියට මඟ පෙන්වන මෙම ප්‍රඥා භාණ්ඩාගාරය සමතිකරණයට ලෝකය පුරා පාඨකයන්ට ආරාධනා කරමු.",
       "hero.translationLangs":
-        "දැනට සහාය දක්වන පරිවර්තන භාෂා වන්නේ චීන, ඉංග්‍රීසි, වියට්නාම, තායි, හින්දි, ඉන්දුනීසියානු, ජපන්, කොරියානු සහ ප්‍රංශ ය. ඉදිරියේ තව භාෂා එකතු කෙරේ.",
+        "දැනට සහාය දක්වන පරිවර්තන භාෂා වන්නේ චීන, ඉංග්‍රීසි, වියට්නාම, තායි, හින්දි, ඉන්දුනීසියානු, ජපන්, කොරියානු, ස්පාඤ්ඤ, ප්‍රංශ, මියන්මාර් සහ සිංහල ය. ඉදිරියේ තව භාෂා එකතු කෙරේ.",
       "badges.crossPlatform": "බහු වේදිකා",
       "badges.offlineFirst": "නොබැඳි දත්ත",
       "badges.multiLang": "UI භාෂා 14",
