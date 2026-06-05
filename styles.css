@@ -270,6 +270,14 @@ a {
   max-width: 56ch;
 }
 
+.hero-translation-note {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+  max-width: 56ch;
+}
+
 .hero-cta {
   margin-top: 20px;
   display: flex;
