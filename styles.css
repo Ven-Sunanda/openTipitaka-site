@@ -819,6 +819,37 @@ a {
   padding: 0 0 18px;
   color: var(--muted2);
   font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 18px;
+  flex-wrap: wrap;
+}
+
+.footer-license-link {
+  color: var(--muted);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  text-underline-offset: 3px;
+}
+
+.footer-license-link:hover {
+  color: var(--text);
+  text-decoration-color: currentColor;
+}
+
+.license-copy {
+  max-width: 920px;
+  line-height: 1.7;
+}
+
+.license-block {
+  margin: 0;
+  white-space: pre-line;
+}
+
+.license-block + .license-block {
+  margin-top: 18px;
 }
 
 .screenshots-carousel {

@@ -145,6 +145,49 @@ function applyTranslations(lang) {
     if (typeof value !== "string") continue;
     node.setAttribute("aria-label", value);
   }
+
+  renderLicenseCopy(dict["license.body"] ?? en["license.body"]);
+}
+
+function renderLicenseCopy(value) {
+  const container = document.querySelector(".license-copy");
+  if (!container || typeof value !== "string") return;
+
+  const sections = value.split("\n\n");
+  const fragment = document.createDocumentFragment();
+  sections.forEach((section, index) => {
+    const block = document.createElement("p");
+    block.className = "license-block";
+
+    if (index === 0) {
+      appendContentLicenseWithLink(block, section);
+    } else {
+      block.textContent = section;
+    }
+    fragment.appendChild(block);
+  });
+  container.replaceChildren(fragment);
+}
+
+function appendContentLicenseWithLink(container, text) {
+  const label = "CC BY-NC-SA 4.0";
+  const labelIndex = text.indexOf(label);
+  if (labelIndex < 0) {
+    container.textContent = text;
+    return;
+  }
+
+  container.appendChild(document.createTextNode(text.slice(0, labelIndex)));
+
+  const link = document.createElement("a");
+  link.className = "text-link license-cc-link";
+  link.href = "https://creativecommons.org/licenses/by-nc-sa/4.0/";
+  link.target = "_blank";
+  link.rel = "license noreferrer";
+  link.textContent = label;
+  container.appendChild(link);
+
+  container.appendChild(document.createTextNode(text.slice(labelIndex + label.length)));
 }
 
 function buildLanguageSelector(selectedLang) {
@@ -323,4 +366,3 @@ function main() {
 }
 
 main();
-
