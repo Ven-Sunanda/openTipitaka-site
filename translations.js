@@ -76,6 +76,45 @@ window.OPENTIPITAKA_SITE_I18N = {
       "screenshots.alt3": "OpenTipitaka reader: search field with highlighted results list.",
       "screenshots.alt4": "OpenTipitaka reader: two-pane split layout with multiple tabs.",
 
+      "timeline.title": "Project timeline",
+      "timeline.subtitle":
+        "From the first Chinese and English Tipitaka translations in 2025 to the OpenTipitaka 5.0 cross-platform app in 2026, the project has continued to expand translation languages, reading tools, and proofreading workflows.",
+      "timeline.tag.translation": "Translation",
+      "timeline.tag.release": "Release",
+      "timeline.tag.app": "App",
+      "timeline.tag.website": "Website",
+      "timeline.tag.proofread": "Proofreading",
+      "timeline.tag.launch": "Launch",
+      "timeline.2026.0708": "Added Bengali translation.",
+      "timeline.2026.0701": "Added Khmer translation.",
+      "timeline.2026.0622": "Added Tibetan translation.",
+      "timeline.2026.0616": "Added Marathi translation.",
+      "timeline.2026.0603": "Added German translation.",
+      "timeline.2026.0529": "Added Burmese translation.",
+      "timeline.2026.0523": "Added Sinhala translation.",
+      "timeline.2026.0516": "Added Spanish translation.",
+      "timeline.2026.0414.rename": "Released the fifth version, and the project was officially renamed OpenTipitaka.",
+      "timeline.2026.0414.windows": "Released OpenTipitaka 5.0 for Windows.",
+      "timeline.2026.0407": "Added French translation.",
+      "timeline.2026.0402.apps": "Released OpenTipitaka 5.0 for macOS, Linux, and iOS.",
+      "timeline.2026.0328": "Released OpenTipitaka 5.0 for Android.",
+      "timeline.2026.0323": "Added Korean translation.",
+      "timeline.2026.0320": "opentipitaka.org went online.",
+      "timeline.2026.0311": "Added Japanese translation.",
+      "timeline.2026.0227": "Added Indonesian translation.",
+      "timeline.2026.0201": "Added Hindi and Thai translations.",
+      "timeline.2026.0126": "Registered the opentipitaka.org domain name.",
+      "timeline.2025.1207":
+        "Released the fourth translation version, introducing Myanmar word-by-word explanations and Myanmar translations as reference materials.",
+      "timeline.2025.1204": "Added Vietnamese translation.",
+      "timeline.2025.0818": "Released the third version with translation updates and a new Mac offline reading app.",
+      "timeline.2025.0616":
+        "Released the second version with translation updates, website proofreading accounts, Windows offline app updates, and new EPUB and TXT downloads.",
+      "timeline.2025.0422": "Gemini performed the first English proofreading.",
+      "timeline.2025.0418": "Deepseek performed the first Chinese proofreading.",
+      "timeline.2025.0405":
+        "Deepseek completed the full Pali Tipitaka Chinese and English translations; the website, PDFs, and Windows reading app were released together.",
+
       "mock.title": "Reader",
       "mock.leftPanel": "Tipitaka · Contents · Dictionary",
       "mock.tab1": "Dīgha Nikāya",
@@ -178,7 +217,6 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "footer.tagline": "Multi-translation Pali Tipitaka reading & proofreading.",
       "footer.copyright": "© 2026 Sunanda.",
-      "footer.webLicense": "Website source code: MIT License",
       "license.title": "Licensing",
       "license.body":
         "Content license\nUnless otherwise noted, original content for which this project owns the copyright or has the right to grant a sublicense—including translations, dictionary definitions, annotations, proofread texts, and other original works created by the project—is licensed under CC BY-NC-SA 4.0.\n\nThird-party materials\nThird-party Pali source texts, dictionaries, and other data included in the project are outside the scope of the license above and remain subject to the licenses or authorization terms specified by their respective rights holders. Their inclusion, format conversion, indexing, or compilation does not change their original copyright or license status. Where a material has a separate license notice, that notice prevails.\n\nSoftware code\nThe OpenTipitaka App software code is not covered by the Creative Commons license above. Unless expressly stated otherwise, all rights in the software code are reserved.",
@@ -232,6 +270,44 @@ window.OPENTIPITAKA_SITE_I18N = {
       "screenshots.alt2": "OpenTipitaka：目录树、章节目录与词典区域。",
       "screenshots.alt3": "OpenTipitaka：搜索框与结果列表。",
       "screenshots.alt4": "OpenTipitaka：双栏分屏与多标签。",
+
+      "timeline.title": "发展历程",
+      "timeline.subtitle":
+        "从 2025 年首版巴利三藏中英文译文发布，到 2026 年 OpenTipitaka 5.0 跨平台应用上线，项目持续扩展译文语言、阅读工具与校对流程。",
+      "timeline.tag.translation": "译文",
+      "timeline.tag.release": "版本",
+      "timeline.tag.app": "应用",
+      "timeline.tag.website": "网站",
+      "timeline.tag.proofread": "校对",
+      "timeline.tag.launch": "首发",
+      "timeline.2026.0708": "加入孟加拉语译文。",
+      "timeline.2026.0701": "加入高棉语译文。",
+      "timeline.2026.0622": "加入藏语译文。",
+      "timeline.2026.0616": "加入马拉地语译文。",
+      "timeline.2026.0603": "加入德语译文。",
+      "timeline.2026.0529": "加入缅甸语译文。",
+      "timeline.2026.0523": "加入僧伽罗语译文。",
+      "timeline.2026.0516": "加入西班牙语译文。",
+      "timeline.2026.0414.rename": "发布第五版，项目正式更名为 OpenTipitaka。",
+      "timeline.2026.0414.windows": "发布 Windows 版应用软件 OpenTipitaka 5.0。",
+      "timeline.2026.0407": "加入法语译文。",
+      "timeline.2026.0402.apps": "发布 macOS、Linux、iOS 版应用软件 OpenTipitaka 5.0。",
+      "timeline.2026.0328": "发布 Android 版应用软件 OpenTipitaka 5.0。",
+      "timeline.2026.0323": "加入韩语译文。",
+      "timeline.2026.0320": "opentipitaka.org 上线。",
+      "timeline.2026.0311": "加入日语译文。",
+      "timeline.2026.0227": "加入印度尼西亚语译文。",
+      "timeline.2026.0201": "加入印地语及泰语译文。",
+      "timeline.2026.0126": "注册域名 opentipitaka.org。",
+      "timeline.2025.1207": "发布第四版译文，引入缅语逐词释和缅语译本作为参考资料。",
+      "timeline.2025.1204": "加入越南语译文。",
+      "timeline.2025.0818": "发布第三版，译文更新，增加 Mac 离线阅读软件。",
+      "timeline.2025.0616":
+        "发布第二版，译文更新，网站新增用户校对功能，Windows 离线阅读软件更新，并新增 EPUB、TXT 格式文档下载。",
+      "timeline.2025.0422": "Gemini 第一次英语校对。",
+      "timeline.2025.0418": "Deepseek 第一次中文校对。",
+      "timeline.2025.0405":
+        "Deepseek 完整巴利三藏中文、英语译文，tipitaka.paauksociety.org、PDF、Windows 阅读软件同步发布。",
 
       "mock.title": "阅读器",
       "mock.leftPanel": "三藏目录 · 书籍目录 · 词典",
@@ -329,7 +405,6 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "footer.tagline": "多译文对照的巴利三藏阅读与校对工具。",
       "footer.copyright": "© 2026 Sunanda。",
-      "footer.webLicense": "网站源代码：MIT License",
       "license.title": "许可信息",
       "license.body":
         "内容许可\n除另有注明外，本项目享有著作权或有权再许可的原创内容，包括项目创作的译文、词典释义、注释、校订文本及其他原创成果，采用 CC BY-NC-SA 4.0 授权。\n\n第三方材料\n项目收录的第三方巴利原文、词典及其他数据不属于上述许可范围，仍分别依照其权利人标示的许可证或授权条件使用。对这些材料的收录、格式转换、索引或汇编，不改变其原有版权及许可状态。若某项材料另有许可说明，以该项说明为准。\n\n软件代码\nOpenTipitaka App 的软件代码不适用上述 Creative Commons 许可，除非另有明确说明，相关权利均予保留。",
@@ -463,7 +538,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Dùng liên kết tải CSDL bản dịch (mở thẳng thư mục) để tải gói rồi nhập vào ứng dụng. Khi không dùng cửa hàng, dùng liên kết tải gói cài (cũng mở thẳng) cho APK Android và bộ cài Windows/Linux.",
       "footer.tagline": "Đọc & hiệu đính Tam tạng Pāli với nhiều bản dịch.",
       "footer.copyright": "© 2026 Sunanda.",
-      "footer.webLicense": "Mã nguồn trang web: Giấy phép MIT",
       "license.title": "Thông tin giấy phép",
       "license.body":
         "Giấy phép nội dung\nTrừ khi có ghi chú khác, nội dung nguyên bản mà dự án sở hữu bản quyền hoặc có quyền cấp phép lại—gồm bản dịch, định nghĩa từ điển, chú thích, văn bản hiệu đính và các thành quả nguyên bản khác—được cấp phép theo CC BY-NC-SA 4.0.\n\nTài liệu bên thứ ba\nNguyên bản Pali, từ điển và dữ liệu bên thứ ba không thuộc giấy phép trên và vẫn tuân theo giấy phép hoặc điều kiện cho phép của chủ sở hữu quyền. Việc đưa vào, chuyển đổi định dạng, lập chỉ mục hoặc biên tập không làm thay đổi tình trạng bản quyền hay giấy phép ban đầu. Nếu có thông báo riêng thì thông báo đó được ưu tiên.\n\nMã phần mềm\nMã của OpenTipitaka App không thuộc giấy phép Creative Commons nêu trên. Trừ khi được nêu rõ khác đi, mọi quyền đều được bảo lưu.",
@@ -596,7 +670,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "གོང་གསལ་གཞི་གྲངས་མཛོད་ཕབ་ལེན་གྱི་སྦྲེལ་ཐག་བརྒྱུད་ནས་གཞི་གྲངས་ཐུམ་སྒྲིལ་ཕབ་ལེན་བྱས་ཏེ་མཉེན་ཆས་ནང་འཇུག་བྱེད། གལ་ཏེ་ཉེར་སྤྱོད་ཚོང་ཁང་སྤྱོད་མི་ཐུབ་ཚེ། གོང་གསལ་སྦྲེལ་ཐག་ནས་ Android APK དང་ Linux སྒྲིག་ཆས་ལེན་ཆོག",
       "footer.tagline": "ཡིག་སྒྱུར་མང་པོ་བསྡུར་ནས་ཀློག་པ་དང་ཞུ་དག་བྱེད་པའི་པ་ལིའི་ཏི་པི་ཊ་ཀའི་མཉེན་ཆས།",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "དྲ་ཚིགས་ཀྱི་ཁུངས་ཨང་། MIT License",
       "license.title": "ཆོག་མཆན་གྱི་གསལ་བཤད།",
       "license.body":
         "ནང་དོན་གྱི་ཆོག་མཆན།\nགསལ་བཤད་གཞན་མེད་ན། ལས་གཞི་འདིར་རྩོམ་དབང་ཡོད་པའམ་ཡང་བསྐྱར་ཆོག་མཆན་སྤྲོད་དབང་ཡོད་པའི་སྒྱུར་ཡིག ཚིག་མཛོད་འགྲེལ་པ། མཆན་འགྲེལ། ཞུ་དག་བྱས་པའི་ཡིག་ཆ་དང་གསར་རྩོམ་གཞན་རྣམས་ CC BY-NC-SA 4.0 འོག་ཏུ་སྤྲོད།\n\nཕྱོགས་གསུམ་པའི་རྒྱུ་ཆ།\nཕྱོགས་གསུམ་པའི་པཱ་ལིའི་མ་ཡིག ཚིག་མཛོད་དང་གཞི་གྲངས་གཞན་གོང་གི་ཆོག་མཆན་ནང་མི་ཚུད་པས། དབང་ཆ་ཅན་སོ་སོའི་ཆོག་མཆན་དང་ཆ་རྐྱེན་ལྟར་སྤྱོད། བསྡུ་འཇུག རྣམ་གཞག་བསྒྱུར་བ། དཀར་ཆག་བཟོ་བའམ་ཕྱོགས་སྒྲིག་བྱས་པས་མ་གཞིའི་རྩོམ་དབང་དང་ཆོག་མཆན་གྱི་གནས་བབ་མི་འགྱུར། ལོགས་སུ་གསལ་བཤད་ཡོད་ན་དེ་ཉིད་ཚད་འཛིན་བྱ།\n\nམཉེན་ཆས་ཀྱི་ཁུངས་ཨང་།\nOpenTipitaka App གི་མཉེན་ཆས་ཁུངས་ཨང་ལ་གོང་གི་ Creative Commons ཆོག་མཆན་མི་ཁྱབ། གསལ་པོར་གཞན་དུ་བཀོད་མེད་ན་དབང་ཆ་ཐམས་ཅད་ཉར་ཚགས་བྱས་ཡོད།",
@@ -729,7 +802,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "အထက်ပါ ဒေတာဘေ့စ် ဒေါင်းလုဒ် လင့်မှတစ်ဆင့် ဒေတာဘေ့စ် ပက်ကေ့ချ်ကို ဒေါင်းလုဒ်လုပ်ပြီး အက်ပ်သို့ ထည့်သွင်းပါ။ အကယ်၍ အက်ပ်စတိုးကို အသုံးမပြုနိုင်ပါက၊ အထက်ပါ လင့်မှတစ်ဆင့် Android APK နှင့် Linux အင်စတောလာများကို ရယူနိုင်ပါသည်။",
       "footer.tagline": "ဘာသာပြန်များစွာဖြင့် ပါဠိတိပိဋက ဖတ်ရှုခြင်းနှင့် စိစစ်ခြင်း ကိရိယာ။",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "ဝဘ်ဆိုက် မူရင်းကုဒ်: MIT License",
       "license.title": "လိုင်စင်အချက်အလက်",
       "license.body":
         "အကြောင်းအရာလိုင်စင်\nအခြားသတ်မှတ်ချက်မရှိလျှင် စီမံကိန်းက မူပိုင်ခွင့်ပိုင်ဆိုင်သော သို့မဟုတ် ပြန်လည်လိုင်စင်ပေးခွင့်ရှိသော ဘာသာပြန်များ၊ အဘိဓာန်အဓိပ္ပာယ်ဖွင့်ဆိုချက်များ၊ မှတ်ချက်များ၊ တည်းဖြတ်ထားသောစာသားများနှင့် အခြားမူရင်းဖန်တီးမှုများကို CC BY-NC-SA 4.0 ဖြင့် လိုင်စင်ပေးထားသည်။\n\nတတိယပါတီပစ္စည်းများ\nတတိယပါတီ ပါဠိမူရင်းစာသားများ၊ အဘိဓာန်များနှင့် အခြားဒေတာများသည် အထက်ပါလိုင်စင်တွင် မပါဝင်ဘဲ သက်ဆိုင်ရာအခွင့်အရေးပိုင်ရှင်၏ လိုင်စင် သို့မဟုတ် ခွင့်ပြုချက်စည်းကမ်းများအတိုင်း အသုံးပြုသည်။ ထည့်သွင်းခြင်း၊ ဖော်မတ်ပြောင်းခြင်း၊ အညွှန်းပြုခြင်း သို့မဟုတ် စုစည်းခြင်းသည် မူလမူပိုင်ခွင့်နှင့် လိုင်စင်အခြေအနေကို မပြောင်းလဲစေပါ။ သီးခြားလိုင်စင်ဖော်ပြချက်ရှိလျှင် ထိုဖော်ပြချက်ကို ဦးစားပေးသည်။\n\nဆော့ဖ်ဝဲကုဒ်\nOpenTipitaka App ၏ ဆော့ဖ်ဝဲကုဒ်သည် အထက်ပါ Creative Commons လိုင်စင်နှင့် မသက်ဆိုင်ပါ။ အခြားသို့ ရှင်းလင်းစွာ မဖော်ပြထားလျှင် အခွင့်အရေးအားလုံးကို ထိန်းသိမ်းထားသည်။",
@@ -861,7 +933,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "ใช้ลิงก์ดาวน์โหลดฐานข้อมูลคำแปล (เปิดโฟลเดอร์โดยตรง) เพื่อดาวน์โหลดแพ็กเกจแล้วนำเข้าแอป เมื่อไม่ใช้สโตร์ ให้ใช้ลิงก์ดาวน์โหลดติดตั้ง (เปิดตรงเช่นกัน) สำหรับ APK ของ Android และตัวติดตั้ง Windows/Linux",
       "footer.tagline": "เครื่องมืออ่านและตรวจทานพระไตรปิฎกบาลีหลายคำแปล",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "ซอร์สโค้ดเว็บไซต์: สัญญาอนุญาต MIT",
       "license.title": "ข้อมูลสัญญาอนุญาต",
       "license.body":
         "สัญญาอนุญาตเนื้อหา\nเว้นแต่จะระบุไว้เป็นอย่างอื่น เนื้อหาต้นฉบับที่โครงการเป็นเจ้าของลิขสิทธิ์หรือมีสิทธิอนุญาตต่อ รวมถึงคำแปล คำนิยามพจนานุกรม คำอธิบายประกอบ ข้อความที่ตรวจแก้ และผลงานต้นฉบับอื่น ๆ ใช้สัญญาอนุญาต CC BY-NC-SA 4.0\n\nเนื้อหาของบุคคลที่สาม\nต้นฉบับภาษาบาลี พจนานุกรม และข้อมูลอื่นของบุคคลที่สามไม่อยู่ภายใต้สัญญาอนุญาตข้างต้น และยังคงใช้ตามสัญญาอนุญาตหรือเงื่อนไขของเจ้าของสิทธิ์ การนำมารวม การแปลงรูปแบบ การจัดทำดัชนี หรือการรวบรวม ไม่เปลี่ยนสถานะลิขสิทธิ์หรือสัญญาอนุญาตเดิม หากมีประกาศเฉพาะ ให้ยึดประกาศนั้น\n\nรหัสซอฟต์แวร์\nรหัสซอฟต์แวร์ของ OpenTipitaka App ไม่อยู่ภายใต้สัญญาอนุญาต Creative Commons ข้างต้น เว้นแต่จะระบุอย่างชัดเจนเป็นอย่างอื่น สงวนสิทธิ์ทั้งหมด",
@@ -993,7 +1064,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "上記のデータベースダウンロード用リンクを使用して、データパッケージをダウンロードし、アプリにインポートしてください。アプリストアを使用できない場合は、上記のダウンロード用リンクから Android APK および Linux インストーラーを入手できます。",
       "footer.tagline": "複数訳対照のパーリ三蔵読書・校正ツール。",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "ウェブサイトのソースコード：MIT License",
       "license.title": "ライセンス情報",
       "license.body":
         "コンテンツライセンス\n別途記載がある場合を除き、本プロジェクトが著作権を有する、または再許諾する権利を有する独自コンテンツ（翻訳、辞書定義、注釈、校訂テキストその他の独自成果を含む）は、CC BY-NC-SA 4.0で提供されます。\n\n第三者資料\n第三者のパーリ原文、辞書その他のデータは上記ライセンスの対象外で、各権利者が示すライセンスまたは許諾条件に従います。収録、形式変換、索引化、編集は元の著作権・ライセンス状態を変更しません。個別の表示がある場合はそれが優先されます。\n\nソフトウェアコード\nOpenTipitaka Appのソフトウェアコードには上記Creative Commonsライセンスは適用されません。明示されない限り、すべての権利を留保します。",
@@ -1125,7 +1195,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "위의 데이터베이스 다운로드 링크를 통해 데이터 패키지를 직접 받아 앱으로 가져오세요. 앱 스토어를 사용할 수 없을 때는 위의 다운로드 링크에서 Android APK 및 Linux 설치 파일을 받으세요.",
       "footer.tagline": "다중 번역 대조를 지원하는 팔리 삼장 독서 및 교정 도구.",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "웹사이트 소스 코드: MIT License",
       "license.title": "라이선스 정보",
       "license.body":
         "콘텐츠 라이선스\n별도 표시가 없는 한, 프로젝트가 저작권을 보유하거나 재라이선스할 권리가 있는 번역문, 사전 정의, 주석, 교정 텍스트 및 기타 독창적 결과물은 CC BY-NC-SA 4.0으로 제공됩니다.\n\n제3자 자료\n제3자의 팔리어 원문, 사전 및 기타 데이터는 위 라이선스에 포함되지 않으며 각 권리자가 표시한 라이선스 또는 허가 조건을 따릅니다. 수록, 형식 변환, 색인 또는 편집은 원래의 저작권 및 라이선스 상태를 변경하지 않습니다. 별도 표시가 있으면 그 표시가 우선합니다.\n\n소프트웨어 코드\nOpenTipitaka App의 소프트웨어 코드는 위 Creative Commons 라이선스의 적용 대상이 아닙니다. 명시적으로 달리 밝히지 않는 한 모든 권리를 보유합니다.",
@@ -1257,7 +1326,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "उपरोक्त डेटाबेस डाउनलोड लिंक के माध्यम से डेटा पैकेज डाउनलोड करें और ऐप में आयात करें। यदि ऐप स्टोर का उपयोग नहीं कर सकते हैं, तो उपरोक्त डाउनलोड लिंक से Android APK और Linux इंस्टॉलर प्राप्त कर सकते हैं。",
       "footer.tagline": "बहु-अनुवाद पाली त्रिपिटक: पठन और प्रूफरीडिंग उपकरण।",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "वेबसाइट स्रोत कोड: MIT लाइसेंस",
       "license.title": "लाइसेंस जानकारी",
       "license.body":
         "सामग्री लाइसेंस\nजब तक अन्यथा न कहा गया हो, परियोजना के स्वामित्व वाली या पुनः लाइसेंस देने योग्य मौलिक सामग्री—जिसमें अनुवाद, शब्दकोश परिभाषाएँ, टिप्पणियाँ, संशोधित पाठ और अन्य मौलिक रचनाएँ शामिल हैं—CC BY-NC-SA 4.0 के अंतर्गत उपलब्ध है।\n\nतृतीय-पक्ष सामग्री\nतृतीय-पक्ष पालि मूलपाठ, शब्दकोश और अन्य डेटा उपर्युक्त लाइसेंस में शामिल नहीं हैं और उनके अधिकारधारकों की शर्तों के अधीन रहते हैं। उनका समावेश, प्रारूप परिवर्तन, अनुक्रमण या संकलन उनकी मूल कॉपीराइट अथवा लाइसेंस स्थिति नहीं बदलता। अलग सूचना होने पर वही लागू होगी।\n\nसॉफ़्टवेयर कोड\nOpenTipitaka App का कोड उपर्युक्त Creative Commons लाइसेंस के अंतर्गत नहीं है। स्पष्ट रूप से अन्यथा बताए जाने तक सभी अधिकार सुरक्षित हैं।",
@@ -1389,7 +1457,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Use el enlace de descarga de bases de datos de arriba para obtener el paquete e importarlo manualmente. Si no puede usar las tiendas, obtenga los instaladores Android APK o de Linux mediante los enlaces de descarga indicados.",
       "footer.tagline": "Herramienta de lectura y revisión del Tipitaka Pali con múltiples traducciones.",
       "footer.copyright": "© 2026 Sunanda.",
-      "footer.webLicense": "Código fuente del sitio web: Licencia MIT",
       "license.title": "Información de licencias",
       "license.body":
         "Licencia del contenido\nSalvo indicación en contrario, el contenido original cuyos derechos pertenecen al proyecto o que este puede volver a licenciar —incluidas traducciones, definiciones de diccionario, anotaciones, textos revisados y otras obras originales— se ofrece bajo CC BY-NC-SA 4.0.\n\nMateriales de terceros\nLos textos pali, diccionarios y demás datos de terceros no están cubiertos por la licencia anterior y siguen sujetos a las licencias o autorizaciones de sus titulares. Su inclusión, conversión de formato, indexación o compilación no modifica su situación jurídica. Si existe un aviso específico, prevalece dicho aviso.\n\nCódigo del software\nEl código de OpenTipitaka App no está cubierto por la licencia Creative Commons anterior. Salvo indicación expresa, todos los derechos quedan reservados.",
@@ -1522,7 +1589,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Gunakan tautan unduhan database di atas untuk mendapatkan paket data dan mengimpornya ke aplikasi. Jika tidak dapat menggunakan toko aplikasi, dapatkan APK Android atau pemasang Linux melalui tautan unduhan yang disediakan.",
       "footer.tagline": "Alat baca dan koreksi Tipitaka Pali dengan multi-terjemahan.",
       "footer.copyright": "© 2026 Sunanda.",
-      "footer.webLicense": "Kode sumber situs web: Lisensi MIT",
       "license.title": "Informasi lisensi",
       "license.body":
         "Lisensi konten\nKecuali dinyatakan lain, konten asli yang hak ciptanya dimiliki proyek atau dapat dilisensikan kembali—termasuk terjemahan, definisi kamus, anotasi, teks hasil penyuntingan, dan karya asli lainnya—dilisensikan dengan CC BY-NC-SA 4.0.\n\nMateri pihak ketiga\nTeks Pali, kamus, dan data pihak ketiga tidak termasuk dalam lisensi di atas dan tetap mengikuti lisensi atau ketentuan izin pemegang hak masing-masing. Penyertaan, konversi format, pengindeksan, atau kompilasi tidak mengubah status hak cipta atau lisensinya. Jika ada pemberitahuan khusus, pemberitahuan itu berlaku.\n\nKode perangkat lunak\nKode OpenTipitaka App tidak tercakup oleh lisensi Creative Commons di atas. Kecuali dinyatakan lain secara tegas, seluruh hak dilindungi.",
@@ -1655,7 +1721,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Utilisez le lien de téléchargement de base de données ci-dessus pour obtenir le paquet et l’importer manuellement. Si vous ne pouvez pas utiliser les stores, procurez-vous l’APK Android ou les installateurs Linux via les liens de téléchargement indiqués.",
       "footer.tagline": "Outil de lecture et de relecture du Tipitaka pali avec multi-traductions.",
       "footer.copyright": "© 2026 Sunanda.",
-      "footer.webLicense": "Code source du site web : licence MIT",
       "license.title": "Informations de licence",
       "license.body":
         "Licence du contenu\nSauf mention contraire, les contenus originaux dont le projet détient les droits ou qu’il est autorisé à concéder sous licence — notamment traductions, définitions de dictionnaire, annotations, textes révisés et autres créations originales — sont placés sous CC BY-NC-SA 4.0.\n\nÉléments tiers\nLes textes pali, dictionnaires et autres données de tiers ne relèvent pas de cette licence et restent soumis aux licences ou autorisations de leurs ayants droit. Leur inclusion, conversion de format, indexation ou compilation ne modifie pas leur statut. Une mention de licence particulière prévaut.\n\nCode logiciel\nLe code de l’application OpenTipitaka n’est pas couvert par la licence Creative Commons ci-dessus. Sauf mention expresse contraire, tous les droits sont réservés.",
@@ -1800,7 +1865,6 @@ window.OPENTIPITAKA_SITE_I18N = {
         "Nutzen Sie den Link zur Übersetzungsdatenbank—er öffnet den Ordner direkt—, laden Sie ein Paket herunter und importieren Sie es. Über den Installer-Link (ebenfalls direkt) erhalten Sie die Android-APK sowie Windows-/Linux-Installer ohne App-Stores.",
       "footer.tagline": "Mehrsprachiges Lesen und Korrekturlesen des Pali-Tipitaka.",
       "footer.copyright": "© 2026 Sunanda.",
-      "footer.webLicense": "Website-Quellcode: MIT-Lizenz",
       "license.title": "Lizenzinformationen",
       "license.body":
         "Inhaltslizenz\nSofern nicht anders angegeben, stehen die urheberrechtlich geschützten oder vom Projekt weiterlizenzierbaren Originalinhalte – einschließlich Übersetzungen, Wörterbuchdefinitionen, Anmerkungen, lektorierter Texte und anderer eigener Werke – unter CC BY-NC-SA 4.0.\n\nMaterialien Dritter\nEnthaltene Pali-Originaltexte, Wörterbücher und sonstige Daten Dritter fallen nicht unter diese Lizenz und unterliegen weiterhin den Bedingungen ihrer jeweiligen Rechteinhaber. Aufnahme, Formatumwandlung, Indexierung oder Zusammenstellung ändern ihren urheberrechtlichen oder lizenzrechtlichen Status nicht. Gesonderte Lizenzhinweise haben Vorrang.\n\nSoftwarecode\nDer Softwarecode der OpenTipitaka App fällt nicht unter die obige Creative-Commons-Lizenz. Sofern nicht ausdrücklich anders angegeben, bleiben alle Rechte vorbehalten.",
@@ -1943,7 +2007,6 @@ window.OPENTIPITAKA_SITE_I18N = {
       "faq.q4.a": "පරිවර්තන දත්ත සමුදාය බාගැනීමේ සබැඳිය භාවිතා කරන්න—එය ෆෝල්ඩරය සෘජුව විවෘත කරයි—පැකේජය බාගෙන යෙදුමට ආයාත කරන්න. යෙදුම් වෙළඳසැල් නොභාවිතා කරන විට Android APK සහ Windows/Linux ස්ථාපක සඳහා ස්ථාපක බාගැනීමේ සබැඳිය (සෘජුවම) භාවිතා කරන්න.",
       "footer.tagline": "බහු පරිවර්තන පාලි ත්‍රිපිටක කියැවීම සහ සංශෝධනය.",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "වෙබ් අඩවි මූලාශ්‍ර කේතය: MIT බලපත්‍රය",
       "license.title": "බලපත්‍ර තොරතුරු",
       "license.body":
         "අන්තර්ගත බලපත්‍රය\nවෙනත් ආකාරයකින් සඳහන් නොකළහොත්, ව්‍යාපෘතියට ප්‍රකාශන හිමිකම ඇති හෝ නැවත බලපත්‍ර ලබාදීමට අයිතිය ඇති පරිවර්තන, ශබ්දකෝෂ අර්ථකථන, සටහන්, සංශෝධිත පාඨ සහ අනෙකුත් මුල් නිර්මාණ CC BY-NC-SA 4.0 යටතේ බලපත්‍ර ලබා ඇත.\n\nතෙවන පාර්ශ්ව ද්‍රව්‍ය\nතෙවන පාර්ශ්ව පාලි මුල් පාඨ, ශබ්දකෝෂ සහ අනෙකුත් දත්ත ඉහත බලපත්‍රයට අයත් නොවන අතර ඒවායේ අයිතිකරුවන්ගේ බලපත්‍ර හෝ අවසර කොන්දේසි යටතේ පවතී. ඇතුළත් කිරීම, ආකෘති පරිවර්තනය, සුචිගත කිරීම හෝ සම්පාදනය මුල් ප්‍රකාශන හිමිකම හෝ බලපත්‍ර තත්ත්වය වෙනස් නොකරයි. වෙනම නිවේදනයක් තිබේ නම් එය ප්‍රමුඛ වේ.\n\nමෘදුකාංග කේතය\nOpenTipitaka App මෘදුකාංග කේතය ඉහත Creative Commons බලපත්‍රයට අයත් නොවේ. පැහැදිලිව වෙනත් ආකාරයකින් සඳහන් නොකළහොත් සියලු හිමිකම් ඇවිරිණි.",
@@ -2100,7 +2163,6 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "footer.tagline": "अनेक भाषांतरांसह पाली तिपिटक वाचन आणि तपासणी.",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "वेबसाइट स्रोत कोड: MIT परवाना",
       "license.title": "परवाना माहिती",
       "license.body":
         "सामग्री परवाना\nअन्यथा नमूद नसल्यास, प्रकल्पाकडे हक्क असलेली किंवा पुनर्परवाना देण्याचा अधिकार असलेली भाषांतरे, शब्दकोश व्याख्या, टिपणे, संपादित मजकूर व इतर मूळ निर्मिती CC BY-NC-SA 4.0 अंतर्गत उपलब्ध आहेत.\n\nतृतीय-पक्ष सामग्री\nतृतीय-पक्ष पाली मूळपाठ, शब्दकोश व इतर डेटा वरील परवान्यात समाविष्ट नाहीत आणि त्यांच्या हक्कधारकांच्या अटींनुसार वापरले जातात. समावेश, स्वरूप बदल, अनुक्रमणिका किंवा संकलनामुळे मूळ कॉपीराइट वा परवाना स्थिती बदलत नाही. स्वतंत्र सूचना असल्यास ती लागू होते.\n\nसॉफ्टवेअर कोड\nOpenTipitaka App चा कोड वरील Creative Commons परवान्याखाली नाही. स्पष्टपणे अन्यथा नमूद नसल्यास सर्व हक्क राखीव आहेत.",
@@ -2257,7 +2319,6 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "footer.tagline": "Leitura e revisão do Tipitaka em pali com múltiplas traduções.",
       "footer.copyright": "© 2026 Sunanda.",
-      "footer.webLicense": "Código-fonte do site: Licença MIT",
       "license.title": "Informações de licença",
       "license.body":
         "Licença de conteúdo\nSalvo indicação em contrário, o conteúdo original cujos direitos pertencem ao projeto ou que ele pode relicenciar — incluindo traduções, definições de dicionário, anotações, textos revisados e outras obras originais — é licenciado sob CC BY-NC-SA 4.0.\n\nMateriais de terceiros\nTextos pali, dicionários e outros dados de terceiros não estão abrangidos pela licença acima e continuam sujeitos às condições dos respectivos titulares. Inclusão, conversão de formato, indexação ou compilação não altera seu estado de direitos autorais ou licença. Havendo aviso específico, ele prevalece.\n\nCódigo do software\nO código do OpenTipitaka App não está coberto pela licença Creative Commons acima. Salvo indicação expressa em contrário, todos os direitos são reservados.",
@@ -2414,7 +2475,6 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "footer.tagline": "ការអាន និងពិនិត្យកែសម្រួលព្រះត្រៃបិដកបាលីជាមួយការបកប្រែច្រើន។",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "កូដប្រភពគេហទំព័រ៖ អាជ្ញាបណ្ណ MIT",
       "license.title": "ព័ត៌មានអាជ្ញាបណ្ណ",
       "license.body":
         "អាជ្ញាបណ្ណមាតិកា\nលើកលែងតែមានការបញ្ជាក់ផ្សេង មាតិកាដើមដែលគម្រោងមានសិទ្ធិអ្នកនិពន្ធ ឬមានសិទ្ធិផ្តល់អាជ្ញាបណ្ណបន្ត រួមមានការបកប្រែ និយមន័យវចនានុក្រម កំណត់សម្គាល់ អត្ថបទកែសម្រួល និងស្នាដៃដើមផ្សេងៗ ត្រូវបានផ្តល់អាជ្ញាបណ្ណក្រោម CC BY-NC-SA 4.0។\n\nសម្ភារៈភាគីទីបី\nអត្ថបទបាលីដើម វចនានុក្រម និងទិន្នន័យផ្សេងៗរបស់ភាគីទីបី មិនស្ថិតក្រោមអាជ្ញាបណ្ណខាងលើទេ ហើយនៅតែអនុវត្តតាមលក្ខខណ្ឌរបស់ម្ចាស់សិទ្ធិរៀងៗខ្លួន។ ការដាក់បញ្ចូល បម្លែងទ្រង់ទ្រាយ ធ្វើលិបិក្រម ឬចងក្រង មិនផ្លាស់ប្តូរស្ថានភាពសិទ្ធិអ្នកនិពន្ធ ឬអាជ្ញាបណ្ណដើមឡើយ។ ប្រសិនបើមានសេចក្តីជូនដំណឹងដាច់ដោយឡែក ត្រូវយកសេចក្តីនោះជាគោល។\n\nកូដកម្មវិធី\nកូដរបស់ OpenTipitaka App មិនស្ថិតក្រោមអាជ្ញាបណ្ណ Creative Commons ខាងលើទេ។ លើកលែងតែបានបញ្ជាក់ច្បាស់ផ្សេងពីនេះ សិទ្ធិទាំងអស់ត្រូវបានរក្សាទុក។",
@@ -2571,7 +2631,6 @@ window.OPENTIPITAKA_SITE_I18N = {
 
       "footer.tagline": "ການອ່ານ ແລະ ກວດແກ້ພຣະໄຕປິດົກພາສາປາລີພ້ອມຄຳແປຫຼາຍພາສາ.",
       "footer.copyright": "© 2026 Sunanda",
-      "footer.webLicense": "ລະຫັດຕົ້ນສະບັບເວັບໄຊ: ໃບອະນຸຍາດ MIT",
       "license.title": "ຂໍ້ມູນໃບອະນຸຍາດ",
       "license.body":
         "ໃບອະນຸຍາດເນື້ອຫາ\nເວັ້ນແຕ່ຈະລະບຸໄວ້ເປັນຢ່າງອື່ນ ເນື້ອຫາຕົ້ນສະບັບທີ່ໂຄງການມີລິຂະສິດ ຫຼືມີສິດອອກໃບອະນຸຍາດຕໍ່ ລວມທັງຄຳແປ ຄຳນິຍາມພົດຈະນານຸກົມ ໝາຍເຫດ ຂໍ້ຄວາມກວດແກ້ ແລະຜົນງານຕົ້ນສະບັບອື່ນ ໃຊ້ CC BY-NC-SA 4.0.\n\nວັດສະດຸຈາກພາກສ່ວນທີສາມ\nຕົ້ນສະບັບພາສາປາລີ ພົດຈະນານຸກົມ ແລະຂໍ້ມູນອື່ນຂອງພາກສ່ວນທີສາມບໍ່ຢູ່ໃນໃບອະນຸຍາດຂ້າງເທິງ ແລະຍັງໃຊ້ຕາມເງື່ອນໄຂຂອງເຈົ້າຂອງສິດ. ການນຳເຂົ້າ ປ່ຽນຮູບແບບ ຈັດດັດຊະນີ ຫຼືລວບລວມ ບໍ່ປ່ຽນສະຖານະລິຂະສິດ ຫຼືໃບອະນຸຍາດເດີມ. ຖ້າມີຄຳຊີ້ແຈງແຍກ ໃຫ້ຖືຄຳຊີ້ແຈງນັ້ນ.\n\nລະຫັດຊອບແວ\nລະຫັດຂອງ OpenTipitaka App ບໍ່ຢູ່ພາຍໃຕ້ໃບອະນຸຍາດ Creative Commons ຂ້າງເທິງ. ເວັ້ນແຕ່ຈະລະບຸຢ່າງຊັດເຈນເປັນຢ່າງອື່ນ ສະຫງວນສິດທັງໝົດ.",

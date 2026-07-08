@@ -826,18 +826,6 @@ a {
   flex-wrap: wrap;
 }
 
-.footer-license-link {
-  color: var(--muted);
-  text-decoration: underline;
-  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
-  text-underline-offset: 3px;
-}
-
-.footer-license-link:hover {
-  color: var(--text);
-  text-decoration-color: currentColor;
-}
-
 .license-copy {
   max-width: 920px;
   line-height: 1.7;
@@ -889,6 +877,80 @@ a {
 .screenshots-viewport:focus-visible {
   outline: 2px solid var(--accent3);
   outline-offset: 3px;
+}
+
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  align-items: start;
+}
+
+.timeline-year {
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--card) 78%, transparent);
+  box-shadow: 0 16px 48px var(--shadow);
+  padding: 18px;
+}
+
+.timeline-year-title {
+  margin: 0 0 14px;
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.timeline-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+}
+
+.timeline-item {
+  display: grid;
+  grid-template-columns: 52px 96px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+  padding: 10px 0;
+  border-top: 1px solid var(--stroke);
+}
+
+.timeline-item:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+.timeline-date {
+  color: var(--muted2);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  line-height: 1.85;
+}
+
+.timeline-tag {
+  width: 96px;
+  min-height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--accent2) 38%, var(--stroke));
+  background: color-mix(in srgb, var(--accent2) 10%, transparent);
+  color: var(--text);
+  font-size: 11px;
+  font-weight: 850;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.timeline-text {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.62;
+  font-size: 14px;
 }
 
 .screenshots-track {
@@ -1011,6 +1073,10 @@ a {
     flex-basis: calc(100vw - 64px);
   }
 
+  .timeline {
+    grid-template-columns: 1fr;
+  }
+
   .download-grid,
   .download-layout {
     grid-template-columns: 1fr;
@@ -1032,5 +1098,27 @@ a {
 
   .trust-strip {
     grid-template-columns: 1fr;
+  }
+
+  #githubLink {
+    display: none;
+  }
+
+  .timeline-year {
+    padding: 14px;
+  }
+
+  .timeline-item {
+    grid-template-columns: 52px minmax(0, 1fr);
+  }
+
+  .timeline-tag {
+    grid-column: 2;
+    width: max-content;
+    max-width: 100%;
+  }
+
+  .timeline-text {
+    grid-column: 1 / -1;
   }
 }
