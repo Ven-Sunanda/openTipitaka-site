@@ -102,8 +102,8 @@ a {
 }
 
 .top-download-bar {
-  border-bottom: 1px solid color-mix(in srgb, var(--stroke) 70%, transparent);
-  background: color-mix(in srgb, var(--card) 45%, transparent);
+  border-top: 1px solid color-mix(in srgb, var(--stroke) 70%, transparent);
+  background: color-mix(in srgb, var(--card) 34%, transparent);
 }
 
 .top-download-inner {
@@ -111,11 +111,22 @@ a {
   justify-content: center;
   align-items: center;
   gap: 8px;
-  padding: 8px 0;
+  padding: 9px 0 10px;
+}
+
+.top-download-label {
+  display: inline-flex;
+  align-items: center;
+  min-height: 29px;
+  padding: 0 2px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+  white-space: nowrap;
 }
 
 .top-download-link {
-  min-width: 76px;
+  min-width: 92px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -134,6 +145,23 @@ a {
   transform: translateY(-1px);
   border-color: var(--stroke2);
   background: color-mix(in srgb, var(--accent2) 18%, var(--card2));
+}
+
+.top-download-divider {
+  width: 1px;
+  height: 22px;
+  margin: 0 2px;
+  background: var(--stroke);
+}
+
+.top-online-link {
+  min-width: 122px;
+  border-color: color-mix(in srgb, var(--accent2) 36%, var(--stroke));
+  background: color-mix(in srgb, var(--accent2) 18%, var(--card2));
+}
+
+.top-online-link:hover {
+  background: color-mix(in srgb, var(--accent2) 26%, var(--card2));
 }
 
 .header-inner {
@@ -1399,9 +1427,18 @@ a {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
+  .top-download-label,
+  .top-download-divider {
+    display: none;
+  }
+
   .top-download-link {
     width: 100%;
     min-width: 0;
+  }
+
+  .top-online-link {
+    grid-column: 1 / -1;
   }
 
   .cards {
