@@ -149,41 +149,83 @@
                 <div class="device-title" data-i18n="mock.title">Reader</div>
               </div>
               <div class="device-body">
-                <div class="mock-grid">
-                  <div class="mock-panel">
-                    <div class="mock-section" data-i18n="mock.leftPanel">Tipitaka · Contents · Dictionary</div>
-                    <div class="mock-tree">
-                      <div class="mock-line w-70"></div>
-                      <div class="mock-line w-55"></div>
-                      <div class="mock-line w-62"></div>
-                      <div class="mock-line w-48"></div>
-                      <div class="mock-line w-58"></div>
-                      <div class="mock-line w-44"></div>
+                <div
+                  class="app-schematic"
+                  role="img"
+                  aria-label="OpenTipitaka app layout schematic"
+                  data-i18n-aria-label="mock.ariaLabel"
+                >
+                  <div class="schematic-tabs">
+                    <span class="schematic-tab schematic-tab-home" data-i18n="mock.homeTab">Home</span>
+                    <span class="schematic-tab schematic-tab-active" data-i18n="mock.bookTab">Dīgha Nikāya</span>
+                    <span class="schematic-tab" data-i18n="mock.bookTab2">Majjhima</span>
+                    <span class="schematic-control" data-i18n="mock.splitControl">Single / Split</span>
+                  </div>
+                  <div class="schematic-workspace">
+                    <div class="schematic-rail" aria-hidden="true">
+                      <span>☸</span>
+                      <span>☷</span>
+                      <span>☰</span>
+                      <span>▣</span>
+                      <span>↺</span>
+                      <span>⌕</span>
+                      <span>⚙</span>
+                    </div>
+                    <div class="schematic-panel">
+                      <div class="schematic-panel-title" data-i18n="mock.sidePanelTitle">Navigation panel</div>
+                      <div class="schematic-panel-tabs">
+                        <span data-i18n="mock.sidePanelTree">Tree</span>
+                        <span data-i18n="mock.sidePanelToc">TOC</span>
+                        <span data-i18n="mock.sidePanelDict">Dict</span>
+                      </div>
+                      <div class="schematic-tree">
+                        <div class="schematic-tree-row strong" data-i18n="mock.treeRoot">Tipiṭaka</div>
+                        <div class="schematic-tree-row indent" data-i18n="mock.treeBook">Dīgha Nikāya</div>
+                        <div class="schematic-tree-row indent active" data-i18n="mock.treeChapter">Brahmajāla</div>
+                        <div class="schematic-tree-row indent" data-i18n="mock.treeTools">Search · History</div>
+                      </div>
+                    </div>
+                    <div class="schematic-reader">
+                      <div class="schematic-reader-head">
+                        <div>
+                          <div class="schematic-eyebrow" data-i18n="mock.readerArea">Reader workspace</div>
+                          <div class="schematic-reader-title" data-i18n="mock.readerTitle">Pali + translations</div>
+                        </div>
+                        <span class="schematic-status" data-i18n="mock.readerStatus">1/48</span>
+                      </div>
+                      <div class="schematic-panes">
+                        <div class="schematic-pane active-pane">
+                          <div class="schematic-pane-label" data-i18n="mock.paneActive">Active pane</div>
+                          <div class="schematic-record">
+                            <div class="schematic-record-label pali" data-i18n="mock.paliOriginal">Pali original</div>
+                            <div class="schematic-line schematic-w-94"></div>
+                            <div class="schematic-line schematic-w-78"></div>
+                            <div class="schematic-record-label trans" data-i18n="mock.translationStack">Chinese · English · more</div>
+                            <div class="schematic-line schematic-w-88"></div>
+                            <div class="schematic-line schematic-w-66"></div>
+                          </div>
+                          <div class="schematic-record small-record">
+                            <div class="schematic-record-label edit" data-i18n="mock.proofreadLabel">Double-click to proofread</div>
+                            <div class="schematic-line schematic-w-84"></div>
+                          </div>
+                        </div>
+                        <div class="schematic-pane secondary-pane">
+                          <div class="schematic-pane-label" data-i18n="mock.paneCompare">Compare pane</div>
+                          <div class="schematic-line schematic-w-82"></div>
+                          <div class="schematic-line schematic-w-58"></div>
+                          <div class="schematic-mini-card" data-i18n="mock.syncNote">Tabs can show side-by-side books</div>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="mock-reader">
-                    <div class="mock-tabs">
-                      <span class="pill" data-i18n="mock.tab1">Dīgha Nikāya</span>
-                      <span class="pill pill-muted" data-i18n="mock.tab2">Majjhima Nikāya</span>
-                    </div>
-                    <div class="mock-paragraphs">
-                      <div class="para">
-                        <div class="para-title" data-i18n="mock.paliLabel">Pali (Roman / Devanagari / Thai …)</div>
-                        <div class="mock-line w-92"></div>
-                        <div class="mock-line w-88"></div>
-                      </div>
-                      <div class="para">
-                        <div class="para-title" data-i18n="mock.translationLabel">Translation (Chinese / English …)</div>
-                        <div class="mock-line w-95"></div>
-                        <div class="mock-line w-84"></div>
-                      </div>
-                      <div class="mock-toolbar">
-                        <span class="chip" data-i18n="mock.tools.search">Search</span>
-                        <span class="chip" data-i18n="mock.tools.bookmark">Bookmark</span>
-                        <span class="chip" data-i18n="mock.tools.tts">Read aloud</span>
-                        <span class="chip" data-i18n="mock.tools.split">Split-screen</span>
-                      </div>
-                    </div>
+                  <div class="schematic-toolbar">
+                    <span data-i18n="mock.toolbarText">A- / A+</span>
+                    <span data-i18n="mock.toolbarLang">Languages</span>
+                    <span data-i18n="mock.toolbarTextType">Mūla · Aṭṭha · Ṭīkā</span>
+                    <span data-i18n="mock.toolbarJump">Jump</span>
+                    <span data-i18n="mock.toolbarBookmark">Bookmarks</span>
+                    <span data-i18n="mock.toolbarAutoScroll">Auto-scroll</span>
+                    <span data-i18n="mock.toolbarTts">TTS</span>
                   </div>
                 </div>
               </div>
