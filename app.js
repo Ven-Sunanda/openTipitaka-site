@@ -2,6 +2,7 @@
 
 /** Fixed outbound links (custom domains do not affect these). */
 const SITE_EXTERNAL_LINKS = {
+  officialWebsite: "https://www.opentipitaka.org",
   onlineReading: "https://tipitaka.paauksociety.org",
   appleAppStore: "https://apps.apple.com/mm/app/opentipitaka/id6760888347",
   googlePlay: "https://play.google.com/store/apps/details?id=org.opentipitaka.app&pcampaignid=web_share",
@@ -45,14 +46,20 @@ function wireExternalSiteLinks() {
     if (el) el.setAttribute("href", url);
   }
 
+  document.querySelectorAll("[data-site-link]").forEach((el) => {
+    const key = el.getAttribute("data-site-link");
+    const url = key ? SITE_EXTERNAL_LINKS[key] : "";
+    if (url) el.setAttribute("href", url);
+  });
+
   const msUrl = (SITE_EXTERNAL_LINKS.microsoftStore || "").trim();
-  const msEl = document.getElementById("microsoftStoreLink");
-  const wrap = document.getElementById("msStoreWrap");
-  if (msUrl && msEl && wrap) {
-    msEl.setAttribute("href", msUrl);
-    wrap.removeAttribute("hidden");
-  } else if (wrap) {
-    wrap.setAttribute("hidden", "");
+  const msLinks = document.querySelectorAll('#microsoftStoreLink, [data-site-link="microsoftStore"]');
+  const msWraps = document.querySelectorAll("#msStoreWrap, [data-ms-store-wrap]");
+  if (msUrl) {
+    msLinks.forEach((el) => el.setAttribute("href", msUrl));
+    msWraps.forEach((wrap) => wrap.removeAttribute("hidden"));
+  } else {
+    msWraps.forEach((wrap) => wrap.setAttribute("hidden", ""));
   }
 }
 
