@@ -28,6 +28,9 @@ window.OPENTIPITAKA_SITE_I18N = {
     en: {
       "a11y.language": "Language",
       "a11y.storeGroup": "Get the app",
+      "official.mark":
+        "OpenTipitaka™ — Multilingual Pali Tipiṭaka reading, translation, and proofreading platform",
+      "official.websiteLabel": "Official website:",
       "nav.features": "Features",
       "nav.online": "Online reading",
       "nav.download": "Download",
@@ -224,6 +227,8 @@ window.OPENTIPITAKA_SITE_I18N = {
     zh: {
       "a11y.language": "语言",
       "a11y.storeGroup": "获取应用",
+      "official.mark": "OpenTipitaka™ — 多语言巴利三藏阅读、翻译与校对平台",
+      "official.websiteLabel": "官方网站：",
       "nav.features": "功能",
       "nav.online": "在线阅读",
       "nav.download": "下载",
