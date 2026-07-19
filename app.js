@@ -135,7 +135,7 @@ function applyTranslations(lang) {
     const value = dict[key] ?? en[key];
     if (typeof value !== "string") continue;
     const intro = key === "hero.mission" ? (dict["hero.missionIntro"] ?? en["hero.missionIntro"]) : null;
-    node.textContent = typeof intro === "string" ? `${intro}\n\n${value}` : value;
+    node.textContent = typeof intro === "string" && !value.startsWith(intro) ? `${intro}\n\n${value}` : value;
   }
 
   for (const node of document.querySelectorAll("[data-i18n-alt]")) {
